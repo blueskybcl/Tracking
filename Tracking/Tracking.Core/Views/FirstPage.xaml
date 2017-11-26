@@ -1,13 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
-             x:Class="Tracking.Core.Views.FirstPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
-</views:MvxContentPage>
+    <views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+                          xmlns:controls="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
+                          x:Class="Tracking.Core.Views.FirstPage" Title="Statics">
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Label">
+                    <Setter Property="HorizontalTextAlignment" Value="Center" />
+                </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <ContentPage.Content>
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition />
+                        <RowDefinition Height="1" />
+                        <RowDefinition />
+                        <RowDefinition Height="1" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="1" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" BackgroundColor="Black" Padding="30,0,30,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0" Orientation="Horizontal" Spacing="10" HorizontalOptions="Start" VerticalOptions="Center" >
+                            <Label Text="FLLOWERS" TextColor="White" />
+                            <Label Text="2530" TextColor="White"/>
+                        </StackLayout>
+                        <StackLayout Grid.Column="2" Orientation="Horizontal" Spacing="10" HorizontalOptions="End" VerticalOptions="Center" >
+                            <Label Text="FLLOWING" TextColor="White"/>
+                            <Label Text="652" TextColor="White"/>
+                        </StackLayout>
+                    </Grid>
+                    <StackLayout Grid.Row="1" Padding="10,0,10,0">
+                        <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="White" TintColor="#007AFF" SelectedSegmentTextColor="White"
+                                                      SelectedSegment="0"  UnselectedSegmentTextColor="Black"
+                                                      HeightRequest="30" ItemTapped="SegmentedTabControl_ItemTapped" >
+                            <controls:SegmentedTabControl.Children>
+                                <Label Text="VIEWS" />
+                                <Label Text="LINKS" />
+                                <Label Text="COMMENTS" />
+                            </controls:SegmentedTabControl.Children>
+                        </controls:SegmentedTabControl>
+                    </StackLayout>
+                    <StackLayout Grid.Row="2" Style="{StaticResource SeparatorLine}" />
+                    <StackLayout Grid.Row="3" Padding="10,0,10,0" Spacing="25">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+                                <Label Text="95302" TextColor="Black" FontSize="Large" />
+                                <Label Text="VIEWS TOTAL" />
+                            </StackLayout>
+                            <StackLayout Grid.Row="0" Grid.Column="1">
+                                <Label Text="2321"  TextColor="Black" FontSize="Large" />
+                                <Label Text="LINKS RECIVED" />
+                            </StackLayout>
+                            <StackLayout Grid.Row="1" Grid.Column="0">
+                                <Label Text="653"  TextColor="Black" FontSize="Large" />
+                                <Label Text="COMMENTS" />
+                            </StackLayout>
+                            <StackLayout Grid.Row="1" Grid.Column="1">
+                                <Label Text="1363"  TextColor="Black" FontSize="Large" />
+                                <Label Text="PROFILE VIEWS" />
+                            </StackLayout>
+                        </Grid>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                            <Label Text="PHOTOS" HorizontalOptions="Start" />
+                            <Label Text="48" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" />
+                            <Label Text=">" HorizontalOptions="End" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                            <Label Text="VIDEOS" HorizontalOptions="Start" />
+                            <Label Text="5" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" />
+                            <Label Text=">" HorizontalOptions="End" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Grid.Row="4" Style="{StaticResource SeparatorLine}" />
+                    <StackLayout Grid.Row="5" Orientation="Horizontal" Padding="10,0,10,0" VerticalOptions="Center">
+                        <Label Text="FLLOWERS" HorizontalOptions="Start" />
+                        <Label Text="2530" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End" />
+                        <Label Text=">" HorizontalOptions="End" />
+                    </StackLayout>
+                    <StackLayout Grid.Row="6" Style="{StaticResource SeparatorLine}" />
+                    <StackLayout  Grid.Row="7" Orientation="Horizontal" Padding="10,0,10,0" VerticalOptions="Center">
+                        <Label Text="COMMENTERS" HorizontalOptions="Start" />
+                        <Label Text="235" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="End"/>
+                        <Label Text=">" HorizontalOptions="End" />
+                    </StackLayout>
+                </Grid>
+            </ScrollView>
+        </ContentPage.Content>
+    </views:MvxContentPage>

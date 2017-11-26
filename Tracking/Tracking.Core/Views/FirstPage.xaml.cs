@@ -15,5 +15,10 @@ namespace Tracking.Core.Views
         {
             InitializeComponent();
         }
+
+        private void SegmentedTabControl_ItemTapped(object sender, int e)
+        {
+
+        }
     }
 }
