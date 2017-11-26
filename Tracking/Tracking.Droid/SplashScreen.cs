@@ -17,5 +17,11 @@ namespace Tracking.Droid
             : base(Resource.Layout.SplashScreen)
         {
         }
+
+        protected override void TriggerFirstNavigate()
+        {
+            StartActivity(typeof(MainActivity));
+            base.TriggerFirstNavigate();
+        }
     }
 }

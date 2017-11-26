@@ -1,4 +1,5 @@
 using MvvmCross.Platform.IoC;
+using Tracking.Core.ViewModels;
 
 namespace Tracking.Core
 {
@@ -11,7 +12,7 @@ namespace Tracking.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.FirstViewModel>();
+            RegisterNavigationServiceAppStart<FirstViewModel>();
         }
     }
 }
