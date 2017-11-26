@@ -40,8 +40,8 @@
                         </StackLayout>
                     </Grid>
                     <StackLayout Grid.Row="1" Padding="10,0,10,0">
-                        <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="White" TintColor="#007AFF" SelectedSegmentTextColor="White"
-                                                      SelectedSegment="0"  UnselectedSegmentTextColor="Black"
+                        <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
+                                                      SelectedSegment="0"  UnselectedSegmentTextColor="Black" 
                                                       HeightRequest="30" ItemTapped="SegmentedTabControl_ItemTapped" >
                             <controls:SegmentedTabControl.Children>
                                 <Label Text="VIEWS" />
