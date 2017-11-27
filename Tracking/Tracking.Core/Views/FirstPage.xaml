@@ -3,11 +3,13 @@
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                           xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
                           xmlns:controls="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
+                          xmlns:local="clr-namespace:Tracking.Core.Controls;assembly=Tracking.Core"
                           x:Class="Tracking.Core.Views.FirstPage" Title="Statics">
         <ContentPage.Resources>
             <ResourceDictionary>
                 <Style TargetType="Label">
                     <Setter Property="HorizontalTextAlignment" Value="Center" />
+                    <Setter Property="LineBreakMode" Value="NoWrap" />
                 </Style>
             </ResourceDictionary>
         </ContentPage.Resources>
@@ -27,17 +29,17 @@
                     <Grid Grid.Row="0" BackgroundColor="Black" Padding="30,0,30,0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition />
-                            <ColumnDefinition />
+                            <ColumnDefinition Width="*" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        <StackLayout Grid.Column="0" Orientation="Horizontal" Spacing="10" HorizontalOptions="Start" VerticalOptions="Center" >
+                      <local:FlowLayout Grid.Column="0" ColumnSpacing="10" HorizontalOptions="Start" VerticalOptions="Center" >
                             <Label Text="FLLOWERS" TextColor="White" />
-                            <Label Text="2530" TextColor="White"/>
-                        </StackLayout>
-                        <StackLayout Grid.Column="2" Orientation="Horizontal" Spacing="10" HorizontalOptions="End" VerticalOptions="Center" >
-                            <Label Text="FLLOWING" TextColor="White"/>
-                            <Label Text="652" TextColor="White"/>
-                        </StackLayout>
+                            <Label Text="2530" TextColor="White" />
+                        </local:FlowLayout>
+                      <local:FlowLayout Grid.Column="2" ColumnSpacing="10" HorizontalOptions="End" VerticalOptions="Center" >
+                            <Label Text="FLLOWING" TextColor="White" />
+                            <Label Text="652" TextColor="White" />
+                        </local:FlowLayout>
                     </Grid>
                     <StackLayout Grid.Row="1" Padding="10,0,10,0">
                         <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"

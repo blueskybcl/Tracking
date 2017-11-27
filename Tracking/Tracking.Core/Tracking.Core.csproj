@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Controls\BaseLayout.cs" />
+    <Compile Include="Controls\FlowLayout.cs" />
     <Compile Include="FormsApp.xaml.cs">
       <DependentUpon>FormsApp.xaml</DependentUpon>
       <SubType>Code</SubType>
