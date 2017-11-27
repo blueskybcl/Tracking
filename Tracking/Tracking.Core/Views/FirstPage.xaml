@@ -3,7 +3,7 @@
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                           xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
                           xmlns:controls="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
-                          xmlns:local="clr-namespace:Tracking.Core.Controls;assembly=Tracking.Core"
+                          xmlns:xf="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.WrapLayout"
                           x:Class="Tracking.Core.Views.FirstPage" Title="Statics">
         <ContentPage.Resources>
             <ResourceDictionary>
@@ -29,17 +29,16 @@
                     <Grid Grid.Row="0" BackgroundColor="Black" Padding="30,0,30,0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition />
-                            <ColumnDefinition Width="*" />
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                      <local:FlowLayout Grid.Column="0" ColumnSpacing="10" HorizontalOptions="Start" VerticalOptions="Center" >
+                      <xf:WrapLayout Orientation="Horizontal" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" >
                             <Label Text="FLLOWERS" TextColor="White" />
                             <Label Text="2530" TextColor="White" />
-                        </local:FlowLayout>
-                      <local:FlowLayout Grid.Column="2" ColumnSpacing="10" HorizontalOptions="End" VerticalOptions="Center" >
+                        </xf:WrapLayout>
+                      <xf:WrapLayout Orientation="Horizontal" Grid.Column="1" HorizontalOptions="End" VerticalOptions="Center" >
                             <Label Text="FLLOWING" TextColor="White" />
                             <Label Text="652" TextColor="White" />
-                        </local:FlowLayout>
+                        </xf:WrapLayout>
                     </Grid>
                     <StackLayout Grid.Row="1" Padding="10,0,10,0">
                         <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
