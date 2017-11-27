@@ -41,7 +41,7 @@ namespace Tracking.Core.ViewModels
 		 }
 		};
 
-	  MyChart = new LineChart { Entries = _entries };
+	  MyChart = new BarChart { Entries = _entries };
 	  return base.Initialize();
 	}
 
@@ -49,6 +49,36 @@ namespace Tracking.Core.ViewModels
 	{
 	  get => _chart;
 	  set => SetProperty(ref _chart, value);
+	}
+	
+	public void ChangeChartType(int selectedSegment)
+	{
+	  switch (selectedSegment)
+	  {
+		case 0:
+		  MyChart = new BarChart { Entries = _entries };
+		  break;
+
+		case 1:
+		  MyChart = new PointChart { Entries = _entries };
+		  break;
+
+		case 2:
+		  MyChart = new LineChart { Entries = _entries };
+		  break;
+
+		case 3:
+		  MyChart = new DonutChart { Entries = _entries };
+		  break;
+
+		case 4:
+		  MyChart = new RadialGaugeChart { Entries = _entries };
+		  break;
+
+		case 5:
+		  MyChart = new RadarChart { Entries = _entries };
+		  break;
+	  }
 	}
   }
 }

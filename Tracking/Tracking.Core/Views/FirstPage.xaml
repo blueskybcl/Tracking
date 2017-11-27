@@ -42,16 +42,19 @@
                         </xf:WrapLayout>
                     </Grid>
                     <StackLayout Grid.Row="1" Padding="10,0,10,0">
-                        <controls:SegmentedTabControl UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
-                                                      SelectedSegment="0"  UnselectedSegmentTextColor="Black" 
-                                                      HeightRequest="30" ItemTapped="SegmentedTabControl_ItemTapped" >
+                        <controls:SegmentedTabControl x:Name="ChartTypeTab" UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
+                                                      SelectedSegment="0"  UnselectedSegmentTextColor="Black"
+                                                      HeightRequest="30" ItemTapped="ChartTypeTab_Tapped"  >
                             <controls:SegmentedTabControl.Children>
-                                <Label Text="VIEWS" />
-                                <Label Text="LINKS" />
-                                <Label Text="COMMENTS" />
+                                <Label Text="Bar" />
+                                <Label Text="Point" />
+                                <Label Text="Line" />
+							    <Label Text="Donut" />
+							    <Label Text="RadialGauge" />
+							    <Label Text="Radar" />
                             </controls:SegmentedTabControl.Children>
                         </controls:SegmentedTabControl>
-                        <microcharts:ChartView x:Name="chartView" Chart="{Binding MyChart}" />
+                        <microcharts:ChartView x:Name="chartView" Chart="{Binding MyChart}" HeightRequest="200" />
                     </StackLayout>
                     <StackLayout Grid.Row="2" Style="{StaticResource SeparatorLine}" />
                     <StackLayout Grid.Row="3" Padding="10,0,10,0" Spacing="25">
