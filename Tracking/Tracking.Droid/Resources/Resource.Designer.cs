@@ -26,6 +26,7 @@ namespace Tracking.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microcharts.Droid.Resource.String.library_name = global::Tracking.Droid.Resource.String.library_name;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Tracking.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Tracking.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Tracking.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -5623,8 +5624,8 @@ namespace Tracking.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b003e
-			public const int ApplicationName = 2131427390;
+			// aapt resource value: 0x7f0b003f
+			public const int ApplicationName = 2131427391;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int abc_action_bar_home_description = 2131427349;
@@ -5727,6 +5728,9 @@ namespace Tracking.Droid
 			
 			// aapt resource value: 0x7f0b0038
 			public const int character_counter_pattern = 2131427384;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int library_name = 2131427390;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int mr_button_content_description = 2131427328;

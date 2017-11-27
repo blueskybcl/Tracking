@@ -4,6 +4,7 @@
                           xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
                           xmlns:controls="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
                           xmlns:xf="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.WrapLayout"
+                          xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" 
                           x:Class="Tracking.Core.Views.FirstPage" Title="Statics">
         <ContentPage.Resources>
             <ResourceDictionary>
@@ -50,6 +51,7 @@
                                 <Label Text="COMMENTS" />
                             </controls:SegmentedTabControl.Children>
                         </controls:SegmentedTabControl>
+                        <microcharts:ChartView x:Name="chartView" Chart="{Binding MyChart}" />
                     </StackLayout>
                     <StackLayout Grid.Row="2" Style="{StaticResource SeparatorLine}" />
                     <StackLayout Grid.Row="3" Padding="10,0,10,0" Spacing="25">

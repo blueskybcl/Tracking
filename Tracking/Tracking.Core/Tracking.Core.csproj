@@ -37,10 +37,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Controls\BaseLayout.cs" />
-    <Compile Include="Controls\FlowLayout.cs" />
-    <Compile Include="Controls\LayoutData.cs" />
-    <Compile Include="Controls\WrapLayout.cs" />
     <Compile Include="FormsApp.xaml.cs">
       <DependentUpon>FormsApp.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -55,6 +51,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microcharts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microcharts.0.8.3-pre\lib\portable-net45+win8+wpa81+wp8\Microcharts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microcharts.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microcharts.Forms.0.8.3-pre\lib\portable-net45+win8+wpa81+wp8\Microcharts.Forms.dll</HintPath>
+    </Reference>
     <Reference Include="MvvmCross.Binding, Version=5.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvvmCross.Binding.5.5.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Binding.dll</HintPath>
     </Reference>
@@ -73,6 +75,15 @@
     <Reference Include="SegmentedTabControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\SegmentedTabControl.FormsPlugin.1.0.0\lib\portable45-net45+win8+wp8+wpa81\SegmentedTabControl.dll</HintPath>
     </Reference>
+    <Reference Include="SkiaSharp, Version=1.59.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SkiaSharp.1.59.1\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Views.Forms, Version=1.59.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SkiaSharp.Views.Forms.1.59.1.1\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.Views.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.91635\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
@@ -86,7 +97,9 @@
       <HintPath>..\..\packages\Xamarin.Forms.2.5.0.91635\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormsApp.xaml">
       <SubType>Designer</SubType>
