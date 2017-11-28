@@ -12,7 +12,7 @@ namespace Tracking.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterNavigationServiceAppStart<FirstViewModel>();
+            RegisterNavigationServiceAppStart<MapViewModel>();
         }
     }
 }

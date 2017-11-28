@@ -1924,6 +1924,1642 @@ namespace Tracking.Droid
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_reverseLayout = global::Tracking.Droid.Resource.Styleable.RecyclerView_reverseLayout;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_spanCount = global::Tracking.Droid.Resource.Styleable.RecyclerView_spanCount;
 			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_stackFromEnd = global::Tracking.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_fade_in = global::Tracking.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_fade_out = global::Tracking.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Tracking.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_popup_enter = global::Tracking.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_popup_exit = global::Tracking.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Tracking.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_slide_in_bottom = global::Tracking.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_slide_in_top = global::Tracking.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_slide_out_bottom = global::Tracking.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.abc_slide_out_top = global::Tracking.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Tracking.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Tracking.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.design_fab_in = global::Tracking.Droid.Resource.Animation.design_fab_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.design_fab_out = global::Tracking.Droid.Resource.Animation.design_fab_out;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.design_snackbar_in = global::Tracking.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Animation.design_snackbar_out = global::Tracking.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarDivider = global::Tracking.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarItemBackground = global::Tracking.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarPopupTheme = global::Tracking.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarSize = global::Tracking.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarSplitStyle = global::Tracking.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarStyle = global::Tracking.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarTabBarStyle = global::Tracking.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarTabStyle = global::Tracking.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarTabTextStyle = global::Tracking.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarTheme = global::Tracking.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionBarWidgetTheme = global::Tracking.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionButtonStyle = global::Tracking.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionDropDownStyle = global::Tracking.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionLayout = global::Tracking.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionMenuTextAppearance = global::Tracking.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionMenuTextColor = global::Tracking.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeBackground = global::Tracking.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Tracking.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeCloseDrawable = global::Tracking.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeCopyDrawable = global::Tracking.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeCutDrawable = global::Tracking.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeFindDrawable = global::Tracking.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModePasteDrawable = global::Tracking.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Tracking.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Tracking.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeShareDrawable = global::Tracking.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeSplitBackground = global::Tracking.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeStyle = global::Tracking.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Tracking.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Tracking.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Tracking.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionProviderClass = global::Tracking.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.actionViewClass = global::Tracking.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.activityChooserViewStyle = global::Tracking.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Tracking.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.alertDialogCenterButtons = global::Tracking.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.alertDialogStyle = global::Tracking.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.alertDialogTheme = global::Tracking.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.allowStacking = global::Tracking.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.arrowHeadLength = global::Tracking.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.arrowShaftLength = global::Tracking.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Tracking.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.background = global::Tracking.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.backgroundSplit = global::Tracking.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.backgroundStacked = global::Tracking.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.backgroundTint = global::Tracking.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.backgroundTintMode = global::Tracking.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.barLength = global::Tracking.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.behavior_hideable = global::Tracking.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.behavior_overlapTop = global::Tracking.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.behavior_peekHeight = global::Tracking.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.borderWidth = global::Tracking.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.borderlessButtonStyle = global::Tracking.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Tracking.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.bottomSheetStyle = global::Tracking.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonBarButtonStyle = global::Tracking.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Tracking.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Tracking.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Tracking.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonBarStyle = global::Tracking.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonPanelSideLayout = global::Tracking.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonStyle = global::Tracking.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonStyleSmall = global::Tracking.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonTint = global::Tracking.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.buttonTintMode = global::Tracking.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.cardBackgroundColor = global::Tracking.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.cardCornerRadius = global::Tracking.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.cardElevation = global::Tracking.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.cardMaxElevation = global::Tracking.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Tracking.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.cardUseCompatPadding = global::Tracking.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.checkboxStyle = global::Tracking.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.checkedTextViewStyle = global::Tracking.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.closeIcon = global::Tracking.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.closeItemLayout = global::Tracking.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.collapseContentDescription = global::Tracking.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.collapseIcon = global::Tracking.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.collapsedTitleGravity = global::Tracking.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Tracking.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.color = global::Tracking.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorAccent = global::Tracking.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorButtonNormal = global::Tracking.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorControlActivated = global::Tracking.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorControlHighlight = global::Tracking.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorControlNormal = global::Tracking.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorPrimary = global::Tracking.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorPrimaryDark = global::Tracking.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Tracking.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.commitIcon = global::Tracking.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentInsetEnd = global::Tracking.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentInsetLeft = global::Tracking.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentInsetRight = global::Tracking.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentInsetStart = global::Tracking.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentPadding = global::Tracking.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentPaddingBottom = global::Tracking.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentPaddingLeft = global::Tracking.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentPaddingRight = global::Tracking.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentPaddingTop = global::Tracking.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.contentScrim = global::Tracking.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.controlBackground = global::Tracking.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.counterEnabled = global::Tracking.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.counterMaxLength = global::Tracking.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Tracking.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.counterTextAppearance = global::Tracking.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.customNavigationLayout = global::Tracking.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.defaultQueryHint = global::Tracking.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dialogPreferredPadding = global::Tracking.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dialogTheme = global::Tracking.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.displayOptions = global::Tracking.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.divider = global::Tracking.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dividerHorizontal = global::Tracking.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dividerPadding = global::Tracking.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dividerVertical = global::Tracking.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.drawableSize = global::Tracking.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.drawerArrowStyle = global::Tracking.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dropDownListViewStyle = global::Tracking.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Tracking.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.editTextBackground = global::Tracking.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.editTextColor = global::Tracking.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.editTextStyle = global::Tracking.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.elevation = global::Tracking.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.errorEnabled = global::Tracking.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.errorTextAppearance = global::Tracking.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Tracking.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expanded = global::Tracking.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleGravity = global::Tracking.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleMargin = global::Tracking.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Tracking.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Tracking.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleMarginStart = global::Tracking.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleMarginTop = global::Tracking.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Tracking.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::Tracking.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.fabSize = global::Tracking.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.foregroundInsidePadding = global::Tracking.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.gapBetweenBars = global::Tracking.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.goIcon = global::Tracking.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.headerLayout = global::Tracking.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.height = global::Tracking.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.hideOnContentScroll = global::Tracking.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.hintAnimationEnabled = global::Tracking.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.hintEnabled = global::Tracking.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.hintTextAppearance = global::Tracking.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.homeAsUpIndicator = global::Tracking.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.homeLayout = global::Tracking.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.icon = global::Tracking.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.iconifiedByDefault = global::Tracking.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.imageButtonStyle = global::Tracking.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.indeterminateProgressStyle = global::Tracking.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.initialActivityCount = global::Tracking.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.insetForeground = global::Tracking.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.isLightTheme = global::Tracking.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.itemBackground = global::Tracking.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.itemIconTint = global::Tracking.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.itemPadding = global::Tracking.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.itemTextAppearance = global::Tracking.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.itemTextColor = global::Tracking.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.keylines = global::Tracking.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout = global::Tracking.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layoutManager = global::Tracking.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_anchor = global::Tracking.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_anchorGravity = global::Tracking.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_behavior = global::Tracking.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_collapseMode = global::Tracking.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Tracking.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_keyline = global::Tracking.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_scrollFlags = global::Tracking.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.layout_scrollInterpolator = global::Tracking.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Tracking.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listDividerAlertDialog = global::Tracking.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listItemLayout = global::Tracking.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listLayout = global::Tracking.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listPopupWindowStyle = global::Tracking.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listPreferredItemHeight = global::Tracking.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Tracking.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Tracking.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Tracking.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Tracking.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.logo = global::Tracking.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.logoDescription = global::Tracking.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.maxActionInlineWidth = global::Tracking.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.maxButtonHeight = global::Tracking.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.measureWithLargestChild = global::Tracking.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Tracking.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteButtonStyle = global::Tracking.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::Tracking.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Tracking.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::Tracking.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::Tracking.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Tracking.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Tracking.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::Tracking.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.menu = global::Tracking.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.multiChoiceItemLayout = global::Tracking.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.navigationContentDescription = global::Tracking.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.navigationIcon = global::Tracking.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.navigationMode = global::Tracking.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.overlapAnchor = global::Tracking.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.paddingEnd = global::Tracking.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.paddingStart = global::Tracking.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.panelBackground = global::Tracking.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.panelMenuListTheme = global::Tracking.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.panelMenuListWidth = global::Tracking.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.popupMenuStyle = global::Tracking.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.popupTheme = global::Tracking.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.popupWindowStyle = global::Tracking.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.preserveIconSpacing = global::Tracking.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.pressedTranslationZ = global::Tracking.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.progressBarPadding = global::Tracking.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.progressBarStyle = global::Tracking.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.queryBackground = global::Tracking.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.queryHint = global::Tracking.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.radioButtonStyle = global::Tracking.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.ratingBarStyle = global::Tracking.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Tracking.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.ratingBarStyleSmall = global::Tracking.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.reverseLayout = global::Tracking.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.rippleColor = global::Tracking.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.searchHintIcon = global::Tracking.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.searchIcon = global::Tracking.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.searchViewStyle = global::Tracking.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.seekBarStyle = global::Tracking.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.selectableItemBackground = global::Tracking.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Tracking.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.showAsAction = global::Tracking.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.showDividers = global::Tracking.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.showText = global::Tracking.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.singleChoiceItemLayout = global::Tracking.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.spanCount = global::Tracking.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.spinBars = global::Tracking.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Tracking.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.spinnerStyle = global::Tracking.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.splitTrack = global::Tracking.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.srcCompat = global::Tracking.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.stackFromEnd = global::Tracking.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.state_above_anchor = global::Tracking.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.statusBarBackground = global::Tracking.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.statusBarScrim = global::Tracking.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.submitBackground = global::Tracking.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.subtitle = global::Tracking.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.subtitleTextAppearance = global::Tracking.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.subtitleTextColor = global::Tracking.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.subtitleTextStyle = global::Tracking.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.suggestionRowLayout = global::Tracking.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.switchMinWidth = global::Tracking.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.switchPadding = global::Tracking.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.switchStyle = global::Tracking.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.switchTextAppearance = global::Tracking.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabBackground = global::Tracking.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabContentStart = global::Tracking.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabGravity = global::Tracking.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabIndicatorColor = global::Tracking.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabIndicatorHeight = global::Tracking.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabMaxWidth = global::Tracking.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabMinWidth = global::Tracking.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabMode = global::Tracking.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabPadding = global::Tracking.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabPaddingBottom = global::Tracking.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabPaddingEnd = global::Tracking.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabPaddingStart = global::Tracking.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabPaddingTop = global::Tracking.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabSelectedTextColor = global::Tracking.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabTextAppearance = global::Tracking.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.tabTextColor = global::Tracking.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAllCaps = global::Tracking.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Tracking.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAppearanceListItem = global::Tracking.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Tracking.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Tracking.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Tracking.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Tracking.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Tracking.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textColorError = global::Tracking.Droid.Resource.Attribute.textColorError;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.textColorSearchUrl = global::Tracking.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.theme = global::Tracking.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.thickness = global::Tracking.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.thumbTextPadding = global::Tracking.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.title = global::Tracking.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleEnabled = global::Tracking.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleMarginBottom = global::Tracking.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleMarginEnd = global::Tracking.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleMarginStart = global::Tracking.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleMarginTop = global::Tracking.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleMargins = global::Tracking.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleTextAppearance = global::Tracking.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleTextColor = global::Tracking.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.titleTextStyle = global::Tracking.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.toolbarId = global::Tracking.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Tracking.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.toolbarStyle = global::Tracking.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.track = global::Tracking.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.useCompatPadding = global::Tracking.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.voiceIcon = global::Tracking.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowActionBar = global::Tracking.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowActionBarOverlay = global::Tracking.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowActionModeOverlay = global::Tracking.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowFixedHeightMajor = global::Tracking.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowFixedHeightMinor = global::Tracking.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowFixedWidthMajor = global::Tracking.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowFixedWidthMinor = global::Tracking.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowMinWidthMajor = global::Tracking.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowMinWidthMinor = global::Tracking.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Attribute.windowNoTitle = global::Tracking.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Tracking.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Tracking.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Tracking.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Tracking.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Tracking.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Tracking.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Tracking.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_color_highlight_material = global::Tracking.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_input_method_navigation_guard = global::Tracking.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Tracking.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Tracking.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_primary_text_material_dark = global::Tracking.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_primary_text_material_light = global::Tracking.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_search_url_text = global::Tracking.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_search_url_text_normal = global::Tracking.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_search_url_text_pressed = global::Tracking.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_search_url_text_selected = global::Tracking.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_secondary_text_material_dark = global::Tracking.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.abc_secondary_text_material_light = global::Tracking.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.accent_material_dark = global::Tracking.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.accent_material_light = global::Tracking.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.background_floating_material_dark = global::Tracking.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.background_floating_material_light = global::Tracking.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.background_material_dark = global::Tracking.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.background_material_light = global::Tracking.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Tracking.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Tracking.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Tracking.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Tracking.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.bright_foreground_material_dark = global::Tracking.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.bright_foreground_material_light = global::Tracking.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.button_material_dark = global::Tracking.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.button_material_light = global::Tracking.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.cardview_dark_background = global::Tracking.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.cardview_light_background = global::Tracking.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.cardview_shadow_end_color = global::Tracking.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.cardview_shadow_start_color = global::Tracking.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_shadow_end_color = global::Tracking.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_shadow_mid_color = global::Tracking.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_shadow_start_color = global::Tracking.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Tracking.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Tracking.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Tracking.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Tracking.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_snackbar_background_color = global::Tracking.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_textinput_error_color_dark = global::Tracking.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.design_textinput_error_color_light = global::Tracking.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Tracking.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Tracking.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.dim_foreground_material_dark = global::Tracking.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.dim_foreground_material_light = global::Tracking.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.foreground_material_dark = global::Tracking.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.foreground_material_light = global::Tracking.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.highlighted_text_material_dark = global::Tracking.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.highlighted_text_material_light = global::Tracking.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_blue_grey_800 = global::Tracking.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_blue_grey_900 = global::Tracking.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_blue_grey_950 = global::Tracking.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_deep_teal_200 = global::Tracking.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_deep_teal_500 = global::Tracking.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_100 = global::Tracking.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_300 = global::Tracking.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_50 = global::Tracking.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_600 = global::Tracking.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_800 = global::Tracking.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_850 = global::Tracking.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.material_grey_900 = global::Tracking.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_dark_material_dark = global::Tracking.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_dark_material_light = global::Tracking.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_material_dark = global::Tracking.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_material_light = global::Tracking.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_text_default_material_dark = global::Tracking.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_text_default_material_light = global::Tracking.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_text_disabled_material_dark = global::Tracking.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.primary_text_disabled_material_light = global::Tracking.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.ripple_material_dark = global::Tracking.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.ripple_material_light = global::Tracking.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.secondary_text_default_material_dark = global::Tracking.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.secondary_text_default_material_light = global::Tracking.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Tracking.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.secondary_text_disabled_material_light = global::Tracking.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Tracking.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Tracking.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.switch_thumb_material_dark = global::Tracking.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.switch_thumb_material_light = global::Tracking.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Tracking.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Color.switch_thumb_normal_material_light = global::Tracking.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::Tracking.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Tracking.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Tracking.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Tracking.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Tracking.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Tracking.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Tracking.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Tracking.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Tracking.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Tracking.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Tracking.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Tracking.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Tracking.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_control_corner_material = global::Tracking.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_control_inset_material = global::Tracking.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_control_padding_material = global::Tracking.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Tracking.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Tracking.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Tracking.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Tracking.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Tracking.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Tracking.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_padding_material = global::Tracking.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Tracking.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Tracking.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Tracking.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Tracking.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Tracking.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Tracking.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Tracking.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Tracking.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Tracking.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_floating_window_z = global::Tracking.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Tracking.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Tracking.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Tracking.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Tracking.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Tracking.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Tracking.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_switch_padding = global::Tracking.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_button_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_caption_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_headline_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_large_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_medium_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_menu_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_small_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Tracking.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_title_material = global::Tracking.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Tracking.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Tracking.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.cardview_default_elevation = global::Tracking.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.cardview_default_radius = global::Tracking.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_appbar_elevation = global::Tracking.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Tracking.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_fab_border_width = global::Tracking.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_fab_elevation = global::Tracking.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_fab_image_size = global::Tracking.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_fab_size_mini = global::Tracking.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_fab_size_normal = global::Tracking.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Tracking.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_navigation_elevation = global::Tracking.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_navigation_icon_padding = global::Tracking.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_navigation_icon_size = global::Tracking.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_navigation_max_width = global::Tracking.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Tracking.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Tracking.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Tracking.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Tracking.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_elevation = global::Tracking.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Tracking.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_max_width = global::Tracking.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_min_width = global::Tracking.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Tracking.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Tracking.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Tracking.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_snackbar_text_size = global::Tracking.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_tab_max_width = global::Tracking.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Tracking.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_tab_text_size = global::Tracking.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.design_tab_text_size_2line = global::Tracking.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Tracking.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.disabled_alpha_material_light = global::Tracking.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Tracking.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Tracking.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.highlight_alpha_material_light = global::Tracking.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Tracking.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Tracking.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Tracking.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Tracking.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Tracking.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Tracking.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Tracking.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::Tracking.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::Tracking.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.notification_large_icon_height = global::Tracking.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.notification_large_icon_width = global::Tracking.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Dimension.notification_subtext_size = global::Tracking.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Tracking.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_borderless_material = global::Tracking.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_check_material = global::Tracking.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Tracking.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Tracking.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_colored_material = global::Tracking.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Tracking.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_radio_material = global::Tracking.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Tracking.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Tracking.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Tracking.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Tracking.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Tracking.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_cab_background_top_material = global::Tracking.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_control_background_material = global::Tracking.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_edit_text_material = global::Tracking.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Tracking.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Tracking.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Tracking.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Tracking.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Tracking.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Tracking.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Tracking.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_item_background_holo_light = global::Tracking.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_focused_holo = global::Tracking.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Tracking.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Tracking.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Tracking.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Tracking.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Tracking.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Tracking.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Tracking.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Tracking.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Tracking.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Tracking.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Tracking.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Tracking.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Tracking.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Tracking.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Tracking.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Tracking.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_seekbar_track_material = global::Tracking.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Tracking.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Tracking.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_switch_thumb_material = global::Tracking.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_tab_indicator_material = global::Tracking.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_text_cursor_material = global::Tracking.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Tracking.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.abc_textfield_search_material = global::Tracking.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.design_fab_background = global::Tracking.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.design_snackbar_background = global::Tracking.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.ic_audiotrack_light = global::Tracking.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::Tracking.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.mr_dialog_material_background_light = global::Tracking.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Drawable.notification_template_icon_bg = global::Tracking.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action0 = global::Tracking.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar = global::Tracking.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar_activity_content = global::Tracking.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar_container = global::Tracking.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar_root = global::Tracking.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar_spinner = global::Tracking.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar_subtitle = global::Tracking.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_bar_title = global::Tracking.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_context_bar = global::Tracking.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_divider = global::Tracking.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_menu_divider = global::Tracking.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_menu_presenter = global::Tracking.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_mode_bar = global::Tracking.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_mode_bar_stub = global::Tracking.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.action_mode_close_button = global::Tracking.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.activity_chooser_view_content = global::Tracking.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.alertTitle = global::Tracking.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.always = global::Tracking.Droid.Resource.Id.always;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.beginning = global::Tracking.Droid.Resource.Id.beginning;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.bottom = global::Tracking.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.buttonPanel = global::Tracking.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.cancel_action = global::Tracking.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.center = global::Tracking.Droid.Resource.Id.center;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.center_horizontal = global::Tracking.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.center_vertical = global::Tracking.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.checkbox = global::Tracking.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.chronometer = global::Tracking.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.clip_horizontal = global::Tracking.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.clip_vertical = global::Tracking.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.collapseActionView = global::Tracking.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.contentPanel = global::Tracking.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.custom = global::Tracking.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.customPanel = global::Tracking.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.decor_content_parent = global::Tracking.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.default_activity_button = global::Tracking.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.design_bottom_sheet = global::Tracking.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.design_menu_item_action_area = global::Tracking.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.design_menu_item_action_area_stub = global::Tracking.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.design_menu_item_text = global::Tracking.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.design_navigation_view = global::Tracking.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.disableHome = global::Tracking.Droid.Resource.Id.disableHome;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.edit_query = global::Tracking.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.end = global::Tracking.Droid.Resource.Id.end;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.end_padder = global::Tracking.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.enterAlways = global::Tracking.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.enterAlwaysCollapsed = global::Tracking.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.exitUntilCollapsed = global::Tracking.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.expand_activities_button = global::Tracking.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.expanded_menu = global::Tracking.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.fill = global::Tracking.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.fill_horizontal = global::Tracking.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.fill_vertical = global::Tracking.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.@fixed = global::Tracking.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.home = global::Tracking.Droid.Resource.Id.home;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.homeAsUp = global::Tracking.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.icon = global::Tracking.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.ifRoom = global::Tracking.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.image = global::Tracking.Droid.Resource.Id.image;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.info = global::Tracking.Droid.Resource.Id.info;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Tracking.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.left = global::Tracking.Droid.Resource.Id.left;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.line1 = global::Tracking.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.line3 = global::Tracking.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.listMode = global::Tracking.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.list_item = global::Tracking.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.media_actions = global::Tracking.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.middle = global::Tracking.Droid.Resource.Id.middle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mini = global::Tracking.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_art = global::Tracking.Droid.Resource.Id.mr_art;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_chooser_list = global::Tracking.Droid.Resource.Id.mr_chooser_list;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_chooser_route_desc = global::Tracking.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_chooser_route_icon = global::Tracking.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_chooser_route_name = global::Tracking.Droid.Resource.Id.mr_chooser_route_name;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_close = global::Tracking.Droid.Resource.Id.mr_close;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_control_divider = global::Tracking.Droid.Resource.Id.mr_control_divider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_control_subtitle = global::Tracking.Droid.Resource.Id.mr_control_subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_control_title = global::Tracking.Droid.Resource.Id.mr_control_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_control_title_container = global::Tracking.Droid.Resource.Id.mr_control_title_container;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_custom_control = global::Tracking.Droid.Resource.Id.mr_custom_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_default_control = global::Tracking.Droid.Resource.Id.mr_default_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_dialog_area = global::Tracking.Droid.Resource.Id.mr_dialog_area;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_expandable_area = global::Tracking.Droid.Resource.Id.mr_expandable_area;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_group_expand_collapse = global::Tracking.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_media_main_control = global::Tracking.Droid.Resource.Id.mr_media_main_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_name = global::Tracking.Droid.Resource.Id.mr_name;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_playback_control = global::Tracking.Droid.Resource.Id.mr_playback_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_title_bar = global::Tracking.Droid.Resource.Id.mr_title_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_volume_control = global::Tracking.Droid.Resource.Id.mr_volume_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_volume_group_list = global::Tracking.Droid.Resource.Id.mr_volume_group_list;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_volume_item_icon = global::Tracking.Droid.Resource.Id.mr_volume_item_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.mr_volume_slider = global::Tracking.Droid.Resource.Id.mr_volume_slider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.multiply = global::Tracking.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.navigation_header_container = global::Tracking.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.never = global::Tracking.Droid.Resource.Id.never;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.none = global::Tracking.Droid.Resource.Id.none;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.normal = global::Tracking.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.parallax = global::Tracking.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.parentPanel = global::Tracking.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.pin = global::Tracking.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.progress_circular = global::Tracking.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.progress_horizontal = global::Tracking.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.radio = global::Tracking.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.right = global::Tracking.Droid.Resource.Id.right;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.screen = global::Tracking.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.scroll = global::Tracking.Droid.Resource.Id.scroll;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.scrollIndicatorDown = global::Tracking.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.scrollIndicatorUp = global::Tracking.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.scrollView = global::Tracking.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.scrollable = global::Tracking.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_badge = global::Tracking.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_bar = global::Tracking.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_button = global::Tracking.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_close_btn = global::Tracking.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_edit_frame = global::Tracking.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_go_btn = global::Tracking.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_mag_icon = global::Tracking.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_plate = global::Tracking.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_src_text = global::Tracking.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.search_voice_btn = global::Tracking.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.select_dialog_listview = global::Tracking.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.shortcut = global::Tracking.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.showCustom = global::Tracking.Droid.Resource.Id.showCustom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.showHome = global::Tracking.Droid.Resource.Id.showHome;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.showTitle = global::Tracking.Droid.Resource.Id.showTitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.snackbar_action = global::Tracking.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.snackbar_text = global::Tracking.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.snap = global::Tracking.Droid.Resource.Id.snap;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.spacer = global::Tracking.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.split_action_bar = global::Tracking.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.src_atop = global::Tracking.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.src_in = global::Tracking.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.src_over = global::Tracking.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.start = global::Tracking.Droid.Resource.Id.start;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.status_bar_latest_event_content = global::Tracking.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.submit_area = global::Tracking.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.tabMode = global::Tracking.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.text = global::Tracking.Droid.Resource.Id.text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.text2 = global::Tracking.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.textSpacerNoButtons = global::Tracking.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.time = global::Tracking.Droid.Resource.Id.time;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.title = global::Tracking.Droid.Resource.Id.title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.title_template = global::Tracking.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.top = global::Tracking.Droid.Resource.Id.top;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.topPanel = global::Tracking.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.touch_outside = global::Tracking.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.up = global::Tracking.Droid.Resource.Id.up;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.useLogo = global::Tracking.Droid.Resource.Id.useLogo;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.view_offset_helper = global::Tracking.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.volume_item_container = global::Tracking.Droid.Resource.Id.volume_item_container;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.withText = global::Tracking.Droid.Resource.Id.withText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Id.wrap_content = global::Tracking.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Tracking.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.abc_config_activityShortDur = global::Tracking.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Tracking.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.cancel_button_image_alpha = global::Tracking.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Tracking.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Tracking.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Tracking.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Tracking.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Tracking.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::Tracking.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::Tracking.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_bar_title_item = global::Tracking.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_bar_up_container = global::Tracking.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Tracking.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_menu_item_layout = global::Tracking.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_menu_layout = global::Tracking.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_mode_bar = global::Tracking.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Tracking.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_activity_chooser_view = global::Tracking.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Tracking.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Tracking.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_alert_dialog_material = global::Tracking.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_dialog_title_material = global::Tracking.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_expanded_menu_layout = global::Tracking.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Tracking.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_list_menu_item_icon = global::Tracking.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_list_menu_item_layout = global::Tracking.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_list_menu_item_radio = global::Tracking.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Tracking.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_screen_content_include = global::Tracking.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_screen_simple = global::Tracking.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Tracking.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_screen_toolbar = global::Tracking.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Tracking.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_search_view = global::Tracking.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.abc_select_dialog_material = global::Tracking.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Tracking.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_layout_snackbar = global::Tracking.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_layout_snackbar_include = global::Tracking.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_layout_tab_icon = global::Tracking.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_layout_tab_text = global::Tracking.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_menu_item_action_area = global::Tracking.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_navigation_item = global::Tracking.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_navigation_item_header = global::Tracking.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_navigation_item_separator = global::Tracking.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_navigation_item_subheader = global::Tracking.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_navigation_menu = global::Tracking.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.design_navigation_menu_item = global::Tracking.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.mr_chooser_dialog = global::Tracking.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.mr_chooser_list_item = global::Tracking.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.mr_controller_material_dialog_b = global::Tracking.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.mr_controller_volume_item = global::Tracking.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.mr_playback_control = global::Tracking.Droid.Resource.Layout.mr_playback_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.mr_volume_control = global::Tracking.Droid.Resource.Layout.mr_volume_control;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_media_action = global::Tracking.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_media_cancel_action = global::Tracking.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_template_big_media = global::Tracking.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_template_big_media_narrow = global::Tracking.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_template_media = global::Tracking.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_template_part_chronometer = global::Tracking.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.notification_template_part_time = global::Tracking.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.select_dialog_item_material = global::Tracking.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.select_dialog_multichoice_material = global::Tracking.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Tracking.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Tracking.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_action_bar_home_description = global::Tracking.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_action_bar_home_description_format = global::Tracking.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::Tracking.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_action_bar_up_description = global::Tracking.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_action_menu_overflow_description = global::Tracking.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_action_mode_done = global::Tracking.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Tracking.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_activitychooserview_choose_application = global::Tracking.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_capital_off = global::Tracking.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_capital_on = global::Tracking.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_search_hint = global::Tracking.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_searchview_description_clear = global::Tracking.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_searchview_description_query = global::Tracking.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_searchview_description_search = global::Tracking.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_searchview_description_submit = global::Tracking.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_searchview_description_voice = global::Tracking.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_shareactionprovider_share_with = global::Tracking.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Tracking.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.abc_toolbar_collapse_description = global::Tracking.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.appbar_scrolling_view_behavior = global::Tracking.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.bottom_sheet_behavior = global::Tracking.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.character_counter_pattern = global::Tracking.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.library_name = global::Tracking.Droid.Resource.String.library_name;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_button_content_description = global::Tracking.Droid.Resource.String.mr_button_content_description;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_chooser_searching = global::Tracking.Droid.Resource.String.mr_chooser_searching;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_chooser_title = global::Tracking.Droid.Resource.String.mr_chooser_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_casting_screen = global::Tracking.Droid.Resource.String.mr_controller_casting_screen;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_close_description = global::Tracking.Droid.Resource.String.mr_controller_close_description;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_collapse_group = global::Tracking.Droid.Resource.String.mr_controller_collapse_group;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_disconnect = global::Tracking.Droid.Resource.String.mr_controller_disconnect;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_expand_group = global::Tracking.Droid.Resource.String.mr_controller_expand_group;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_no_info_available = global::Tracking.Droid.Resource.String.mr_controller_no_info_available;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_no_media_selected = global::Tracking.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_pause = global::Tracking.Droid.Resource.String.mr_controller_pause;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_play = global::Tracking.Droid.Resource.String.mr_controller_play;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_controller_stop = global::Tracking.Droid.Resource.String.mr_controller_stop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_system_route_name = global::Tracking.Droid.Resource.String.mr_system_route_name;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.mr_user_route_category_name = global::Tracking.Droid.Resource.String.mr_user_route_category_name;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.String.status_bar_notification_info_overflow = global::Tracking.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.AlertDialog_AppCompat = global::Tracking.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Tracking.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Tracking.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Tracking.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Tracking.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Tracking.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_CardView = global::Tracking.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Tracking.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Tracking.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Tracking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Tracking.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Tracking.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Tracking.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Tracking.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Tracking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Tracking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Tracking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Tracking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Tracking.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Tracking.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Tracking.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Tracking.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Tracking.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Tracking.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Tracking.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Tracking.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Tracking.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Tracking.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Tracking.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Tracking.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Tracking.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Tracking.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.CardView = global::Tracking.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.CardView_Dark = global::Tracking.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.CardView_Light = global::Tracking.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_AppCompat = global::Tracking.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_AppCompat_Light = global::Tracking.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Tracking.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Tracking.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Tracking.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_V11_AppCompat = global::Tracking.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::Tracking.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_V14_AppCompat = global::Tracking.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::Tracking.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Tracking.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Tracking.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Tracking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Tracking.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Tracking.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Tracking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Tracking.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_Counter = global::Tracking.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Tracking.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_Error = global::Tracking.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_Hint = global::Tracking.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Tracking.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Design_Tab = global::Tracking.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::Tracking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Tracking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Tracking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Tracking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Tracking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Tracking.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Tracking.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Tracking.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat = global::Tracking.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Tracking.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Tracking.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Tracking.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Tracking.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_Design = global::Tracking.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Tracking.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_Design_Light = global::Tracking.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Tracking.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Tracking.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_Design_NoActionBar = global::Tracking.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_MediaRouter = global::Tracking.Droid.Resource.Style.Theme_MediaRouter;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_MediaRouter_Light = global::Tracking.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Tracking.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Tracking.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Tracking.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Tracking.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Tracking.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Tracking.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Tracking.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Button = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Tracking.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Tracking.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Tracking.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Tracking.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Tracking.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_EditText = global::Tracking.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ListView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Tracking.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Tracking.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Tracking.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Tracking.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Tracking.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Tracking.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Tracking.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Tracking.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Tracking.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Tracking.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Tracking.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::Tracking.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Tracking.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_NavigationView = global::Tracking.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Tracking.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_Snackbar = global::Tracking.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_TabLayout = global::Tracking.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Tracking.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Tracking.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Tracking.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar = global::Tracking.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_background = global::Tracking.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Tracking.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Tracking.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Tracking.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Tracking.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Tracking.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Tracking.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Tracking.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_displayOptions = global::Tracking.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_divider = global::Tracking.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_elevation = global::Tracking.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_height = global::Tracking.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Tracking.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Tracking.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_homeLayout = global::Tracking.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_icon = global::Tracking.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Tracking.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_itemPadding = global::Tracking.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_logo = global::Tracking.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_navigationMode = global::Tracking.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_popupTheme = global::Tracking.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Tracking.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Tracking.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_subtitle = global::Tracking.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Tracking.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_title = global::Tracking.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Tracking.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBarLayout = global::Tracking.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Tracking.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMenuItemView = global::Tracking.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Tracking.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMenuView = global::Tracking.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode = global::Tracking.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode_background = global::Tracking.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Tracking.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Tracking.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode_height = global::Tracking.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Tracking.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Tracking.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActivityChooserView = global::Tracking.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Tracking.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Tracking.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog = global::Tracking.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog_android_layout = global::Tracking.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Tracking.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Tracking.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog_listLayout = global::Tracking.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Tracking.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Tracking.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppBarLayout = global::Tracking.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppBarLayout_android_background = global::Tracking.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppBarLayout_elevation = global::Tracking.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppBarLayout_expanded = global::Tracking.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatImageView = global::Tracking.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Tracking.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Tracking.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTextView = global::Tracking.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Tracking.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Tracking.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Tracking.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ButtonBarLayout = global::Tracking.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Tracking.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView = global::Tracking.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_android_minHeight = global::Tracking.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_android_minWidth = global::Tracking.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Tracking.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Tracking.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_cardElevation = global::Tracking.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Tracking.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Tracking.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Tracking.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_contentPadding = global::Tracking.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Tracking.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Tracking.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Tracking.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Tracking.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Tracking.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CompoundButton = global::Tracking.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CompoundButton_android_button = global::Tracking.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Tracking.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Tracking.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CoordinatorLayout = global::Tracking.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Tracking.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Tracking.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DesignTheme = global::Tracking.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Tracking.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Tracking.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DesignTheme_textColorError = global::Tracking.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Tracking.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton = global::Tracking.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Tracking.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ForegroundLinearLayout = global::Tracking.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Tracking.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Tracking.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Tracking.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Tracking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ListPopupWindow = global::Tracking.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Tracking.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Tracking.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MediaRouteButton = global::Tracking.Droid.Resource.Styleable.MediaRouteButton;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::Tracking.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::Tracking.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Tracking.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup = global::Tracking.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Tracking.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Tracking.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup_android_id = global::Tracking.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Tracking.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Tracking.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuGroup_android_visible = global::Tracking.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem = global::Tracking.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_actionLayout = global::Tracking.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Tracking.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Tracking.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Tracking.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_checkable = global::Tracking.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_checked = global::Tracking.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_enabled = global::Tracking.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_icon = global::Tracking.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_id = global::Tracking.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Tracking.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Tracking.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_onClick = global::Tracking.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Tracking.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_title = global::Tracking.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Tracking.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_android_visible = global::Tracking.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuItem_showAsAction = global::Tracking.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView = global::Tracking.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Tracking.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Tracking.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Tracking.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Tracking.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Tracking.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Tracking.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Tracking.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Tracking.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView = global::Tracking.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_android_background = global::Tracking.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Tracking.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Tracking.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_elevation = global::Tracking.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_headerLayout = global::Tracking.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_itemBackground = global::Tracking.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Tracking.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Tracking.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Tracking.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.NavigationView_menu = global::Tracking.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.PopupWindow = global::Tracking.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Tracking.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Tracking.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Tracking.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Tracking.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.RecyclerView = global::Tracking.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Tracking.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Tracking.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Tracking.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.RecyclerView_spanCount = global::Tracking.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Tracking.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Tracking.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Tracking.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView = global::Tracking.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_android_focusable = global::Tracking.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Tracking.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_android_inputType = global::Tracking.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Tracking.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_closeIcon = global::Tracking.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_commitIcon = global::Tracking.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Tracking.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_goIcon = global::Tracking.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Tracking.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_layout = global::Tracking.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_queryBackground = global::Tracking.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_queryHint = global::Tracking.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Tracking.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_searchIcon = global::Tracking.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_submitBackground = global::Tracking.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Tracking.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SearchView_voiceIcon = global::Tracking.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SnackbarLayout = global::Tracking.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Tracking.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Tracking.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Tracking.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Spinner = global::Tracking.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Tracking.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Spinner_android_entries = global::Tracking.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Tracking.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Spinner_android_prompt = global::Tracking.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Spinner_popupTheme = global::Tracking.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat = global::Tracking.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Tracking.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Tracking.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Tracking.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_showText = global::Tracking.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Tracking.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Tracking.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Tracking.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Tracking.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Tracking.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.SwitchCompat_track = global::Tracking.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabItem = global::Tracking.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabItem_android_icon = global::Tracking.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabItem_android_layout = global::Tracking.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabItem_android_text = global::Tracking.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout = global::Tracking.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabBackground = global::Tracking.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Tracking.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabGravity = global::Tracking.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Tracking.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Tracking.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Tracking.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Tracking.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabMode = global::Tracking.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabPadding = global::Tracking.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Tracking.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Tracking.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Tracking.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Tracking.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Tracking.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Tracking.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Tracking.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance = global::Tracking.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Tracking.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Tracking.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout = global::Tracking.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Tracking.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Tracking.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Tracking.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Tracking.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Tracking.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Tracking.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Tracking.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Tracking.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Tracking.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Tracking.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Tracking.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar = global::Tracking.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_android_gravity = global::Tracking.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Tracking.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Tracking.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Tracking.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Tracking.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Tracking.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Tracking.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Tracking.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_logo = global::Tracking.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_logoDescription = global::Tracking.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Tracking.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Tracking.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Tracking.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_popupTheme = global::Tracking.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_subtitle = global::Tracking.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Tracking.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Tracking.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_title = global::Tracking.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Tracking.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Tracking.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Tracking.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Tracking.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleMargins = global::Tracking.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Tracking.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Tracking.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.View = global::Tracking.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.View_android_focusable = global::Tracking.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.View_android_theme = global::Tracking.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.View_paddingEnd = global::Tracking.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.View_paddingStart = global::Tracking.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.View_theme = global::Tracking.Droid.Resource.Styleable.View_theme;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewBackgroundHelper = global::Tracking.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Tracking.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Tracking.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Tracking.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewStubCompat = global::Tracking.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Tracking.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Tracking.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.BaiduMaps.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Tracking.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Tracking.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3448,452 +5084,452 @@ namespace Tracking.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f090018
-			public const int abc_action_bar_content_inset_material = 2131296280;
+			// aapt resource value: 0x7f0a0018
+			public const int abc_action_bar_content_inset_material = 2131361816;
 			
-			// aapt resource value: 0x7f090019
-			public const int abc_action_bar_content_inset_with_nav = 2131296281;
+			// aapt resource value: 0x7f0a0019
+			public const int abc_action_bar_content_inset_with_nav = 2131361817;
 			
-			// aapt resource value: 0x7f09000d
-			public const int abc_action_bar_default_height_material = 2131296269;
+			// aapt resource value: 0x7f0a000d
+			public const int abc_action_bar_default_height_material = 2131361805;
 			
-			// aapt resource value: 0x7f09001a
-			public const int abc_action_bar_default_padding_end_material = 2131296282;
+			// aapt resource value: 0x7f0a001a
+			public const int abc_action_bar_default_padding_end_material = 2131361818;
 			
-			// aapt resource value: 0x7f09001b
-			public const int abc_action_bar_default_padding_start_material = 2131296283;
+			// aapt resource value: 0x7f0a001b
+			public const int abc_action_bar_default_padding_start_material = 2131361819;
 			
-			// aapt resource value: 0x7f090021
-			public const int abc_action_bar_elevation_material = 2131296289;
+			// aapt resource value: 0x7f0a0021
+			public const int abc_action_bar_elevation_material = 2131361825;
 			
-			// aapt resource value: 0x7f090022
-			public const int abc_action_bar_icon_vertical_padding_material = 2131296290;
+			// aapt resource value: 0x7f0a0022
+			public const int abc_action_bar_icon_vertical_padding_material = 2131361826;
 			
-			// aapt resource value: 0x7f090023
-			public const int abc_action_bar_overflow_padding_end_material = 2131296291;
+			// aapt resource value: 0x7f0a0023
+			public const int abc_action_bar_overflow_padding_end_material = 2131361827;
 			
-			// aapt resource value: 0x7f090024
-			public const int abc_action_bar_overflow_padding_start_material = 2131296292;
+			// aapt resource value: 0x7f0a0024
+			public const int abc_action_bar_overflow_padding_start_material = 2131361828;
 			
-			// aapt resource value: 0x7f09000e
-			public const int abc_action_bar_progress_bar_size = 2131296270;
+			// aapt resource value: 0x7f0a000e
+			public const int abc_action_bar_progress_bar_size = 2131361806;
 			
-			// aapt resource value: 0x7f090025
-			public const int abc_action_bar_stacked_max_height = 2131296293;
+			// aapt resource value: 0x7f0a0025
+			public const int abc_action_bar_stacked_max_height = 2131361829;
 			
-			// aapt resource value: 0x7f090026
-			public const int abc_action_bar_stacked_tab_max_width = 2131296294;
+			// aapt resource value: 0x7f0a0026
+			public const int abc_action_bar_stacked_tab_max_width = 2131361830;
 			
-			// aapt resource value: 0x7f090027
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131296295;
+			// aapt resource value: 0x7f0a0027
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131361831;
 			
-			// aapt resource value: 0x7f090028
-			public const int abc_action_bar_subtitle_top_margin_material = 2131296296;
+			// aapt resource value: 0x7f0a0028
+			public const int abc_action_bar_subtitle_top_margin_material = 2131361832;
 			
-			// aapt resource value: 0x7f090029
-			public const int abc_action_button_min_height_material = 2131296297;
+			// aapt resource value: 0x7f0a0029
+			public const int abc_action_button_min_height_material = 2131361833;
 			
-			// aapt resource value: 0x7f09002a
-			public const int abc_action_button_min_width_material = 2131296298;
+			// aapt resource value: 0x7f0a002a
+			public const int abc_action_button_min_width_material = 2131361834;
 			
-			// aapt resource value: 0x7f09002b
-			public const int abc_action_button_min_width_overflow_material = 2131296299;
+			// aapt resource value: 0x7f0a002b
+			public const int abc_action_button_min_width_overflow_material = 2131361835;
 			
-			// aapt resource value: 0x7f09000c
-			public const int abc_alert_dialog_button_bar_height = 2131296268;
+			// aapt resource value: 0x7f0a000c
+			public const int abc_alert_dialog_button_bar_height = 2131361804;
 			
-			// aapt resource value: 0x7f09002c
-			public const int abc_button_inset_horizontal_material = 2131296300;
+			// aapt resource value: 0x7f0a002c
+			public const int abc_button_inset_horizontal_material = 2131361836;
 			
-			// aapt resource value: 0x7f09002d
-			public const int abc_button_inset_vertical_material = 2131296301;
+			// aapt resource value: 0x7f0a002d
+			public const int abc_button_inset_vertical_material = 2131361837;
 			
-			// aapt resource value: 0x7f09002e
-			public const int abc_button_padding_horizontal_material = 2131296302;
+			// aapt resource value: 0x7f0a002e
+			public const int abc_button_padding_horizontal_material = 2131361838;
 			
-			// aapt resource value: 0x7f09002f
-			public const int abc_button_padding_vertical_material = 2131296303;
+			// aapt resource value: 0x7f0a002f
+			public const int abc_button_padding_vertical_material = 2131361839;
 			
-			// aapt resource value: 0x7f090030
-			public const int abc_cascading_menus_min_smallest_width = 2131296304;
+			// aapt resource value: 0x7f0a0030
+			public const int abc_cascading_menus_min_smallest_width = 2131361840;
 			
-			// aapt resource value: 0x7f090011
-			public const int abc_config_prefDialogWidth = 2131296273;
+			// aapt resource value: 0x7f0a0011
+			public const int abc_config_prefDialogWidth = 2131361809;
 			
-			// aapt resource value: 0x7f090031
-			public const int abc_control_corner_material = 2131296305;
+			// aapt resource value: 0x7f0a0031
+			public const int abc_control_corner_material = 2131361841;
 			
-			// aapt resource value: 0x7f090032
-			public const int abc_control_inset_material = 2131296306;
+			// aapt resource value: 0x7f0a0032
+			public const int abc_control_inset_material = 2131361842;
 			
-			// aapt resource value: 0x7f090033
-			public const int abc_control_padding_material = 2131296307;
+			// aapt resource value: 0x7f0a0033
+			public const int abc_control_padding_material = 2131361843;
 			
-			// aapt resource value: 0x7f090012
-			public const int abc_dialog_fixed_height_major = 2131296274;
+			// aapt resource value: 0x7f0a0012
+			public const int abc_dialog_fixed_height_major = 2131361810;
 			
-			// aapt resource value: 0x7f090013
-			public const int abc_dialog_fixed_height_minor = 2131296275;
+			// aapt resource value: 0x7f0a0013
+			public const int abc_dialog_fixed_height_minor = 2131361811;
 			
-			// aapt resource value: 0x7f090014
-			public const int abc_dialog_fixed_width_major = 2131296276;
+			// aapt resource value: 0x7f0a0014
+			public const int abc_dialog_fixed_width_major = 2131361812;
 			
-			// aapt resource value: 0x7f090015
-			public const int abc_dialog_fixed_width_minor = 2131296277;
+			// aapt resource value: 0x7f0a0015
+			public const int abc_dialog_fixed_width_minor = 2131361813;
 			
-			// aapt resource value: 0x7f090034
-			public const int abc_dialog_list_padding_bottom_no_buttons = 2131296308;
+			// aapt resource value: 0x7f0a0034
+			public const int abc_dialog_list_padding_bottom_no_buttons = 2131361844;
 			
-			// aapt resource value: 0x7f090035
-			public const int abc_dialog_list_padding_top_no_title = 2131296309;
+			// aapt resource value: 0x7f0a0035
+			public const int abc_dialog_list_padding_top_no_title = 2131361845;
 			
-			// aapt resource value: 0x7f090016
-			public const int abc_dialog_min_width_major = 2131296278;
+			// aapt resource value: 0x7f0a0016
+			public const int abc_dialog_min_width_major = 2131361814;
 			
-			// aapt resource value: 0x7f090017
-			public const int abc_dialog_min_width_minor = 2131296279;
+			// aapt resource value: 0x7f0a0017
+			public const int abc_dialog_min_width_minor = 2131361815;
 			
-			// aapt resource value: 0x7f090036
-			public const int abc_dialog_padding_material = 2131296310;
+			// aapt resource value: 0x7f0a0036
+			public const int abc_dialog_padding_material = 2131361846;
 			
-			// aapt resource value: 0x7f090037
-			public const int abc_dialog_padding_top_material = 2131296311;
+			// aapt resource value: 0x7f0a0037
+			public const int abc_dialog_padding_top_material = 2131361847;
 			
-			// aapt resource value: 0x7f090038
-			public const int abc_dialog_title_divider_material = 2131296312;
+			// aapt resource value: 0x7f0a0038
+			public const int abc_dialog_title_divider_material = 2131361848;
 			
-			// aapt resource value: 0x7f090039
-			public const int abc_disabled_alpha_material_dark = 2131296313;
+			// aapt resource value: 0x7f0a0039
+			public const int abc_disabled_alpha_material_dark = 2131361849;
 			
-			// aapt resource value: 0x7f09003a
-			public const int abc_disabled_alpha_material_light = 2131296314;
+			// aapt resource value: 0x7f0a003a
+			public const int abc_disabled_alpha_material_light = 2131361850;
 			
-			// aapt resource value: 0x7f09003b
-			public const int abc_dropdownitem_icon_width = 2131296315;
+			// aapt resource value: 0x7f0a003b
+			public const int abc_dropdownitem_icon_width = 2131361851;
 			
-			// aapt resource value: 0x7f09003c
-			public const int abc_dropdownitem_text_padding_left = 2131296316;
+			// aapt resource value: 0x7f0a003c
+			public const int abc_dropdownitem_text_padding_left = 2131361852;
 			
-			// aapt resource value: 0x7f09003d
-			public const int abc_dropdownitem_text_padding_right = 2131296317;
+			// aapt resource value: 0x7f0a003d
+			public const int abc_dropdownitem_text_padding_right = 2131361853;
 			
-			// aapt resource value: 0x7f09003e
-			public const int abc_edit_text_inset_bottom_material = 2131296318;
+			// aapt resource value: 0x7f0a003e
+			public const int abc_edit_text_inset_bottom_material = 2131361854;
 			
-			// aapt resource value: 0x7f09003f
-			public const int abc_edit_text_inset_horizontal_material = 2131296319;
+			// aapt resource value: 0x7f0a003f
+			public const int abc_edit_text_inset_horizontal_material = 2131361855;
 			
-			// aapt resource value: 0x7f090040
-			public const int abc_edit_text_inset_top_material = 2131296320;
+			// aapt resource value: 0x7f0a0040
+			public const int abc_edit_text_inset_top_material = 2131361856;
 			
-			// aapt resource value: 0x7f090041
-			public const int abc_floating_window_z = 2131296321;
+			// aapt resource value: 0x7f0a0041
+			public const int abc_floating_window_z = 2131361857;
 			
-			// aapt resource value: 0x7f090042
-			public const int abc_list_item_padding_horizontal_material = 2131296322;
+			// aapt resource value: 0x7f0a0042
+			public const int abc_list_item_padding_horizontal_material = 2131361858;
 			
-			// aapt resource value: 0x7f090043
-			public const int abc_panel_menu_list_width = 2131296323;
+			// aapt resource value: 0x7f0a0043
+			public const int abc_panel_menu_list_width = 2131361859;
 			
-			// aapt resource value: 0x7f090044
-			public const int abc_progress_bar_height_material = 2131296324;
+			// aapt resource value: 0x7f0a0044
+			public const int abc_progress_bar_height_material = 2131361860;
 			
-			// aapt resource value: 0x7f090045
-			public const int abc_search_view_preferred_height = 2131296325;
+			// aapt resource value: 0x7f0a0045
+			public const int abc_search_view_preferred_height = 2131361861;
 			
-			// aapt resource value: 0x7f090046
-			public const int abc_search_view_preferred_width = 2131296326;
+			// aapt resource value: 0x7f0a0046
+			public const int abc_search_view_preferred_width = 2131361862;
 			
-			// aapt resource value: 0x7f090047
-			public const int abc_seekbar_track_background_height_material = 2131296327;
+			// aapt resource value: 0x7f0a0047
+			public const int abc_seekbar_track_background_height_material = 2131361863;
 			
-			// aapt resource value: 0x7f090048
-			public const int abc_seekbar_track_progress_height_material = 2131296328;
+			// aapt resource value: 0x7f0a0048
+			public const int abc_seekbar_track_progress_height_material = 2131361864;
 			
-			// aapt resource value: 0x7f090049
-			public const int abc_select_dialog_padding_start_material = 2131296329;
+			// aapt resource value: 0x7f0a0049
+			public const int abc_select_dialog_padding_start_material = 2131361865;
 			
-			// aapt resource value: 0x7f09001d
-			public const int abc_switch_padding = 2131296285;
+			// aapt resource value: 0x7f0a001d
+			public const int abc_switch_padding = 2131361821;
 			
-			// aapt resource value: 0x7f09004a
-			public const int abc_text_size_body_1_material = 2131296330;
+			// aapt resource value: 0x7f0a004a
+			public const int abc_text_size_body_1_material = 2131361866;
 			
-			// aapt resource value: 0x7f09004b
-			public const int abc_text_size_body_2_material = 2131296331;
+			// aapt resource value: 0x7f0a004b
+			public const int abc_text_size_body_2_material = 2131361867;
 			
-			// aapt resource value: 0x7f09004c
-			public const int abc_text_size_button_material = 2131296332;
+			// aapt resource value: 0x7f0a004c
+			public const int abc_text_size_button_material = 2131361868;
 			
-			// aapt resource value: 0x7f09004d
-			public const int abc_text_size_caption_material = 2131296333;
+			// aapt resource value: 0x7f0a004d
+			public const int abc_text_size_caption_material = 2131361869;
 			
-			// aapt resource value: 0x7f09004e
-			public const int abc_text_size_display_1_material = 2131296334;
+			// aapt resource value: 0x7f0a004e
+			public const int abc_text_size_display_1_material = 2131361870;
 			
-			// aapt resource value: 0x7f09004f
-			public const int abc_text_size_display_2_material = 2131296335;
+			// aapt resource value: 0x7f0a004f
+			public const int abc_text_size_display_2_material = 2131361871;
 			
-			// aapt resource value: 0x7f090050
-			public const int abc_text_size_display_3_material = 2131296336;
+			// aapt resource value: 0x7f0a0050
+			public const int abc_text_size_display_3_material = 2131361872;
 			
-			// aapt resource value: 0x7f090051
-			public const int abc_text_size_display_4_material = 2131296337;
+			// aapt resource value: 0x7f0a0051
+			public const int abc_text_size_display_4_material = 2131361873;
 			
-			// aapt resource value: 0x7f090052
-			public const int abc_text_size_headline_material = 2131296338;
+			// aapt resource value: 0x7f0a0052
+			public const int abc_text_size_headline_material = 2131361874;
 			
-			// aapt resource value: 0x7f090053
-			public const int abc_text_size_large_material = 2131296339;
+			// aapt resource value: 0x7f0a0053
+			public const int abc_text_size_large_material = 2131361875;
 			
-			// aapt resource value: 0x7f090054
-			public const int abc_text_size_medium_material = 2131296340;
+			// aapt resource value: 0x7f0a0054
+			public const int abc_text_size_medium_material = 2131361876;
 			
-			// aapt resource value: 0x7f090055
-			public const int abc_text_size_menu_header_material = 2131296341;
+			// aapt resource value: 0x7f0a0055
+			public const int abc_text_size_menu_header_material = 2131361877;
 			
-			// aapt resource value: 0x7f090056
-			public const int abc_text_size_menu_material = 2131296342;
+			// aapt resource value: 0x7f0a0056
+			public const int abc_text_size_menu_material = 2131361878;
 			
-			// aapt resource value: 0x7f090057
-			public const int abc_text_size_small_material = 2131296343;
+			// aapt resource value: 0x7f0a0057
+			public const int abc_text_size_small_material = 2131361879;
 			
-			// aapt resource value: 0x7f090058
-			public const int abc_text_size_subhead_material = 2131296344;
+			// aapt resource value: 0x7f0a0058
+			public const int abc_text_size_subhead_material = 2131361880;
 			
-			// aapt resource value: 0x7f09000f
-			public const int abc_text_size_subtitle_material_toolbar = 2131296271;
+			// aapt resource value: 0x7f0a000f
+			public const int abc_text_size_subtitle_material_toolbar = 2131361807;
 			
-			// aapt resource value: 0x7f090059
-			public const int abc_text_size_title_material = 2131296345;
+			// aapt resource value: 0x7f0a0059
+			public const int abc_text_size_title_material = 2131361881;
 			
-			// aapt resource value: 0x7f090010
-			public const int abc_text_size_title_material_toolbar = 2131296272;
+			// aapt resource value: 0x7f0a0010
+			public const int abc_text_size_title_material_toolbar = 2131361808;
 			
-			// aapt resource value: 0x7f090009
-			public const int cardview_compat_inset_shadow = 2131296265;
+			// aapt resource value: 0x7f0a0009
+			public const int cardview_compat_inset_shadow = 2131361801;
 			
-			// aapt resource value: 0x7f09000a
-			public const int cardview_default_elevation = 2131296266;
+			// aapt resource value: 0x7f0a000a
+			public const int cardview_default_elevation = 2131361802;
 			
-			// aapt resource value: 0x7f09000b
-			public const int cardview_default_radius = 2131296267;
+			// aapt resource value: 0x7f0a000b
+			public const int cardview_default_radius = 2131361803;
 			
-			// aapt resource value: 0x7f090076
-			public const int design_appbar_elevation = 2131296374;
+			// aapt resource value: 0x7f0a0076
+			public const int design_appbar_elevation = 2131361910;
 			
-			// aapt resource value: 0x7f090077
-			public const int design_bottom_navigation_active_item_max_width = 2131296375;
+			// aapt resource value: 0x7f0a0077
+			public const int design_bottom_navigation_active_item_max_width = 2131361911;
 			
-			// aapt resource value: 0x7f090078
-			public const int design_bottom_navigation_active_text_size = 2131296376;
+			// aapt resource value: 0x7f0a0078
+			public const int design_bottom_navigation_active_text_size = 2131361912;
 			
-			// aapt resource value: 0x7f090079
-			public const int design_bottom_navigation_elevation = 2131296377;
+			// aapt resource value: 0x7f0a0079
+			public const int design_bottom_navigation_elevation = 2131361913;
 			
-			// aapt resource value: 0x7f09007a
-			public const int design_bottom_navigation_height = 2131296378;
+			// aapt resource value: 0x7f0a007a
+			public const int design_bottom_navigation_height = 2131361914;
 			
-			// aapt resource value: 0x7f09007b
-			public const int design_bottom_navigation_item_max_width = 2131296379;
+			// aapt resource value: 0x7f0a007b
+			public const int design_bottom_navigation_item_max_width = 2131361915;
 			
-			// aapt resource value: 0x7f09007c
-			public const int design_bottom_navigation_item_min_width = 2131296380;
+			// aapt resource value: 0x7f0a007c
+			public const int design_bottom_navigation_item_min_width = 2131361916;
 			
-			// aapt resource value: 0x7f09007d
-			public const int design_bottom_navigation_margin = 2131296381;
+			// aapt resource value: 0x7f0a007d
+			public const int design_bottom_navigation_margin = 2131361917;
 			
-			// aapt resource value: 0x7f09007e
-			public const int design_bottom_navigation_shadow_height = 2131296382;
+			// aapt resource value: 0x7f0a007e
+			public const int design_bottom_navigation_shadow_height = 2131361918;
 			
-			// aapt resource value: 0x7f09007f
-			public const int design_bottom_navigation_text_size = 2131296383;
+			// aapt resource value: 0x7f0a007f
+			public const int design_bottom_navigation_text_size = 2131361919;
 			
-			// aapt resource value: 0x7f090080
-			public const int design_bottom_sheet_modal_elevation = 2131296384;
+			// aapt resource value: 0x7f0a0080
+			public const int design_bottom_sheet_modal_elevation = 2131361920;
 			
-			// aapt resource value: 0x7f090081
-			public const int design_bottom_sheet_peek_height_min = 2131296385;
+			// aapt resource value: 0x7f0a0081
+			public const int design_bottom_sheet_peek_height_min = 2131361921;
 			
-			// aapt resource value: 0x7f090082
-			public const int design_fab_border_width = 2131296386;
+			// aapt resource value: 0x7f0a0082
+			public const int design_fab_border_width = 2131361922;
 			
-			// aapt resource value: 0x7f090083
-			public const int design_fab_elevation = 2131296387;
+			// aapt resource value: 0x7f0a0083
+			public const int design_fab_elevation = 2131361923;
 			
-			// aapt resource value: 0x7f090084
-			public const int design_fab_image_size = 2131296388;
+			// aapt resource value: 0x7f0a0084
+			public const int design_fab_image_size = 2131361924;
 			
-			// aapt resource value: 0x7f090085
-			public const int design_fab_size_mini = 2131296389;
+			// aapt resource value: 0x7f0a0085
+			public const int design_fab_size_mini = 2131361925;
 			
-			// aapt resource value: 0x7f090086
-			public const int design_fab_size_normal = 2131296390;
+			// aapt resource value: 0x7f0a0086
+			public const int design_fab_size_normal = 2131361926;
 			
-			// aapt resource value: 0x7f090087
-			public const int design_fab_translation_z_pressed = 2131296391;
+			// aapt resource value: 0x7f0a0087
+			public const int design_fab_translation_z_pressed = 2131361927;
 			
-			// aapt resource value: 0x7f090088
-			public const int design_navigation_elevation = 2131296392;
+			// aapt resource value: 0x7f0a0088
+			public const int design_navigation_elevation = 2131361928;
 			
-			// aapt resource value: 0x7f090089
-			public const int design_navigation_icon_padding = 2131296393;
+			// aapt resource value: 0x7f0a0089
+			public const int design_navigation_icon_padding = 2131361929;
 			
-			// aapt resource value: 0x7f09008a
-			public const int design_navigation_icon_size = 2131296394;
+			// aapt resource value: 0x7f0a008a
+			public const int design_navigation_icon_size = 2131361930;
 			
-			// aapt resource value: 0x7f09006e
-			public const int design_navigation_max_width = 2131296366;
+			// aapt resource value: 0x7f0a006e
+			public const int design_navigation_max_width = 2131361902;
 			
-			// aapt resource value: 0x7f09008b
-			public const int design_navigation_padding_bottom = 2131296395;
+			// aapt resource value: 0x7f0a008b
+			public const int design_navigation_padding_bottom = 2131361931;
 			
-			// aapt resource value: 0x7f09008c
-			public const int design_navigation_separator_vertical_padding = 2131296396;
+			// aapt resource value: 0x7f0a008c
+			public const int design_navigation_separator_vertical_padding = 2131361932;
 			
-			// aapt resource value: 0x7f09006f
-			public const int design_snackbar_action_inline_max_width = 2131296367;
+			// aapt resource value: 0x7f0a006f
+			public const int design_snackbar_action_inline_max_width = 2131361903;
 			
-			// aapt resource value: 0x7f090070
-			public const int design_snackbar_background_corner_radius = 2131296368;
+			// aapt resource value: 0x7f0a0070
+			public const int design_snackbar_background_corner_radius = 2131361904;
 			
-			// aapt resource value: 0x7f09008d
-			public const int design_snackbar_elevation = 2131296397;
+			// aapt resource value: 0x7f0a008d
+			public const int design_snackbar_elevation = 2131361933;
 			
-			// aapt resource value: 0x7f090071
-			public const int design_snackbar_extra_spacing_horizontal = 2131296369;
+			// aapt resource value: 0x7f0a0071
+			public const int design_snackbar_extra_spacing_horizontal = 2131361905;
 			
-			// aapt resource value: 0x7f090072
-			public const int design_snackbar_max_width = 2131296370;
+			// aapt resource value: 0x7f0a0072
+			public const int design_snackbar_max_width = 2131361906;
 			
-			// aapt resource value: 0x7f090073
-			public const int design_snackbar_min_width = 2131296371;
+			// aapt resource value: 0x7f0a0073
+			public const int design_snackbar_min_width = 2131361907;
 			
-			// aapt resource value: 0x7f09008e
-			public const int design_snackbar_padding_horizontal = 2131296398;
+			// aapt resource value: 0x7f0a008e
+			public const int design_snackbar_padding_horizontal = 2131361934;
 			
-			// aapt resource value: 0x7f09008f
-			public const int design_snackbar_padding_vertical = 2131296399;
+			// aapt resource value: 0x7f0a008f
+			public const int design_snackbar_padding_vertical = 2131361935;
 			
-			// aapt resource value: 0x7f090074
-			public const int design_snackbar_padding_vertical_2lines = 2131296372;
+			// aapt resource value: 0x7f0a0074
+			public const int design_snackbar_padding_vertical_2lines = 2131361908;
 			
-			// aapt resource value: 0x7f090090
-			public const int design_snackbar_text_size = 2131296400;
+			// aapt resource value: 0x7f0a0090
+			public const int design_snackbar_text_size = 2131361936;
 			
-			// aapt resource value: 0x7f090091
-			public const int design_tab_max_width = 2131296401;
+			// aapt resource value: 0x7f0a0091
+			public const int design_tab_max_width = 2131361937;
 			
-			// aapt resource value: 0x7f090075
-			public const int design_tab_scrollable_min_width = 2131296373;
+			// aapt resource value: 0x7f0a0075
+			public const int design_tab_scrollable_min_width = 2131361909;
 			
-			// aapt resource value: 0x7f090092
-			public const int design_tab_text_size = 2131296402;
+			// aapt resource value: 0x7f0a0092
+			public const int design_tab_text_size = 2131361938;
 			
-			// aapt resource value: 0x7f090093
-			public const int design_tab_text_size_2line = 2131296403;
+			// aapt resource value: 0x7f0a0093
+			public const int design_tab_text_size_2line = 2131361939;
 			
-			// aapt resource value: 0x7f09005a
-			public const int disabled_alpha_material_dark = 2131296346;
+			// aapt resource value: 0x7f0a005a
+			public const int disabled_alpha_material_dark = 2131361882;
 			
-			// aapt resource value: 0x7f09005b
-			public const int disabled_alpha_material_light = 2131296347;
+			// aapt resource value: 0x7f0a005b
+			public const int disabled_alpha_material_light = 2131361883;
 			
-			// aapt resource value: 0x7f090094
-			public const int drawer_width = 2131296404;
+			// aapt resource value: 0x7f0a0094
+			public const int drawer_width = 2131361940;
 			
-			// aapt resource value: 0x7f09005c
-			public const int highlight_alpha_material_colored = 2131296348;
+			// aapt resource value: 0x7f0a005c
+			public const int highlight_alpha_material_colored = 2131361884;
 			
-			// aapt resource value: 0x7f09005d
-			public const int highlight_alpha_material_dark = 2131296349;
+			// aapt resource value: 0x7f0a005d
+			public const int highlight_alpha_material_dark = 2131361885;
 			
-			// aapt resource value: 0x7f09005e
-			public const int highlight_alpha_material_light = 2131296350;
+			// aapt resource value: 0x7f0a005e
+			public const int highlight_alpha_material_light = 2131361886;
 			
-			// aapt resource value: 0x7f09005f
-			public const int hint_alpha_material_dark = 2131296351;
+			// aapt resource value: 0x7f0a005f
+			public const int hint_alpha_material_dark = 2131361887;
 			
-			// aapt resource value: 0x7f090060
-			public const int hint_alpha_material_light = 2131296352;
+			// aapt resource value: 0x7f0a0060
+			public const int hint_alpha_material_light = 2131361888;
 			
-			// aapt resource value: 0x7f090061
-			public const int hint_pressed_alpha_material_dark = 2131296353;
+			// aapt resource value: 0x7f0a0061
+			public const int hint_pressed_alpha_material_dark = 2131361889;
 			
-			// aapt resource value: 0x7f090062
-			public const int hint_pressed_alpha_material_light = 2131296354;
+			// aapt resource value: 0x7f0a0062
+			public const int hint_pressed_alpha_material_light = 2131361890;
 			
-			// aapt resource value: 0x7f090000
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131296256;
+			// aapt resource value: 0x7f0a0000
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131361792;
 			
-			// aapt resource value: 0x7f090001
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131296257;
+			// aapt resource value: 0x7f0a0001
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131361793;
 			
-			// aapt resource value: 0x7f090002
-			public const int item_touch_helper_swipe_escape_velocity = 2131296258;
+			// aapt resource value: 0x7f0a0002
+			public const int item_touch_helper_swipe_escape_velocity = 2131361794;
 			
-			// aapt resource value: 0x7f090003
-			public const int mr_controller_volume_group_list_item_height = 2131296259;
+			// aapt resource value: 0x7f0a0003
+			public const int mr_controller_volume_group_list_item_height = 2131361795;
 			
-			// aapt resource value: 0x7f090004
-			public const int mr_controller_volume_group_list_item_icon_size = 2131296260;
+			// aapt resource value: 0x7f0a0004
+			public const int mr_controller_volume_group_list_item_icon_size = 2131361796;
 			
-			// aapt resource value: 0x7f090005
-			public const int mr_controller_volume_group_list_max_height = 2131296261;
+			// aapt resource value: 0x7f0a0005
+			public const int mr_controller_volume_group_list_max_height = 2131361797;
 			
-			// aapt resource value: 0x7f090008
-			public const int mr_controller_volume_group_list_padding_top = 2131296264;
+			// aapt resource value: 0x7f0a0008
+			public const int mr_controller_volume_group_list_padding_top = 2131361800;
 			
-			// aapt resource value: 0x7f090006
-			public const int mr_dialog_fixed_width_major = 2131296262;
+			// aapt resource value: 0x7f0a0006
+			public const int mr_dialog_fixed_width_major = 2131361798;
 			
-			// aapt resource value: 0x7f090007
-			public const int mr_dialog_fixed_width_minor = 2131296263;
+			// aapt resource value: 0x7f0a0007
+			public const int mr_dialog_fixed_width_minor = 2131361799;
 			
-			// aapt resource value: 0x7f090063
-			public const int notification_action_icon_size = 2131296355;
+			// aapt resource value: 0x7f0a0063
+			public const int notification_action_icon_size = 2131361891;
 			
-			// aapt resource value: 0x7f090064
-			public const int notification_action_text_size = 2131296356;
+			// aapt resource value: 0x7f0a0064
+			public const int notification_action_text_size = 2131361892;
 			
-			// aapt resource value: 0x7f090065
-			public const int notification_big_circle_margin = 2131296357;
+			// aapt resource value: 0x7f0a0065
+			public const int notification_big_circle_margin = 2131361893;
 			
-			// aapt resource value: 0x7f09001e
-			public const int notification_content_margin_start = 2131296286;
+			// aapt resource value: 0x7f0a001e
+			public const int notification_content_margin_start = 2131361822;
 			
-			// aapt resource value: 0x7f090066
-			public const int notification_large_icon_height = 2131296358;
+			// aapt resource value: 0x7f0a0066
+			public const int notification_large_icon_height = 2131361894;
 			
-			// aapt resource value: 0x7f090067
-			public const int notification_large_icon_width = 2131296359;
+			// aapt resource value: 0x7f0a0067
+			public const int notification_large_icon_width = 2131361895;
 			
-			// aapt resource value: 0x7f09001f
-			public const int notification_main_column_padding_top = 2131296287;
+			// aapt resource value: 0x7f0a001f
+			public const int notification_main_column_padding_top = 2131361823;
 			
-			// aapt resource value: 0x7f090020
-			public const int notification_media_narrow_margin = 2131296288;
+			// aapt resource value: 0x7f0a0020
+			public const int notification_media_narrow_margin = 2131361824;
 			
-			// aapt resource value: 0x7f090068
-			public const int notification_right_icon_size = 2131296360;
+			// aapt resource value: 0x7f0a0068
+			public const int notification_right_icon_size = 2131361896;
 			
-			// aapt resource value: 0x7f09001c
-			public const int notification_right_side_padding_top = 2131296284;
+			// aapt resource value: 0x7f0a001c
+			public const int notification_right_side_padding_top = 2131361820;
 			
-			// aapt resource value: 0x7f090069
-			public const int notification_small_icon_background_padding = 2131296361;
+			// aapt resource value: 0x7f0a0069
+			public const int notification_small_icon_background_padding = 2131361897;
 			
-			// aapt resource value: 0x7f09006a
-			public const int notification_small_icon_size_as_large = 2131296362;
+			// aapt resource value: 0x7f0a006a
+			public const int notification_small_icon_size_as_large = 2131361898;
 			
-			// aapt resource value: 0x7f09006b
-			public const int notification_subtext_size = 2131296363;
+			// aapt resource value: 0x7f0a006b
+			public const int notification_subtext_size = 2131361899;
 			
-			// aapt resource value: 0x7f09006c
-			public const int notification_top_pad = 2131296364;
+			// aapt resource value: 0x7f0a006c
+			public const int notification_top_pad = 2131361900;
 			
-			// aapt resource value: 0x7f09006d
-			public const int notification_top_pad_large_text = 2131296365;
+			// aapt resource value: 0x7f0a006d
+			public const int notification_top_pad_large_text = 2131361901;
 			
 			static Dimension()
 			{
@@ -4160,26 +5796,26 @@ namespace Tracking.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02010e
-			public const int avd_hide_password_1 = 2130837774;
-			
-			// aapt resource value: 0x7f02010f
-			public const int avd_hide_password_2 = 2130837775;
-			
 			// aapt resource value: 0x7f020110
-			public const int avd_hide_password_3 = 2130837776;
+			public const int avd_hide_password_1 = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int avd_hide_password_2 = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int avd_hide_password_3 = 2130837778;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020111
-			public const int avd_show_password_1 = 2130837777;
-			
-			// aapt resource value: 0x7f020112
-			public const int avd_show_password_2 = 2130837778;
-			
 			// aapt resource value: 0x7f020113
-			public const int avd_show_password_3 = 2130837779;
+			public const int avd_show_password_1 = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int avd_show_password_2 = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int avd_show_password_3 = 2130837781;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -4721,11 +6357,11 @@ namespace Tracking.Droid
 			// aapt resource value: 0x7f020108
 			public const int notification_icon_background = 2130837768;
 			
-			// aapt resource value: 0x7f02010c
-			public const int notification_template_icon_bg = 2130837772;
+			// aapt resource value: 0x7f02010e
+			public const int notification_template_icon_bg = 2130837774;
 			
-			// aapt resource value: 0x7f02010d
-			public const int notification_template_icon_low_bg = 2130837773;
+			// aapt resource value: 0x7f02010f
+			public const int notification_template_icon_low_bg = 2130837775;
 			
 			// aapt resource value: 0x7f020109
 			public const int notification_tile_bg = 2130837769;
@@ -4734,7 +6370,13 @@ namespace Tracking.Droid
 			public const int notify_panel_notification_icon_bg = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int splash = 2130837771;
+			public const int pin_purple = 2130837771;
+			
+			// aapt resource value: 0x7f02010c
+			public const int splash = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int start = 2130837773;
 			
 			static Drawable()
 			{
@@ -4749,560 +6391,560 @@ namespace Tracking.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a000f
-			public const int MvvmCrossTagId = 2131361807;
+			// aapt resource value: 0x7f0b000f
+			public const int MvvmCrossTagId = 2131427343;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int MvxBindingTagUnique = 2131361808;
+			// aapt resource value: 0x7f0b0010
+			public const int MvxBindingTagUnique = 2131427344;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int action0 = 2131361955;
+			// aapt resource value: 0x7f0b00a3
+			public const int action0 = 2131427491;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int action_bar = 2131361894;
+			// aapt resource value: 0x7f0b0066
+			public const int action_bar = 2131427430;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int action_bar_activity_content = 2131361793;
+			// aapt resource value: 0x7f0b0001
+			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int action_bar_container = 2131361893;
+			// aapt resource value: 0x7f0b0065
+			public const int action_bar_container = 2131427429;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int action_bar_root = 2131361889;
+			// aapt resource value: 0x7f0b0061
+			public const int action_bar_root = 2131427425;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int action_bar_spinner = 2131361794;
+			// aapt resource value: 0x7f0b0002
+			public const int action_bar_spinner = 2131427330;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int action_bar_subtitle = 2131361860;
+			// aapt resource value: 0x7f0b0044
+			public const int action_bar_subtitle = 2131427396;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int action_bar_title = 2131361859;
+			// aapt resource value: 0x7f0b0043
+			public const int action_bar_title = 2131427395;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int action_container = 2131361952;
+			// aapt resource value: 0x7f0b00a0
+			public const int action_container = 2131427488;
 			
-			// aapt resource value: 0x7f0a0067
-			public const int action_context_bar = 2131361895;
+			// aapt resource value: 0x7f0b0067
+			public const int action_context_bar = 2131427431;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int action_divider = 2131361959;
+			// aapt resource value: 0x7f0b00a7
+			public const int action_divider = 2131427495;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int action_image = 2131361953;
+			// aapt resource value: 0x7f0b00a1
+			public const int action_image = 2131427489;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int action_menu_divider = 2131361795;
+			// aapt resource value: 0x7f0b0003
+			public const int action_menu_divider = 2131427331;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int action_menu_presenter = 2131361796;
+			// aapt resource value: 0x7f0b0004
+			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f0a0063
-			public const int action_mode_bar = 2131361891;
+			// aapt resource value: 0x7f0b0063
+			public const int action_mode_bar = 2131427427;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int action_mode_bar_stub = 2131361890;
+			// aapt resource value: 0x7f0b0062
+			public const int action_mode_bar_stub = 2131427426;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int action_mode_close_button = 2131361861;
+			// aapt resource value: 0x7f0b0045
+			public const int action_mode_close_button = 2131427397;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int action_text = 2131361954;
+			// aapt resource value: 0x7f0b00a2
+			public const int action_text = 2131427490;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int actions = 2131361968;
+			// aapt resource value: 0x7f0b00b0
+			public const int actions = 2131427504;
 			
-			// aapt resource value: 0x7f0a0046
-			public const int activity_chooser_view_content = 2131361862;
+			// aapt resource value: 0x7f0b0046
+			public const int activity_chooser_view_content = 2131427398;
 			
-			// aapt resource value: 0x7f0a0020
-			public const int add = 2131361824;
+			// aapt resource value: 0x7f0b0020
+			public const int add = 2131427360;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int alertTitle = 2131361882;
+			// aapt resource value: 0x7f0b005a
+			public const int alertTitle = 2131427418;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int all = 2131361855;
+			// aapt resource value: 0x7f0b003f
+			public const int all = 2131427391;
 			
-			// aapt resource value: 0x7f0a0025
-			public const int always = 2131361829;
+			// aapt resource value: 0x7f0b0025
+			public const int always = 2131427365;
 			
-			// aapt resource value: 0x7f0a0031
-			public const int auto = 2131361841;
+			// aapt resource value: 0x7f0b0031
+			public const int auto = 2131427377;
 			
-			// aapt resource value: 0x7f0a0022
-			public const int beginning = 2131361826;
+			// aapt resource value: 0x7f0b0022
+			public const int beginning = 2131427362;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int bottom = 2131361834;
+			// aapt resource value: 0x7f0b002a
+			public const int bottom = 2131427370;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int buttonPanel = 2131361869;
+			// aapt resource value: 0x7f0b004d
+			public const int buttonPanel = 2131427405;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int cancel_action = 2131361956;
+			// aapt resource value: 0x7f0b00a4
+			public const int cancel_action = 2131427492;
 			
-			// aapt resource value: 0x7f0a0032
-			public const int center = 2131361842;
+			// aapt resource value: 0x7f0b0032
+			public const int center = 2131427378;
 			
-			// aapt resource value: 0x7f0a0033
-			public const int center_horizontal = 2131361843;
+			// aapt resource value: 0x7f0b0033
+			public const int center_horizontal = 2131427379;
 			
-			// aapt resource value: 0x7f0a0034
-			public const int center_vertical = 2131361844;
+			// aapt resource value: 0x7f0b0034
+			public const int center_vertical = 2131427380;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int checkbox = 2131361885;
+			// aapt resource value: 0x7f0b005d
+			public const int checkbox = 2131427421;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int chronometer = 2131361964;
+			// aapt resource value: 0x7f0b00ac
+			public const int chronometer = 2131427500;
 			
-			// aapt resource value: 0x7f0a003b
-			public const int clip_horizontal = 2131361851;
+			// aapt resource value: 0x7f0b003b
+			public const int clip_horizontal = 2131427387;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int clip_vertical = 2131361852;
+			// aapt resource value: 0x7f0b003c
+			public const int clip_vertical = 2131427388;
 			
-			// aapt resource value: 0x7f0a0026
-			public const int collapseActionView = 2131361830;
+			// aapt resource value: 0x7f0b0026
+			public const int collapseActionView = 2131427366;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int container = 2131361911;
+			// aapt resource value: 0x7f0b0077
+			public const int container = 2131427447;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int contentPanel = 2131361872;
+			// aapt resource value: 0x7f0b0050
+			public const int contentPanel = 2131427408;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int content_frame = 2131361925;
+			// aapt resource value: 0x7f0b0085
+			public const int content_frame = 2131427461;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int coordinator = 2131361912;
+			// aapt resource value: 0x7f0b0078
+			public const int coordinator = 2131427448;
 			
-			// aapt resource value: 0x7f0a0057
-			public const int custom = 2131361879;
+			// aapt resource value: 0x7f0b0057
+			public const int custom = 2131427415;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int customPanel = 2131361878;
+			// aapt resource value: 0x7f0b0056
+			public const int customPanel = 2131427414;
 			
-			// aapt resource value: 0x7f0a0064
-			public const int decor_content_parent = 2131361892;
+			// aapt resource value: 0x7f0b0064
+			public const int decor_content_parent = 2131427428;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int default_activity_button = 2131361865;
+			// aapt resource value: 0x7f0b0049
+			public const int default_activity_button = 2131427401;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int design_bottom_sheet = 2131361914;
+			// aapt resource value: 0x7f0b007a
+			public const int design_bottom_sheet = 2131427450;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int design_menu_item_action_area = 2131361921;
+			// aapt resource value: 0x7f0b0081
+			public const int design_menu_item_action_area = 2131427457;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int design_menu_item_action_area_stub = 2131361920;
+			// aapt resource value: 0x7f0b0080
+			public const int design_menu_item_action_area_stub = 2131427456;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int design_menu_item_text = 2131361919;
+			// aapt resource value: 0x7f0b007f
+			public const int design_menu_item_text = 2131427455;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int design_navigation_view = 2131361918;
+			// aapt resource value: 0x7f0b007e
+			public const int design_navigation_view = 2131427454;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int disableHome = 2131361812;
+			// aapt resource value: 0x7f0b0014
+			public const int disableHome = 2131427348;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int edit_query = 2131361896;
+			// aapt resource value: 0x7f0b0068
+			public const int edit_query = 2131427432;
 			
-			// aapt resource value: 0x7f0a0023
-			public const int end = 2131361827;
+			// aapt resource value: 0x7f0b0023
+			public const int end = 2131427363;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int end_padder = 2131361974;
+			// aapt resource value: 0x7f0b00b6
+			public const int end_padder = 2131427510;
 			
-			// aapt resource value: 0x7f0a002c
-			public const int enterAlways = 2131361836;
+			// aapt resource value: 0x7f0b002c
+			public const int enterAlways = 2131427372;
 			
-			// aapt resource value: 0x7f0a002d
-			public const int enterAlwaysCollapsed = 2131361837;
+			// aapt resource value: 0x7f0b002d
+			public const int enterAlwaysCollapsed = 2131427373;
 			
-			// aapt resource value: 0x7f0a002e
-			public const int exitUntilCollapsed = 2131361838;
+			// aapt resource value: 0x7f0b002e
+			public const int exitUntilCollapsed = 2131427374;
 			
-			// aapt resource value: 0x7f0a0047
-			public const int expand_activities_button = 2131361863;
+			// aapt resource value: 0x7f0b0047
+			public const int expand_activities_button = 2131427399;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int expanded_menu = 2131361884;
+			// aapt resource value: 0x7f0b005c
+			public const int expanded_menu = 2131427420;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int fill = 2131361853;
+			// aapt resource value: 0x7f0b003d
+			public const int fill = 2131427389;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int fill_horizontal = 2131361854;
+			// aapt resource value: 0x7f0b003e
+			public const int fill_horizontal = 2131427390;
 			
-			// aapt resource value: 0x7f0a0035
-			public const int fill_vertical = 2131361845;
+			// aapt resource value: 0x7f0b0035
+			public const int fill_vertical = 2131427381;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int @fixed = 2131361857;
+			// aapt resource value: 0x7f0b0041
+			public const int @fixed = 2131427393;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int home = 2131361797;
+			// aapt resource value: 0x7f0b0005
+			public const int home = 2131427333;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int homeAsUp = 2131361813;
+			// aapt resource value: 0x7f0b0015
+			public const int homeAsUp = 2131427349;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int icon = 2131361867;
+			// aapt resource value: 0x7f0b004b
+			public const int icon = 2131427403;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int icon_group = 2131361969;
+			// aapt resource value: 0x7f0b00b1
+			public const int icon_group = 2131427505;
 			
-			// aapt resource value: 0x7f0a0027
-			public const int ifRoom = 2131361831;
+			// aapt resource value: 0x7f0b0027
+			public const int ifRoom = 2131427367;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int image = 2131361864;
+			// aapt resource value: 0x7f0b0048
+			public const int image = 2131427400;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int info = 2131361965;
+			// aapt resource value: 0x7f0b00ad
+			public const int info = 2131427501;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int item_touch_helper_previous_elevation = 2131361792;
+			// aapt resource value: 0x7f0b0000
+			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int largeLabel = 2131361910;
+			// aapt resource value: 0x7f0b0076
+			public const int largeLabel = 2131427446;
 			
-			// aapt resource value: 0x7f0a0036
-			public const int left = 2131361846;
+			// aapt resource value: 0x7f0b0036
+			public const int left = 2131427382;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int line1 = 2131361970;
+			// aapt resource value: 0x7f0b00b2
+			public const int line1 = 2131427506;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int line3 = 2131361972;
+			// aapt resource value: 0x7f0b00b4
+			public const int line3 = 2131427508;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int listMode = 2131361809;
+			// aapt resource value: 0x7f0b0011
+			public const int listMode = 2131427345;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int list_item = 2131361866;
+			// aapt resource value: 0x7f0b004a
+			public const int list_item = 2131427402;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int masked = 2131361976;
+			// aapt resource value: 0x7f0b00b8
+			public const int masked = 2131427512;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int media_actions = 2131361958;
+			// aapt resource value: 0x7f0b00a6
+			public const int media_actions = 2131427494;
 			
-			// aapt resource value: 0x7f0a0024
-			public const int middle = 2131361828;
+			// aapt resource value: 0x7f0b0024
+			public const int middle = 2131427364;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int mini = 2131361856;
+			// aapt resource value: 0x7f0b0040
+			public const int mini = 2131427392;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int mr_art = 2131361938;
+			// aapt resource value: 0x7f0b0092
+			public const int mr_art = 2131427474;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int mr_chooser_list = 2131361927;
+			// aapt resource value: 0x7f0b0087
+			public const int mr_chooser_list = 2131427463;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int mr_chooser_route_desc = 2131361930;
+			// aapt resource value: 0x7f0b008a
+			public const int mr_chooser_route_desc = 2131427466;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int mr_chooser_route_icon = 2131361928;
+			// aapt resource value: 0x7f0b0088
+			public const int mr_chooser_route_icon = 2131427464;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int mr_chooser_route_name = 2131361929;
+			// aapt resource value: 0x7f0b0089
+			public const int mr_chooser_route_name = 2131427465;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int mr_chooser_title = 2131361926;
+			// aapt resource value: 0x7f0b0086
+			public const int mr_chooser_title = 2131427462;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int mr_close = 2131361935;
+			// aapt resource value: 0x7f0b008f
+			public const int mr_close = 2131427471;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int mr_control_divider = 2131361941;
+			// aapt resource value: 0x7f0b0095
+			public const int mr_control_divider = 2131427477;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int mr_control_playback_ctrl = 2131361947;
+			// aapt resource value: 0x7f0b009b
+			public const int mr_control_playback_ctrl = 2131427483;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int mr_control_subtitle = 2131361950;
+			// aapt resource value: 0x7f0b009e
+			public const int mr_control_subtitle = 2131427486;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int mr_control_title = 2131361949;
+			// aapt resource value: 0x7f0b009d
+			public const int mr_control_title = 2131427485;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int mr_control_title_container = 2131361948;
+			// aapt resource value: 0x7f0b009c
+			public const int mr_control_title_container = 2131427484;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int mr_custom_control = 2131361936;
+			// aapt resource value: 0x7f0b0090
+			public const int mr_custom_control = 2131427472;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int mr_default_control = 2131361937;
+			// aapt resource value: 0x7f0b0091
+			public const int mr_default_control = 2131427473;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int mr_dialog_area = 2131361932;
+			// aapt resource value: 0x7f0b008c
+			public const int mr_dialog_area = 2131427468;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int mr_expandable_area = 2131361931;
+			// aapt resource value: 0x7f0b008b
+			public const int mr_expandable_area = 2131427467;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int mr_group_expand_collapse = 2131361951;
+			// aapt resource value: 0x7f0b009f
+			public const int mr_group_expand_collapse = 2131427487;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int mr_media_main_control = 2131361939;
+			// aapt resource value: 0x7f0b0093
+			public const int mr_media_main_control = 2131427475;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int mr_name = 2131361934;
+			// aapt resource value: 0x7f0b008e
+			public const int mr_name = 2131427470;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int mr_playback_control = 2131361940;
+			// aapt resource value: 0x7f0b0094
+			public const int mr_playback_control = 2131427476;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int mr_title_bar = 2131361933;
+			// aapt resource value: 0x7f0b008d
+			public const int mr_title_bar = 2131427469;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int mr_volume_control = 2131361942;
+			// aapt resource value: 0x7f0b0096
+			public const int mr_volume_control = 2131427478;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int mr_volume_group_list = 2131361943;
+			// aapt resource value: 0x7f0b0097
+			public const int mr_volume_group_list = 2131427479;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int mr_volume_item_icon = 2131361945;
+			// aapt resource value: 0x7f0b0099
+			public const int mr_volume_item_icon = 2131427481;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int mr_volume_slider = 2131361946;
+			// aapt resource value: 0x7f0b009a
+			public const int mr_volume_slider = 2131427482;
 			
-			// aapt resource value: 0x7f0a001b
-			public const int multiply = 2131361819;
+			// aapt resource value: 0x7f0b001b
+			public const int multiply = 2131427355;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int navigation_header_container = 2131361917;
+			// aapt resource value: 0x7f0b007d
+			public const int navigation_header_container = 2131427453;
 			
-			// aapt resource value: 0x7f0a0028
-			public const int never = 2131361832;
+			// aapt resource value: 0x7f0b0028
+			public const int never = 2131427368;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int none = 2131361814;
+			// aapt resource value: 0x7f0b0016
+			public const int none = 2131427350;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int normal = 2131361810;
+			// aapt resource value: 0x7f0b0012
+			public const int normal = 2131427346;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int notification_background = 2131361967;
+			// aapt resource value: 0x7f0b00af
+			public const int notification_background = 2131427503;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int notification_main_column = 2131361961;
+			// aapt resource value: 0x7f0b00a9
+			public const int notification_main_column = 2131427497;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int notification_main_column_container = 2131361960;
+			// aapt resource value: 0x7f0b00a8
+			public const int notification_main_column_container = 2131427496;
 			
-			// aapt resource value: 0x7f0a0039
-			public const int parallax = 2131361849;
+			// aapt resource value: 0x7f0b0039
+			public const int parallax = 2131427385;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int parentPanel = 2131361871;
+			// aapt resource value: 0x7f0b004f
+			public const int parentPanel = 2131427407;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int pin = 2131361850;
+			// aapt resource value: 0x7f0b003a
+			public const int pin = 2131427386;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int progress_circular = 2131361798;
+			// aapt resource value: 0x7f0b0006
+			public const int progress_circular = 2131427334;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int progress_horizontal = 2131361799;
+			// aapt resource value: 0x7f0b0007
+			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int radio = 2131361887;
+			// aapt resource value: 0x7f0b005f
+			public const int radio = 2131427423;
 			
-			// aapt resource value: 0x7f0a0037
-			public const int right = 2131361847;
+			// aapt resource value: 0x7f0b0037
+			public const int right = 2131427383;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int right_icon = 2131361966;
+			// aapt resource value: 0x7f0b00ae
+			public const int right_icon = 2131427502;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int right_side = 2131361962;
+			// aapt resource value: 0x7f0b00aa
+			public const int right_side = 2131427498;
 			
-			// aapt resource value: 0x7f0a001c
-			public const int screen = 2131361820;
+			// aapt resource value: 0x7f0b001c
+			public const int screen = 2131427356;
 			
-			// aapt resource value: 0x7f0a002f
-			public const int scroll = 2131361839;
+			// aapt resource value: 0x7f0b002f
+			public const int scroll = 2131427375;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int scrollIndicatorDown = 2131361877;
+			// aapt resource value: 0x7f0b0055
+			public const int scrollIndicatorDown = 2131427413;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int scrollIndicatorUp = 2131361873;
+			// aapt resource value: 0x7f0b0051
+			public const int scrollIndicatorUp = 2131427409;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int scrollView = 2131361874;
+			// aapt resource value: 0x7f0b0052
+			public const int scrollView = 2131427410;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int scrollable = 2131361858;
+			// aapt resource value: 0x7f0b0042
+			public const int scrollable = 2131427394;
 			
-			// aapt resource value: 0x7f0a006a
-			public const int search_badge = 2131361898;
+			// aapt resource value: 0x7f0b006a
+			public const int search_badge = 2131427434;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int search_bar = 2131361897;
+			// aapt resource value: 0x7f0b0069
+			public const int search_bar = 2131427433;
 			
-			// aapt resource value: 0x7f0a006b
-			public const int search_button = 2131361899;
+			// aapt resource value: 0x7f0b006b
+			public const int search_button = 2131427435;
 			
-			// aapt resource value: 0x7f0a0070
-			public const int search_close_btn = 2131361904;
+			// aapt resource value: 0x7f0b0070
+			public const int search_close_btn = 2131427440;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int search_edit_frame = 2131361900;
+			// aapt resource value: 0x7f0b006c
+			public const int search_edit_frame = 2131427436;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int search_go_btn = 2131361906;
+			// aapt resource value: 0x7f0b0072
+			public const int search_go_btn = 2131427442;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int search_mag_icon = 2131361901;
+			// aapt resource value: 0x7f0b006d
+			public const int search_mag_icon = 2131427437;
 			
-			// aapt resource value: 0x7f0a006e
-			public const int search_plate = 2131361902;
+			// aapt resource value: 0x7f0b006e
+			public const int search_plate = 2131427438;
 			
-			// aapt resource value: 0x7f0a006f
-			public const int search_src_text = 2131361903;
+			// aapt resource value: 0x7f0b006f
+			public const int search_src_text = 2131427439;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int search_voice_btn = 2131361907;
+			// aapt resource value: 0x7f0b0073
+			public const int search_voice_btn = 2131427443;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int select_dialog_listview = 2131361908;
+			// aapt resource value: 0x7f0b0074
+			public const int select_dialog_listview = 2131427444;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int shortcut = 2131361886;
+			// aapt resource value: 0x7f0b005e
+			public const int shortcut = 2131427422;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int showCustom = 2131361815;
+			// aapt resource value: 0x7f0b0017
+			public const int showCustom = 2131427351;
 			
-			// aapt resource value: 0x7f0a0018
-			public const int showHome = 2131361816;
+			// aapt resource value: 0x7f0b0018
+			public const int showHome = 2131427352;
 			
-			// aapt resource value: 0x7f0a0019
-			public const int showTitle = 2131361817;
+			// aapt resource value: 0x7f0b0019
+			public const int showTitle = 2131427353;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int smallLabel = 2131361909;
+			// aapt resource value: 0x7f0b0075
+			public const int smallLabel = 2131427445;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int snackbar_action = 2131361916;
+			// aapt resource value: 0x7f0b007c
+			public const int snackbar_action = 2131427452;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int snackbar_text = 2131361915;
+			// aapt resource value: 0x7f0b007b
+			public const int snackbar_text = 2131427451;
 			
-			// aapt resource value: 0x7f0a0030
-			public const int snap = 2131361840;
+			// aapt resource value: 0x7f0b0030
+			public const int snap = 2131427376;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int spacer = 2131361870;
+			// aapt resource value: 0x7f0b004e
+			public const int spacer = 2131427406;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int split_action_bar = 2131361800;
+			// aapt resource value: 0x7f0b0008
+			public const int split_action_bar = 2131427336;
 			
-			// aapt resource value: 0x7f0a001d
-			public const int src_atop = 2131361821;
+			// aapt resource value: 0x7f0b001d
+			public const int src_atop = 2131427357;
 			
-			// aapt resource value: 0x7f0a001e
-			public const int src_in = 2131361822;
+			// aapt resource value: 0x7f0b001e
+			public const int src_in = 2131427358;
 			
-			// aapt resource value: 0x7f0a001f
-			public const int src_over = 2131361823;
+			// aapt resource value: 0x7f0b001f
+			public const int src_over = 2131427359;
 			
-			// aapt resource value: 0x7f0a0038
-			public const int start = 2131361848;
+			// aapt resource value: 0x7f0b0038
+			public const int start = 2131427384;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int status_bar_latest_event_content = 2131361957;
+			// aapt resource value: 0x7f0b00a5
+			public const int status_bar_latest_event_content = 2131427493;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int submenuarrow = 2131361888;
+			// aapt resource value: 0x7f0b0060
+			public const int submenuarrow = 2131427424;
 			
-			// aapt resource value: 0x7f0a0071
-			public const int submit_area = 2131361905;
+			// aapt resource value: 0x7f0b0071
+			public const int submit_area = 2131427441;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int tabMode = 2131361811;
+			// aapt resource value: 0x7f0b0013
+			public const int tabMode = 2131427347;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int text = 2131361973;
+			// aapt resource value: 0x7f0b00b5
+			public const int text = 2131427509;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int text2 = 2131361971;
+			// aapt resource value: 0x7f0b00b3
+			public const int text2 = 2131427507;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int textSpacerNoButtons = 2131361876;
+			// aapt resource value: 0x7f0b0054
+			public const int textSpacerNoButtons = 2131427412;
 			
-			// aapt resource value: 0x7f0a0053
-			public const int textSpacerNoTitle = 2131361875;
+			// aapt resource value: 0x7f0b0053
+			public const int textSpacerNoTitle = 2131427411;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int text_input_password_toggle = 2131361922;
+			// aapt resource value: 0x7f0b0082
+			public const int text_input_password_toggle = 2131427458;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int textinput_counter = 2131361804;
+			// aapt resource value: 0x7f0b000c
+			public const int textinput_counter = 2131427340;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int textinput_error = 2131361805;
+			// aapt resource value: 0x7f0b000d
+			public const int textinput_error = 2131427341;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int time = 2131361963;
+			// aapt resource value: 0x7f0b00ab
+			public const int time = 2131427499;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int title = 2131361868;
+			// aapt resource value: 0x7f0b004c
+			public const int title = 2131427404;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int titleDividerNoCustom = 2131361883;
+			// aapt resource value: 0x7f0b005b
+			public const int titleDividerNoCustom = 2131427419;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int title_template = 2131361881;
+			// aapt resource value: 0x7f0b0059
+			public const int title_template = 2131427417;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int toolbar = 2131361924;
+			// aapt resource value: 0x7f0b0084
+			public const int toolbar = 2131427460;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int toolbar_layout = 2131361923;
+			// aapt resource value: 0x7f0b0083
+			public const int toolbar_layout = 2131427459;
 			
-			// aapt resource value: 0x7f0a002b
-			public const int top = 2131361835;
+			// aapt resource value: 0x7f0b002b
+			public const int top = 2131427371;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int topPanel = 2131361880;
+			// aapt resource value: 0x7f0b0058
+			public const int topPanel = 2131427416;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int touch_outside = 2131361913;
+			// aapt resource value: 0x7f0b0079
+			public const int touch_outside = 2131427449;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int transition_current_scene = 2131361802;
+			// aapt resource value: 0x7f0b000a
+			public const int transition_current_scene = 2131427338;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int transition_scene_layoutid_cache = 2131361803;
+			// aapt resource value: 0x7f0b000b
+			public const int transition_scene_layoutid_cache = 2131427339;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int up = 2131361801;
+			// aapt resource value: 0x7f0b0009
+			public const int up = 2131427337;
 			
-			// aapt resource value: 0x7f0a001a
-			public const int useLogo = 2131361818;
+			// aapt resource value: 0x7f0b001a
+			public const int useLogo = 2131427354;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int view_offset_helper = 2131361806;
+			// aapt resource value: 0x7f0b000e
+			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int visible = 2131361975;
+			// aapt resource value: 0x7f0b00b7
+			public const int visible = 2131427511;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int volume_item_container = 2131361944;
+			// aapt resource value: 0x7f0b0098
+			public const int volume_item_container = 2131427480;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int withText = 2131361833;
+			// aapt resource value: 0x7f0b0029
+			public const int withText = 2131427369;
 			
-			// aapt resource value: 0x7f0a0021
-			public const int wrap_content = 2131361825;
+			// aapt resource value: 0x7f0b0021
+			public const int wrap_content = 2131427361;
 			
 			static Id()
 			{
@@ -5624,197 +7266,197 @@ namespace Tracking.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b003f
-			public const int ApplicationName = 2131427391;
+			// aapt resource value: 0x7f09003f
+			public const int ApplicationName = 2131296319;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int abc_action_bar_home_description = 2131427349;
+			// aapt resource value: 0x7f090016
+			public const int abc_action_bar_home_description = 2131296278;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int abc_action_bar_home_description_format = 2131427350;
+			// aapt resource value: 0x7f090017
+			public const int abc_action_bar_home_description_format = 2131296279;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int abc_action_bar_home_subtitle_description_format = 2131427351;
+			// aapt resource value: 0x7f090018
+			public const int abc_action_bar_home_subtitle_description_format = 2131296280;
 			
-			// aapt resource value: 0x7f0b0018
-			public const int abc_action_bar_up_description = 2131427352;
+			// aapt resource value: 0x7f090019
+			public const int abc_action_bar_up_description = 2131296281;
 			
-			// aapt resource value: 0x7f0b0019
-			public const int abc_action_menu_overflow_description = 2131427353;
+			// aapt resource value: 0x7f09001a
+			public const int abc_action_menu_overflow_description = 2131296282;
 			
-			// aapt resource value: 0x7f0b001a
-			public const int abc_action_mode_done = 2131427354;
+			// aapt resource value: 0x7f09001b
+			public const int abc_action_mode_done = 2131296283;
 			
-			// aapt resource value: 0x7f0b001b
-			public const int abc_activity_chooser_view_see_all = 2131427355;
+			// aapt resource value: 0x7f09001c
+			public const int abc_activity_chooser_view_see_all = 2131296284;
 			
-			// aapt resource value: 0x7f0b001c
-			public const int abc_activitychooserview_choose_application = 2131427356;
+			// aapt resource value: 0x7f09001d
+			public const int abc_activitychooserview_choose_application = 2131296285;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int abc_capital_off = 2131427357;
+			// aapt resource value: 0x7f09001e
+			public const int abc_capital_off = 2131296286;
 			
-			// aapt resource value: 0x7f0b001e
-			public const int abc_capital_on = 2131427358;
+			// aapt resource value: 0x7f09001f
+			public const int abc_capital_on = 2131296287;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int abc_font_family_body_1_material = 2131427370;
+			// aapt resource value: 0x7f09002b
+			public const int abc_font_family_body_1_material = 2131296299;
 			
-			// aapt resource value: 0x7f0b002b
-			public const int abc_font_family_body_2_material = 2131427371;
+			// aapt resource value: 0x7f09002c
+			public const int abc_font_family_body_2_material = 2131296300;
 			
-			// aapt resource value: 0x7f0b002c
-			public const int abc_font_family_button_material = 2131427372;
+			// aapt resource value: 0x7f09002d
+			public const int abc_font_family_button_material = 2131296301;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int abc_font_family_caption_material = 2131427373;
+			// aapt resource value: 0x7f09002e
+			public const int abc_font_family_caption_material = 2131296302;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int abc_font_family_display_1_material = 2131427374;
+			// aapt resource value: 0x7f09002f
+			public const int abc_font_family_display_1_material = 2131296303;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int abc_font_family_display_2_material = 2131427375;
+			// aapt resource value: 0x7f090030
+			public const int abc_font_family_display_2_material = 2131296304;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int abc_font_family_display_3_material = 2131427376;
+			// aapt resource value: 0x7f090031
+			public const int abc_font_family_display_3_material = 2131296305;
 			
-			// aapt resource value: 0x7f0b0031
-			public const int abc_font_family_display_4_material = 2131427377;
+			// aapt resource value: 0x7f090032
+			public const int abc_font_family_display_4_material = 2131296306;
 			
-			// aapt resource value: 0x7f0b0032
-			public const int abc_font_family_headline_material = 2131427378;
+			// aapt resource value: 0x7f090033
+			public const int abc_font_family_headline_material = 2131296307;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int abc_font_family_menu_material = 2131427379;
+			// aapt resource value: 0x7f090034
+			public const int abc_font_family_menu_material = 2131296308;
 			
-			// aapt resource value: 0x7f0b0034
-			public const int abc_font_family_subhead_material = 2131427380;
+			// aapt resource value: 0x7f090035
+			public const int abc_font_family_subhead_material = 2131296309;
 			
-			// aapt resource value: 0x7f0b0035
-			public const int abc_font_family_title_material = 2131427381;
+			// aapt resource value: 0x7f090036
+			public const int abc_font_family_title_material = 2131296310;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int abc_search_hint = 2131427359;
+			// aapt resource value: 0x7f090020
+			public const int abc_search_hint = 2131296288;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int abc_searchview_description_clear = 2131427360;
+			// aapt resource value: 0x7f090021
+			public const int abc_searchview_description_clear = 2131296289;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int abc_searchview_description_query = 2131427361;
+			// aapt resource value: 0x7f090022
+			public const int abc_searchview_description_query = 2131296290;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int abc_searchview_description_search = 2131427362;
+			// aapt resource value: 0x7f090023
+			public const int abc_searchview_description_search = 2131296291;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int abc_searchview_description_submit = 2131427363;
+			// aapt resource value: 0x7f090024
+			public const int abc_searchview_description_submit = 2131296292;
 			
-			// aapt resource value: 0x7f0b0024
-			public const int abc_searchview_description_voice = 2131427364;
+			// aapt resource value: 0x7f090025
+			public const int abc_searchview_description_voice = 2131296293;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int abc_shareactionprovider_share_with = 2131427365;
+			// aapt resource value: 0x7f090026
+			public const int abc_shareactionprovider_share_with = 2131296294;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int abc_shareactionprovider_share_with_application = 2131427366;
+			// aapt resource value: 0x7f090027
+			public const int abc_shareactionprovider_share_with_application = 2131296295;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int abc_toolbar_collapse_description = 2131427367;
+			// aapt resource value: 0x7f090028
+			public const int abc_toolbar_collapse_description = 2131296296;
 			
-			// aapt resource value: 0x7f0b0036
-			public const int appbar_scrolling_view_behavior = 2131427382;
+			// aapt resource value: 0x7f090037
+			public const int appbar_scrolling_view_behavior = 2131296311;
 			
-			// aapt resource value: 0x7f0b0037
-			public const int bottom_sheet_behavior = 2131427383;
+			// aapt resource value: 0x7f090038
+			public const int bottom_sheet_behavior = 2131296312;
 			
-			// aapt resource value: 0x7f0b0038
-			public const int character_counter_pattern = 2131427384;
+			// aapt resource value: 0x7f090039
+			public const int character_counter_pattern = 2131296313;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int library_name = 2131427390;
+			// aapt resource value: 0x7f090000
+			public const int library_name = 2131296256;
 			
-			// aapt resource value: 0x7f0b0000
-			public const int mr_button_content_description = 2131427328;
+			// aapt resource value: 0x7f090001
+			public const int mr_button_content_description = 2131296257;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int mr_cast_button_connected = 2131427329;
+			// aapt resource value: 0x7f090002
+			public const int mr_cast_button_connected = 2131296258;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int mr_cast_button_connecting = 2131427330;
+			// aapt resource value: 0x7f090003
+			public const int mr_cast_button_connecting = 2131296259;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int mr_cast_button_disconnected = 2131427331;
+			// aapt resource value: 0x7f090004
+			public const int mr_cast_button_disconnected = 2131296260;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int mr_chooser_searching = 2131427332;
+			// aapt resource value: 0x7f090005
+			public const int mr_chooser_searching = 2131296261;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int mr_chooser_title = 2131427333;
+			// aapt resource value: 0x7f090006
+			public const int mr_chooser_title = 2131296262;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int mr_controller_album_art = 2131427334;
+			// aapt resource value: 0x7f090007
+			public const int mr_controller_album_art = 2131296263;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int mr_controller_casting_screen = 2131427335;
+			// aapt resource value: 0x7f090008
+			public const int mr_controller_casting_screen = 2131296264;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int mr_controller_close_description = 2131427336;
+			// aapt resource value: 0x7f090009
+			public const int mr_controller_close_description = 2131296265;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int mr_controller_collapse_group = 2131427337;
+			// aapt resource value: 0x7f09000a
+			public const int mr_controller_collapse_group = 2131296266;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int mr_controller_disconnect = 2131427338;
+			// aapt resource value: 0x7f09000b
+			public const int mr_controller_disconnect = 2131296267;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int mr_controller_expand_group = 2131427339;
+			// aapt resource value: 0x7f09000c
+			public const int mr_controller_expand_group = 2131296268;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int mr_controller_no_info_available = 2131427340;
+			// aapt resource value: 0x7f09000d
+			public const int mr_controller_no_info_available = 2131296269;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int mr_controller_no_media_selected = 2131427341;
+			// aapt resource value: 0x7f09000e
+			public const int mr_controller_no_media_selected = 2131296270;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int mr_controller_pause = 2131427342;
+			// aapt resource value: 0x7f09000f
+			public const int mr_controller_pause = 2131296271;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int mr_controller_play = 2131427343;
+			// aapt resource value: 0x7f090010
+			public const int mr_controller_play = 2131296272;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int mr_controller_stop = 2131427348;
+			// aapt resource value: 0x7f090015
+			public const int mr_controller_stop = 2131296277;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int mr_controller_stop_casting = 2131427344;
+			// aapt resource value: 0x7f090011
+			public const int mr_controller_stop_casting = 2131296273;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int mr_controller_volume_slider = 2131427345;
+			// aapt resource value: 0x7f090012
+			public const int mr_controller_volume_slider = 2131296274;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int mr_system_route_name = 2131427346;
+			// aapt resource value: 0x7f090013
+			public const int mr_system_route_name = 2131296275;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int mr_user_route_category_name = 2131427347;
+			// aapt resource value: 0x7f090014
+			public const int mr_user_route_category_name = 2131296276;
 			
-			// aapt resource value: 0x7f0b0039
-			public const int password_toggle_content_description = 2131427385;
+			// aapt resource value: 0x7f09003a
+			public const int password_toggle_content_description = 2131296314;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int path_password_eye = 2131427386;
+			// aapt resource value: 0x7f09003b
+			public const int path_password_eye = 2131296315;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int path_password_eye_mask_strike_through = 2131427387;
+			// aapt resource value: 0x7f09003c
+			public const int path_password_eye_mask_strike_through = 2131296316;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int path_password_eye_mask_visible = 2131427388;
+			// aapt resource value: 0x7f09003d
+			public const int path_password_eye_mask_visible = 2131296317;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int path_password_strike_through = 2131427389;
+			// aapt resource value: 0x7f09003e
+			public const int path_password_strike_through = 2131296318;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int search_menu_title = 2131427368;
+			// aapt resource value: 0x7f090029
+			public const int search_menu_title = 2131296297;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int status_bar_notification_info_overflow = 2131427369;
+			// aapt resource value: 0x7f09002a
+			public const int status_bar_notification_info_overflow = 2131296298;
 			
 			static String()
 			{

@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microcharts;
-using MvvmCross.Forms.Views;
-using SkiaSharp;
+﻿using MvvmCross.Forms.Views;
 using Tracking.Core.ViewModels;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Tracking.Core.Views
 {
-  public partial class FirstPage : MvxContentPage
+    public partial class FirstPage : MvxContentPage
   {
 	public FirstPage()
 	{

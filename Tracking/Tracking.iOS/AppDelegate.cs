@@ -3,6 +3,7 @@ using MvvmCross.iOS.Platform;
 using MvvmCross.Platform;
 using Foundation;
 using UIKit;
+using Xamarin;
 
 namespace Tracking.iOS
 {
@@ -17,6 +18,7 @@ namespace Tracking.iOS
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            FormsBaiduMaps.Init("B3iCnaZ9pv6UDbenWBEHdfY36dsVLUnM");
             Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
             var setup = new Setup(this, Window);
