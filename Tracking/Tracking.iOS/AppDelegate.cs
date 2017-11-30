@@ -18,7 +18,7 @@ namespace Tracking.iOS
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            FormsBaiduMaps.Init("B3iCnaZ9pv6UDbenWBEHdfY36dsVLUnM");
+            FormsBaiduMaps.Init("1w09T5QxktPSMqQriYdvwzG3zA4balX9");
             Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
             var setup = new Setup(this, Window);
