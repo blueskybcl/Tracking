@@ -6,7 +6,7 @@
              x:Class="Tracking.Core.Views.MapPage">
     <ContentPage.Content>
         <StackLayout>
-            <maps:Map x:Name="map" Height="300"/>
+            <maps:Map x:Name="map"/>
             <Button x:Name="btnTrack" Text="Switch"/>
         </StackLayout>
     </ContentPage.Content>

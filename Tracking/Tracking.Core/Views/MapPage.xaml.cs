@@ -17,27 +17,27 @@ namespace Tracking.Core.Views
             IMapManager mapManager = DependencyService.Get<IMapManager>();
             mapManager.CoordinateType = CoordType.GCJ02;
             map.Loaded += MapLoaded;
-            IOfflineMap offlineMap = DependencyService.Get<IOfflineMap>();
-            offlineMap.HasUpdate += (_, e) => {
-                Debug.WriteLine("OfflineMap has update: " + e.CityID);
-            };
-            offlineMap.Downloading += (_, e) => {
-                Debug.WriteLine("OfflineMap downloading: " + e.CityID);
-            };
+            //IOfflineMap offlineMap = DependencyService.Get<IOfflineMap>();
+            //offlineMap.HasUpdate += (_, e) => {
+            //    Debug.WriteLine("OfflineMap has update: " + e.CityID);
+            //};
+            //offlineMap.Downloading += (_, e) => {
+            //    Debug.WriteLine("OfflineMap downloading: " + e.CityID);
+            //};
 
-            var list = offlineMap.HotList;
-            list = offlineMap.AllList;
-            //offlineMap.Remove(131);
-            var curr = offlineMap.Current;
-            //offlineMap.Start(27);
-            //offlineMap.Start(75);
-            curr = offlineMap.Current;
+            //var list = offlineMap.HotList;
+            //list = offlineMap.AllList;
+            ////offlineMap.Remove(131);
+            //var curr = offlineMap.Current;
+            ////offlineMap.Start(27);
+            ////offlineMap.Start(75);
+            //curr = offlineMap.Current;
             
-            ICalculateUtils calc = DependencyService.Get<ICalculateUtils>();
-            Debug.WriteLine(calc.CalculateDistance(
-                new Coordinate(40, 116),
-                new Coordinate(41, 117)
-            ));//139599.429229778 in iOS, 139689.085961837 in Android
+            //ICalculateUtils calc = DependencyService.Get<ICalculateUtils>();
+            //Debug.WriteLine(calc.CalculateDistance(
+            //    new Coordinate(40, 116),
+            //    new Coordinate(41, 117)
+            //));//139599.429229778 in iOS, 139689.085961837 in Android
         }
         
         public void MapLoaded(object sender, EventArgs x)
