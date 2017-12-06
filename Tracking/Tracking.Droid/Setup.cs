@@ -27,25 +27,8 @@ namespace Tracking.Droid
 
         protected override MvxFormsApplication CreateFormsApplication()
         {
+            Xamarin.FormsBaiduMaps.Init(null);
             return new Core.FormsApp();
-        }
-
-        protected override IMvxAndroidViewPresenter CreateViewPresenter()
-        {
-            return base.CreateViewPresenter();
-        }
-
-        protected override void FillValueConverters(IMvxValueConverterRegistry registry)
-        {
-            base.FillValueConverters(registry);
-            //TODO: Do your code here
-            //registry.AddOrOverwrite("BooleanToVisibility", new BooleanToVisibilityConverter());
-        }
-
-        protected override void InitializeIoC()
-        {
-            base.InitializeIoC();
-            //Mvx.RegisterSingleton<ICryptography>(new AndroidCryptography());
         }
     }
 }
