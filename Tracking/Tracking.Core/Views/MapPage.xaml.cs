@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Reflection;
 using System.Threading.Tasks;
 using MvvmCross.Forms.Views;
 using Xamarin.Forms;
@@ -91,7 +92,6 @@ namespace Tracking.Core.Views
         public void InitLocationService()
         {
             Map.LocationService.LocationUpdated += (_, e) => {
-                //Debug.WriteLine("LocationUpdated: " + ex.Coordinate);
                 if (!moved)
                 {
                     Map.Center = e.Coordinate;
@@ -139,7 +139,9 @@ namespace Tracking.Core.Views
                 Animate = true,
                 Draggable = true,
                 Enabled3D = true,
-                Image = XImage.FromFile("pin_purple.png")
+                Image = XImage.FromStream(
+                    typeof(MapPage).GetTypeInfo().Assembly.GetManifestResourceStream("Tracking.Core.Images.pin_purple.png")
+                )
             };
             Map.Pins.Add(annotation);
 
@@ -156,7 +158,9 @@ namespace Tracking.Core.Views
 
             annotation.Clicked += (_, e) => {
                 Debug.WriteLine("clicked");
-                ((Pin)_).Image = XImage.FromFile("start.png");
+                ((Pin)_).Image = XImage.FromStream(
+                    typeof(MapPage).GetTypeInfo().Assembly.GetManifestResourceStream("Tracking.Core.Images.start.png")
+                );
             };
 
             if (0 == Map.Polylines.Count && Map.Pins.Count > 1)
