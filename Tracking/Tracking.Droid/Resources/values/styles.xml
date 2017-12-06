@@ -17,10 +17,10 @@
     <item name="colorAccent">@color/accent</item>
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
-    
+    <item name="actionBarStyle">@style/MyTheme.ActionBar</item>
     <!-- Option to hide the drop shadow here
     
-      <item name="actionBarStyle">@style/MyTheme.ActionBar</item>
+      
       <item name="android:windowContentOverlay">@null</item>
     -->
   </style>
@@ -29,6 +29,8 @@
     <!-- remove shadow below action bar -->
     <!-- <item name="android:elevation">0dp</item> -->
     <!-- Support library compatibility -->
+    
+    <item name="android:background">@color/Red</item>
     <item name="elevation">0dp</item>
   </style>
 </resources>

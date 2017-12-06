@@ -4748,43 +4748,46 @@ namespace Tracking.Droid
 		{
 			
 			// aapt resource value: 0x7f0e0053
-			public const int abc_background_cache_hint_selector_material_dark = 2131624019;
+			public const int Red = 2131624019;
 			
 			// aapt resource value: 0x7f0e0054
-			public const int abc_background_cache_hint_selector_material_light = 2131624020;
+			public const int abc_background_cache_hint_selector_material_dark = 2131624020;
 			
 			// aapt resource value: 0x7f0e0055
-			public const int abc_btn_colored_borderless_text_material = 2131624021;
+			public const int abc_background_cache_hint_selector_material_light = 2131624021;
 			
 			// aapt resource value: 0x7f0e0056
-			public const int abc_btn_colored_text_material = 2131624022;
+			public const int abc_btn_colored_borderless_text_material = 2131624022;
 			
 			// aapt resource value: 0x7f0e0057
-			public const int abc_color_highlight_material = 2131624023;
+			public const int abc_btn_colored_text_material = 2131624023;
 			
 			// aapt resource value: 0x7f0e0058
-			public const int abc_hint_foreground_material_dark = 2131624024;
+			public const int abc_color_highlight_material = 2131624024;
 			
 			// aapt resource value: 0x7f0e0059
-			public const int abc_hint_foreground_material_light = 2131624025;
+			public const int abc_hint_foreground_material_dark = 2131624025;
+			
+			// aapt resource value: 0x7f0e005a
+			public const int abc_hint_foreground_material_light = 2131624026;
 			
 			// aapt resource value: 0x7f0e0005
 			public const int abc_input_method_navigation_guard = 2131623941;
 			
-			// aapt resource value: 0x7f0e005a
-			public const int abc_primary_text_disable_only_material_dark = 2131624026;
-			
 			// aapt resource value: 0x7f0e005b
-			public const int abc_primary_text_disable_only_material_light = 2131624027;
+			public const int abc_primary_text_disable_only_material_dark = 2131624027;
 			
 			// aapt resource value: 0x7f0e005c
-			public const int abc_primary_text_material_dark = 2131624028;
+			public const int abc_primary_text_disable_only_material_light = 2131624028;
 			
 			// aapt resource value: 0x7f0e005d
-			public const int abc_primary_text_material_light = 2131624029;
+			public const int abc_primary_text_material_dark = 2131624029;
 			
 			// aapt resource value: 0x7f0e005e
-			public const int abc_search_url_text = 2131624030;
+			public const int abc_primary_text_material_light = 2131624030;
+			
+			// aapt resource value: 0x7f0e005f
+			public const int abc_search_url_text = 2131624031;
 			
 			// aapt resource value: 0x7f0e0006
 			public const int abc_search_url_text_normal = 2131623942;
@@ -4795,32 +4798,32 @@ namespace Tracking.Droid
 			// aapt resource value: 0x7f0e0008
 			public const int abc_search_url_text_selected = 2131623944;
 			
-			// aapt resource value: 0x7f0e005f
-			public const int abc_secondary_text_material_dark = 2131624031;
-			
 			// aapt resource value: 0x7f0e0060
-			public const int abc_secondary_text_material_light = 2131624032;
+			public const int abc_secondary_text_material_dark = 2131624032;
 			
 			// aapt resource value: 0x7f0e0061
-			public const int abc_tint_btn_checkable = 2131624033;
+			public const int abc_secondary_text_material_light = 2131624033;
 			
 			// aapt resource value: 0x7f0e0062
-			public const int abc_tint_default = 2131624034;
+			public const int abc_tint_btn_checkable = 2131624034;
 			
 			// aapt resource value: 0x7f0e0063
-			public const int abc_tint_edittext = 2131624035;
+			public const int abc_tint_default = 2131624035;
 			
 			// aapt resource value: 0x7f0e0064
-			public const int abc_tint_seek_thumb = 2131624036;
+			public const int abc_tint_edittext = 2131624036;
 			
 			// aapt resource value: 0x7f0e0065
-			public const int abc_tint_spinner = 2131624037;
+			public const int abc_tint_seek_thumb = 2131624037;
 			
 			// aapt resource value: 0x7f0e0066
-			public const int abc_tint_switch_thumb = 2131624038;
+			public const int abc_tint_spinner = 2131624038;
 			
 			// aapt resource value: 0x7f0e0067
-			public const int abc_tint_switch_track = 2131624039;
+			public const int abc_tint_switch_thumb = 2131624039;
+			
+			// aapt resource value: 0x7f0e0068
+			public const int abc_tint_switch_track = 2131624040;
 			
 			// aapt resource value: 0x7f0e004c
 			public const int accent = 2131624012;
@@ -4885,8 +4888,8 @@ namespace Tracking.Droid
 			// aapt resource value: 0x7f0e003f
 			public const int design_bottom_navigation_shadow_color = 2131623999;
 			
-			// aapt resource value: 0x7f0e0068
-			public const int design_error = 2131624040;
+			// aapt resource value: 0x7f0e0069
+			public const int design_error = 2131624041;
 			
 			// aapt resource value: 0x7f0e0040
 			public const int design_fab_shadow_end_color = 2131624000;
@@ -4918,8 +4921,8 @@ namespace Tracking.Droid
 			// aapt resource value: 0x7f0e0049
 			public const int design_textinput_error_color_light = 2131624009;
 			
-			// aapt resource value: 0x7f0e0069
-			public const int design_tint_password_toggle = 2131624041;
+			// aapt resource value: 0x7f0e006a
+			public const int design_tint_password_toggle = 2131624042;
 			
 			// aapt resource value: 0x7f0e0017
 			public const int dim_foreground_disabled_material_dark = 2131623959;
@@ -5056,11 +5059,11 @@ namespace Tracking.Droid
 			// aapt resource value: 0x7f0e003c
 			public const int switch_thumb_disabled_material_light = 2131623996;
 			
-			// aapt resource value: 0x7f0e006a
-			public const int switch_thumb_material_dark = 2131624042;
-			
 			// aapt resource value: 0x7f0e006b
-			public const int switch_thumb_material_light = 2131624043;
+			public const int switch_thumb_material_dark = 2131624043;
+			
+			// aapt resource value: 0x7f0e006c
+			public const int switch_thumb_material_light = 2131624044;
 			
 			// aapt resource value: 0x7f0e003d
 			public const int switch_thumb_normal_material_dark = 2131623997;
