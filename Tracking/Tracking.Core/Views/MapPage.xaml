@@ -4,10 +4,27 @@
              xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
              xmlns:maps="clr-namespace:Xamarin.Forms.BaiduMaps;assembly=Xamarin.Forms.BaiduMaps"
              x:Class="Tracking.Core.Views.MapPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <maps:Map x:Name="map"/>
-            <Button x:Name="btnTrack" Text="Switch"/>
-        </StackLayout>
-    </ContentPage.Content>
+  <Grid RowSpacing="3">
+      <Grid.RowDefinitions>
+          <RowDefinition Height="*" />
+          <RowDefinition Height="50" />
+      </Grid.RowDefinitions>
+      <RelativeLayout Grid.Row="0">
+          <maps:Map x:Name="Map"/>
+          <SearchBar x:Name="AddressSearch" Placeholder="Search"
+                      BackgroundColor="White"
+                     RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Map,Property=X, Factor=1,Constant=0}"
+                     RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=Map, Property=Y,Factor=1,Constant=0}"
+                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView,ElementName=Map, Property=Width, Factor=1}">
+              <SearchBar.HeightRequest>
+                  <OnPlatform x:TypeArguments="x:Double">
+                      <On Platform="iOS" Value="-1.0" />
+                      <On Platform="Android" Value="40.0" />
+                      <On Platform="WinPhone" Value="-1" />
+                  </OnPlatform>
+              </SearchBar.HeightRequest>
+          </SearchBar>
+      </RelativeLayout>
+      <Button x:Name="BtnTrack" Grid.Row="1" Text="Switch"/>
+  </Grid>
 </views:MvxContentPage>

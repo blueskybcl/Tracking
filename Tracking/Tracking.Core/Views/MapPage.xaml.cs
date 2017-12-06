@@ -16,7 +16,7 @@ namespace Tracking.Core.Views
 
             IMapManager mapManager = DependencyService.Get<IMapManager>();
             mapManager.CoordinateType = CoordType.GCJ02;
-            map.Loaded += MapLoaded;
+            Map.Loaded += MapLoaded;
             //IOfflineMap offlineMap = DependencyService.Get<IOfflineMap>();
             //offlineMap.HasUpdate += (_, e) => {
             //    Debug.WriteLine("OfflineMap has update: " + e.CityID);
@@ -42,7 +42,7 @@ namespace Tracking.Core.Views
         
         public void MapLoaded(object sender, EventArgs x)
         {
-            map.ShowScaleBar = true;
+            Map.ShowScaleBar = true;
             InitLocationService();
             InitEvents();
 
@@ -52,7 +52,7 @@ namespace Tracking.Core.Views
                 new Coordinate(39.861, 116.468)
             };
 
-            map.Polygons.Add(new Polygon
+            Map.Polygons.Add(new Polygon
             {
                 Points = new ObservableCollection<Coordinate>(coords),
                 Color = Color.Blue,
@@ -60,9 +60,9 @@ namespace Tracking.Core.Views
                 Width = 2
             });
 
-            map.Circles.Add(new Circle
+            Map.Circles.Add(new Circle
             {
-                Coordinate = map.Center,
+                Coordinate = Map.Center,
                 Color = Color.Green,
                 FillColor = Color.Yellow.MultiplyAlpha(0.2),
                 Radius = 200,
@@ -74,15 +74,15 @@ namespace Tracking.Core.Views
                 {
                     Task.Delay(1000).Wait();
 
-                    var p = map.Polygons[0].Points[0];
+                    var p = Map.Polygons[0].Points[0];
                     p = new Coordinate(p.Latitude + 0.002, p.Longitude);
-                    map.Polygons[0].Points[0] = p;
+                    Map.Polygons[0].Points[0] = p;
 
-                    map.Circles[0].Radius += 100;
+                    Map.Circles[0].Radius += 100;
                 }
             });
             
-            IProjection proj = map.Projection;
+            IProjection proj = Map.Projection;
             var coord = proj.ToCoordinate(new Point(100, 100));
             Debug.WriteLine(proj.ToScreen(coord));
         }
@@ -90,42 +90,42 @@ namespace Tracking.Core.Views
         private static bool moved = false;
         public void InitLocationService()
         {
-            map.LocationService.LocationUpdated += (_, e) => {
+            Map.LocationService.LocationUpdated += (_, e) => {
                 //Debug.WriteLine("LocationUpdated: " + ex.Coordinate);
                 if (!moved)
                 {
-                    map.Center = e.Coordinate;
+                    Map.Center = e.Coordinate;
                     moved = true;
                 }
             };
 
-            map.LocationService.Failed += (_, e) => {
+            Map.LocationService.Failed += (_, e) => {
                 Debug.WriteLine("Location failed: " + e.Message);
             };
 
-            map.LocationService.Start();
+            Map.LocationService.Start();
         }
 
         public void InitEvents()
         {
-            btnTrack.Clicked += (_, e) => {
-                if (map.ShowUserLocation)
+            BtnTrack.Clicked += (_, e) => {
+                if (Map.ShowUserLocation)
                 {
-                    map.UserTrackingMode = UserTrackingMode.None;
-                    map.ShowUserLocation = false;
+                    Map.UserTrackingMode = UserTrackingMode.None;
+                    Map.ShowUserLocation = false;
                 }
                 else
                 {
-                    map.UserTrackingMode = UserTrackingMode.Follow;
-                    map.ShowUserLocation = true;
+                    Map.UserTrackingMode = UserTrackingMode.Follow;
+                    Map.ShowUserLocation = true;
                 }
             };
 
-            map.LongClicked += (_, e) => {
+            Map.LongClicked += (_, e) => {
                 AddPin(e.Coordinate);
             };
 
-            map.StatusChanged += (_, e) => {
+            Map.StatusChanged += (_, e) => {
                 //Debug.WriteLine(map.Center + " @" + map.ZoomLevel);
             };
         }
@@ -141,16 +141,16 @@ namespace Tracking.Core.Views
                 Enabled3D = true,
                 Image = XImage.FromFile("pin_purple.png")
             };
-            map.Pins.Add(annotation);
+            Map.Pins.Add(annotation);
 
             annotation.Drag += (o, e) => {
                 Pin self = o as Pin;
                 self.Title = null;//self.Coordinate;
-                int i = map.Pins.IndexOf(self);
+                int i = Map.Pins.IndexOf(self);
 
-                if (map.Polylines.Count > 0 && i > -1)
+                if (Map.Polylines.Count > 0 && i > -1)
                 {
-                    map.Polylines[0].Points[i] = self.Coordinate;
+                    Map.Polylines[0].Points[i] = self.Coordinate;
                 }
             };
 
@@ -159,22 +159,22 @@ namespace Tracking.Core.Views
                 ((Pin)_).Image = XImage.FromFile("start.png");
             };
 
-            if (0 == map.Polylines.Count && map.Pins.Count > 1)
+            if (0 == Map.Polylines.Count && Map.Pins.Count > 1)
             {
                 Polyline polyline = new Polyline
                 {
                     Points = new ObservableCollection<Coordinate> {
-                        map.Pins[0].Coordinate, map.Pins[1].Coordinate
+                        Map.Pins[0].Coordinate, Map.Pins[1].Coordinate
                     },
                     Width = 4,
                     Color = Color.Purple
                 };
 
-                map.Polylines.Add(polyline);
+                Map.Polylines.Add(polyline);
             }
-            else if (map.Polylines.Count > 0)
+            else if (Map.Polylines.Count > 0)
             {
-                map.Polylines[0].Points.Add(annotation.Coordinate);
+                Map.Polylines[0].Points.Add(annotation.Coordinate);
             }
         }
     }
