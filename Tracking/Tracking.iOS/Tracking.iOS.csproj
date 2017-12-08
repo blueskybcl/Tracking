@@ -268,10 +268,17 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AutoNavMapBinding.iOS\AutoNavMapBinding.iOS.csproj">
+      <Project>{c44cda8c-5660-47f6-a043-582e42f84702}</Project>
+      <Name>AutoNavMapBinding.iOS</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tracking.Core\Tracking.Core.csproj">
       <Project>{31d7792c-8339-4c32-8c91-123c9b248b83}</Project>
       <Name>Tracking.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderers\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
