@@ -219,4 +219,19 @@
   <remove-node path="/api/package[@name='com.autonavi.ae.gmap.gesture']/class[@name='TwoFingerGestureDetector']/method[@name='handleInProgressEvent' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.view.MotionEvent']]" />
 
   <remove-node path="/api/package[@name='com.autonavi.ae.gmap.gesture']/class[@name='TwoFingerGestureDetector']/method[@name='handleStartProgressEvent' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.view.MotionEvent']]" />
+
+  <remove-node path="/api/package[@name='com.autonavi.ae.search']/class[@name='NativeSearchEngine']" />
+
+  <remove-node path="/api/package[@name='com.amap.api.services.busline']/class[@name='BusStationSearch']" />
+
+  <remove-node path="/api/package[@name='com.amap.api.services.busline']/class[@name='BusLineSearch']" />
+
+  <remove-node path="/api/package[@name='com.amap.api.services.help']/class[@name='Inputtips']" />
+
+  <remove-node path="/api/package[@name='com.amap.api.services.district']/class[@name='DistrictSearch']" />
+
+  <remove-node path="/api/package[@name='com.amap.api.maps']/class[@name='AMap']" />
+
+  <remove-node path="/api/package[@name='com.amap.api.services.traffic']/class[@name='TrafficSearch']" />
+  
 </metadata>
