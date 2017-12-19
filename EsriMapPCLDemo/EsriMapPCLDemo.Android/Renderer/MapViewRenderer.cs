@@ -6,8 +6,8 @@ using EsriMapPCLDemo.Droid.Renderer;
 using EsriMapPCLDemo.Droid.Renderer.Adapters;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
+using Application = Android.App.Application;
 using CusMapView = EsriMapPCLDemo.Controls.MapView;
-using EsriMapView = Esri.ArcGISRuntime.Xamarin.Forms.MapView;
 
 [assembly:ExportRenderer(typeof(CusMapView),typeof(MapViewRenderer))]
 
@@ -15,7 +15,7 @@ namespace EsriMapPCLDemo.Droid.Renderer
 {
     public class MapViewRenderer : ViewRenderer<CusMapView, MapView>
     {
-        private EsriMapView OriginMapView;
+        private MapView OriginMapView;
 
         protected override void OnElementChanged(ElementChangedEventArgs<CusMapView> e)
         {
@@ -29,6 +29,11 @@ namespace EsriMapPCLDemo.Droid.Renderer
             if (currentElement != null)
             {
                 OriginMapView = MapViewAdapter.Instance.Adapter(currentElement);
+            }
+
+            if (Control == null)
+            {
+                SetNativeControl(OriginMapView);
             }
         }
 
