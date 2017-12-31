@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{4B6AE5EC-0BD2-4854-BE17-E59EECA46261}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>StationStopLine</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\SKCanvasExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\GeometryType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Graphic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\LineDiagram.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\DataTable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\ISQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\SQLiteHelper.cs" />
+  </ItemGroup>
+</Project>
