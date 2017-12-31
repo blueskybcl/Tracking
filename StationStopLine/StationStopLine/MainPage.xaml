@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             xmlns:tab="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
              x:Class="StationStopLine.MainPage" BackgroundColor="SlateGray">
 
 	<Grid>
@@ -11,9 +12,27 @@
             <RowDefinition Height=".5*" />
         </Grid.RowDefinitions>
         <Label Grid.Row="0" Text="张家峁车站占线板" FontSize="28" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+        <tab:SegmentedTabControl Grid.Row="0" x:Name="GeometryTypeTab" UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
+	                                  SelectedSegment="0"  UnselectedSegmentTextColor="Black"
+	                                  HeightRequest="30" ItemTapped="GeometryTypeTab_Tapped"  >
+            <tab:SegmentedTabControl.Children>
+	            <Label Text="T" />
+	            <Label Text="L" />
+	            <Label Text="AL" />
+                <Label Text="PL" />
+                <Label Text="PAL" />
+                <Label Text="RAL" />
+                <Label Text="RL" />
+                <Label Text="PRAL" />
+                <Label Text="PRL" />
+            </tab:SegmentedTabControl.Children>
+	    </tab:SegmentedTabControl>
         <skia:SKCanvasView Grid.Row="1" x:Name="StationLineView" EnableTouchEvents="True"
                            Touch="StationLineView_OnTouch"
                            PaintSurface="StationLineView_OnPaintSurface" />
         <Grid Grid.Row="2" ></Grid>
     </Grid>
 </ContentPage>
+
+
+

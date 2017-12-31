@@ -6,7 +6,6 @@ namespace StationStopLine.Models
 {
     public enum GeometryType
     {
-        UnKnown,
         Text,
         Line,
         ArrowLine,
