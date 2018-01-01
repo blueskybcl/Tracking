@@ -29,7 +29,7 @@
             </tab:SegmentedTabControl.Children>
 	    </tab:SegmentedTabControl>
         <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True"
-                           Touch="StationLineView_OnTouch"
+                           Touch="StationLineView_OnTouch" 
                            PaintSurface="StationLineView_OnPaintSurface">
             <skia:SKCanvasView.GestureRecognizers>
                 <TapGestureRecognizer NumberOfTapsRequired="2" Tapped="TapGestureRecognizer_OnTapped" />

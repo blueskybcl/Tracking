@@ -47,10 +47,12 @@ namespace StationStopLine.Extensions
 
         public static void DrawPolyLine(this SKCanvas canvas, List<Line> lines, SKPaint paint)
         {
-            if (lines.Count < 1) return;
+            if (lines.Count < 2) return;
 
             foreach (Line line in lines)
             {
+                if(line.EndPoint.IsEmpty)continue;
+                ;
                 canvas.DrawLine(line.StartPoint.X, line.StartPoint.Y, line.EndPoint.X, line.EndPoint.Y, paint);
             }
         }
