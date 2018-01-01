@@ -11,7 +11,7 @@ namespace StationStopLine.Models
         public GeometryType GeometryType { get; set; }
         public SKColor FillColor { get; set; } = SKColors.Black;
         public float StrokeWidth { get; set; } = 5;
-        public SKPoint[] Points { get; set; }
+        public List<Line> Lines { get; set; } = new List<Line>();
         public object RefrenceData { get; set; }
     }
 }

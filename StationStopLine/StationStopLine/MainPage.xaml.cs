@@ -17,6 +17,7 @@ namespace StationStopLine
         private GeometryType _geometryType;
         private LineDiagram _diagram;
         private Graphic _currentGraphic;
+        private bool isDrawPolyComplete = false;
 
         public MainPage()
         {
@@ -79,15 +80,8 @@ namespace StationStopLine
             switch (e.ActionType)
             {
                 case SKTouchAction.Pressed:
-                    _currentGraphic = new Graphic();
-                    _currentGraphic.Id = DateTime.Now.Ticks;
-                    _currentGraphic.GeometryType = _geometryType;
-                    _currentGraphic.Points = GeneralSKPointArray();
-                    if (_currentGraphic.Points.Length > 0)
-                    {
-                        _currentGraphic.Points[0] = e.Location;
-                    }
-                    
+                    GeneralGraphic();
+                    _currentGraphic.Lines.Add(new Line {StartPoint = e.Location});
                     break;
 
                 case SKTouchAction.Moved:
@@ -95,8 +89,13 @@ namespace StationStopLine
                     break;
 
                 case SKTouchAction.Released:
-                    SetSecondPoint(e.Location);
-                    _diagram.Graphics.Add(_currentGraphic); 
+                    SetSecondPoint(e.Location, true);
+                    if (isDrawPolyComplete)
+                    {
+                        _diagram.Graphics.Add(_currentGraphic);
+                        _currentGraphic = null;
+                    }
+                   
                     break;
 
                 case SKTouchAction.Cancelled:
@@ -108,24 +107,9 @@ namespace StationStopLine
             ((SKCanvasView) sender).InvalidateSurface();
         }
 
-        private void SetSecondPoint(SKPoint location)
+        private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
         {
-            switch (_geometryType)
-            {
-                case GeometryType.Line:
-                case GeometryType.ArrowLine:
-                case GeometryType.SemiRectArrowLine:
-                case GeometryType.SemiRectLine:
-                    _currentGraphic.Points[1] = location;
-                    break;
-
-                case GeometryType.PolyLine:
-                case GeometryType.PolyArrowLine:
-                case GeometryType.PolySemiRectArrowLine:
-                case GeometryType.PolySemiRectLine:
-                    //_currentGraphic.Points[1] = location;
-                    break;
-            }
+            isDrawPolyComplete = true;
         }
 
         private void StationLineView_OnPaintSurface(object sender, SKPaintSurfaceEventArgs e)
@@ -136,6 +120,64 @@ namespace StationStopLine
 
             DrawCurrentGraphic(canvas);
             DrawGraphics(canvas);
+        }
+
+        private void GeneralGraphic()
+        {
+            switch (_geometryType)
+            {
+                case GeometryType.Text:
+                case GeometryType.Line:
+                case GeometryType.ArrowLine:
+                case GeometryType.SemiRectArrowLine:
+                case GeometryType.SemiRectLine:
+                    _currentGraphic = new Graphic();
+                    break;
+
+                case GeometryType.PolyLine:
+                case GeometryType.PolyArrowLine:
+                case GeometryType.PolySemiRectArrowLine:
+                case GeometryType.PolySemiRectLine:
+                    if (_currentGraphic == null)
+                    {
+                        isDrawPolyComplete = false;
+                        _currentGraphic = new Graphic();
+                    }
+                    break;
+            }
+
+            _currentGraphic.Id = DateTime.Now.Ticks;
+            _currentGraphic.GeometryType = _geometryType;
+        }
+
+        private void SetSecondPoint(SKPoint location, bool isNew = false)
+        {
+            switch (_geometryType)
+            {
+                case GeometryType.Line:
+                case GeometryType.ArrowLine:
+                case GeometryType.SemiRectArrowLine:
+                case GeometryType.SemiRectLine:
+                    Line tempLine = _currentGraphic.Lines[0];
+                    tempLine.EndPoint = location;
+
+                    break;
+
+                case GeometryType.PolyLine:
+                case GeometryType.PolyArrowLine:
+                case GeometryType.PolySemiRectArrowLine:
+                case GeometryType.PolySemiRectLine:
+                    if (isNew)
+                    {
+                        _currentGraphic.Lines.Add(new Line{StartPoint = location });
+                    }
+                    else
+                    {
+                        Line endLine = _currentGraphic.Lines[_currentGraphic.Lines.Count - 1];
+                        endLine.EndPoint = location;
+                    }
+                    break;
+            }
         }
 
         private void DrawCurrentGraphic(SKCanvas canvas)
@@ -153,7 +195,7 @@ namespace StationStopLine
 
         private void Draw(SKCanvas canvas, Graphic graphic)
         {
-            if (graphic == null) return;
+            if (graphic == null || graphic.Lines.Count == 0) return;
 
             SKPaint pen = new SKPaint
             {
@@ -166,74 +208,143 @@ namespace StationStopLine
             switch (graphic.GeometryType)
             {
                 case GeometryType.Text:
+                    DrawText(canvas, graphic, pen);
                     break;
 
                 case GeometryType.Line:
+                    DrawLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.ArrowLine:
-                    DrawArrowLine(canvas, graphic.Points[0], graphic.Points[1], pen);
+                    DrawArrowLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.PolyLine:
+                    DrawPolyLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.PolyArrowLine:
+                    DrawPolyArrowLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.SemiRectArrowLine:
-                    DrawSemiRectArrowLine(canvas, graphic.Points[0], graphic.Points[1], pen);
+                    DrawSemiRectArrowLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.SemiRectLine:
+                    DrawSemiRectLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.PolySemiRectArrowLine:
+                    DrawPolySemiRectArrowLine(canvas, graphic, pen);
                     break;
 
                 case GeometryType.PolySemiRectLine:
+                    DrawPolySemiRectLine(canvas, graphic, pen);
                     break;
             }
         }
-
-        private void DrawSemiRectArrowLine(SKCanvas canvas, SKPoint startPoint, SKPoint endPoint, SKPaint pen)
+        
+        private void DrawText(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            if (startPoint.IsEmpty || endPoint.IsEmpty) return;
-
-            canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen);
-            canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
-            canvas.DrawArrow(endPoint.X, startPoint.Y, pen, SKColors.Black);
+            pen.TextSize = 28;
+            SKPoint position = graphic.Lines[0].StartPoint;
+            canvas.DrawText(" Test ", position.X, position.Y, pen);
         }
 
-        private void DrawArrowLine(SKCanvas canvas, SKPoint startPoint, SKPoint endPoint, SKPaint pen)
+        private void DrawLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            if (startPoint.IsEmpty || endPoint.IsEmpty) return;
+            if (graphic.Lines.Count != 1) return;
 
+            Line tempLine = graphic.Lines[0];
+            SKPoint startPoint = tempLine.StartPoint;
+            SKPoint endPoint = tempLine.EndPoint;
             canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
-            canvas.DrawArrow(endPoint.X, startPoint.Y, pen, SKColors.Black);
         }
 
-        private SKPoint[] GeneralSKPointArray()
+        private void DrawArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            switch (_geometryType)
-            {
-                case GeometryType.Text:
-                    return new SKPoint[1];
+            if (graphic.Lines.Count != 1) return;
 
-                case GeometryType.Line:
-                case GeometryType.ArrowLine:
-                case GeometryType.SemiRectArrowLine:
-                case GeometryType.SemiRectLine:
-                    return new SKPoint[2];
+            Line tempLine = graphic.Lines[0];
+            SKPoint startPoint = tempLine.StartPoint;
+            SKPoint endPoint = tempLine.EndPoint;
+            canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
+            canvas.DrawArrow(endPoint.X, startPoint.Y, pen, SKColors.Black, ltr: startPoint.X < endPoint.X);
+        }
 
-                case GeometryType.PolyLine:
-                case GeometryType.PolyArrowLine:
-                case GeometryType.PolySemiRectArrowLine:
-                case GeometryType.PolySemiRectLine:
-                    return new SKPoint[6];
-            }
+        private void DrawSemiRectLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
+        {
+            if (graphic.Lines.Count != 1) return;
 
-            return new SKPoint[0];
+            Line tempLine = graphic.Lines[0];
+            SKPoint startPoint = tempLine.StartPoint;
+            SKPoint endPoint = tempLine.EndPoint;
+            bool ltr = startPoint.X < endPoint.X;
+            canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: !ltr);
+            canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
+            canvas.DrawSemiRect(endPoint.X, startPoint.Y, pen, ltr: ltr);
+        }
+
+        private void DrawPolySemiRectLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
+        {
+            if (graphic.Lines.Count < 1) return;
+
+            Line startLine = graphic.Lines[0];
+            Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            SKPoint startPoint = startLine.StartPoint;
+            SKPoint endPoint = endLine.EndPoint;
+            bool ltr = startPoint.X < endPoint.X;
+            canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: !ltr);
+            canvas.DrawPolyLine(graphic.Lines, pen);
+            canvas.DrawSemiRect(endPoint.X, endPoint.Y, pen, ltr: ltr);
+        }
+
+        private void DrawPolySemiRectArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
+        {
+            if (graphic.Lines.Count < 1) return;
+
+            Line startLine = graphic.Lines[0];
+            Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            SKPoint startPoint = startLine.StartPoint;
+            SKPoint endPoint = endLine.EndPoint;
+            bool ltr = startPoint.X < endPoint.X;
+            canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: !ltr);
+            canvas.DrawPolyLine(graphic.Lines, pen);
+            canvas.DrawArrow(endPoint.X, endPoint.Y, pen, graphic.FillColor, ltr: ltr);
+        }
+        
+        private void DrawPolyArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
+        {
+            if (graphic.Lines.Count < 1) return;
+
+            Line startLine = graphic.Lines[0];
+            Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            SKPoint startPoint = startLine.StartPoint;
+            SKPoint endPoint = endLine.EndPoint;
+            canvas.DrawPolyLine(graphic.Lines, pen);
+            canvas.DrawArrow(endPoint.X, endPoint.Y, pen, graphic.FillColor, ltr: startPoint.X < endPoint.X);
+        }
+
+        private void DrawPolyLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
+        {
+            if (graphic.Lines.Count < 1) return;
+
+            canvas.DrawPolyLine(graphic.Lines, pen);
+        }
+
+        private void DrawSemiRectArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
+        {
+            if (graphic.Lines.Count < 1) return;
+
+            Line startLine = graphic.Lines[0];
+            Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            SKPoint startPoint = startLine.StartPoint;
+            SKPoint endPoint = endLine.EndPoint;
+            bool ltr = startPoint.X < endPoint.X;
+            canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: !ltr);
+            canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
+            canvas.DrawArrow(endPoint.X, startPoint.Y, pen, graphic.FillColor, ltr: ltr);
         }
     }
 }

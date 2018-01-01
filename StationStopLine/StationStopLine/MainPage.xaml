@@ -8,11 +8,12 @@
 	<Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height=".5*" />
             <RowDefinition Height=".5*" />
         </Grid.RowDefinitions>
         <Label Grid.Row="0" Text="张家峁车站占线板" FontSize="28" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-        <tab:SegmentedTabControl Grid.Row="0" x:Name="GeometryTypeTab" UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
+        <tab:SegmentedTabControl Grid.Row="1" x:Name="GeometryTypeTab" UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
 	                                  SelectedSegment="0"  UnselectedSegmentTextColor="Black"
 	                                  HeightRequest="30" ItemTapped="GeometryTypeTab_Tapped"  >
             <tab:SegmentedTabControl.Children>
@@ -27,10 +28,46 @@
                 <Label Text="PRL" />
             </tab:SegmentedTabControl.Children>
 	    </tab:SegmentedTabControl>
-        <skia:SKCanvasView Grid.Row="1" x:Name="StationLineView" EnableTouchEvents="True"
+        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True"
                            Touch="StationLineView_OnTouch"
-                           PaintSurface="StationLineView_OnPaintSurface" />
-        <Grid Grid.Row="2" ></Grid>
+                           PaintSurface="StationLineView_OnPaintSurface">
+            <skia:SKCanvasView.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="2" Tapped="TapGestureRecognizer_OnTapped" />
+            </skia:SKCanvasView.GestureRecognizers>
+        </skia:SKCanvasView>
+        <Grid Grid.Row="3" RowSpacing="1" ColumnSpacing="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="日班计划" HorizontalOptions="CenterAndExpand"  />
+            <Label Grid.Row="0" Grid.Column="2" Text="1道："  />
+            <Label Grid.Row="0" Grid.Column="3" Text="记事栏" HorizontalOptions="CenterAndExpand"  />
+            <Label Grid.Row="1" Grid.Column="0" Text="上行" HorizontalOptions="CenterAndExpand" />
+            <Label Grid.Row="1" Grid.Column="1" Text="下行" HorizontalOptions="CenterAndExpand" />
+            <Label Grid.Row="1" Grid.Column="2" Text="Ⅱ道："  />
+            <Label Grid.Row="1" Grid.Column="3" Grid.RowSpan="7" Text="12月18日承认车" HorizontalOptions="CenterAndExpand"  />
+            <Label Grid.Row="2" Grid.Column="0" Grid.RowSpan="6" />
+            <Label Grid.Row="2" Grid.Column="1" Grid.RowSpan="6" />
+            <Label Grid.Row="2" Grid.Column="2" Text="3道：" />
+            <Label Grid.Row="3" Grid.Column="2" Text="4道：" />
+            <Label Grid.Row="4" Grid.Column="2" Text="5道：" />
+            <Label Grid.Row="5" Grid.Column="2" Text="装煤线：" />
+            <Label Grid.Row="6" Grid.Column="2" Text="货物线：" />
+            <Label Grid.Row="7" Grid.Column="2" Text="机待线：" />
+        </Grid>
     </Grid>
 </ContentPage>
 
