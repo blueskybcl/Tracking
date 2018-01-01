@@ -1,75 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
-             xmlns:tab="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
-             x:Class="StationStopLine.MainPage" BackgroundColor="SlateGray">
-
-	<Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height=".5*" />
-            <RowDefinition Height=".5*" />
-        </Grid.RowDefinitions>
-        <Label Grid.Row="0" Text="张家峁车站占线板" FontSize="28" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
-        <tab:SegmentedTabControl Grid.Row="1" x:Name="GeometryTypeTab" UnselectedSegmentBackgroundColor="White" TintColor="Black" SelectedSegmentTextColor="White"
-	                                  SelectedSegment="0"  UnselectedSegmentTextColor="Black"
-	                                  HeightRequest="30" ItemTapped="GeometryTypeTab_Tapped"  >
-            <tab:SegmentedTabControl.Children>
-	            <Label Text="T" />
-	            <Label Text="L" />
-	            <Label Text="AL" />
-                <Label Text="PL" />
-                <Label Text="PAL" />
-                <Label Text="RAL" />
-                <Label Text="RL" />
-                <Label Text="PRAL" />
-                <Label Text="PRL" />
-            </tab:SegmentedTabControl.Children>
-	    </tab:SegmentedTabControl>
-        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True"
-                           Touch="StationLineView_OnTouch" 
-                           PaintSurface="StationLineView_OnPaintSurface">
-            <skia:SKCanvasView.GestureRecognizers>
-                <TapGestureRecognizer NumberOfTapsRequired="2" Tapped="TapGestureRecognizer_OnTapped" />
-            </skia:SKCanvasView.GestureRecognizers>
-        </skia:SKCanvasView>
-        <Grid Grid.Row="3" RowSpacing="1" ColumnSpacing="1" >
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+                 xmlns:tab="clr-namespace:SegmentedTabControl.FormsPlugin;assembly=SegmentedTabControl"
+                 x:Class="StationStopLine.MainPage" BackgroundColor="SlateGray">
+        <ContentPage.Resources>
+            <ResourceDictionary>
+                <Style x:Key="StyleDataGrid" TargetType="Label">
+                    <Setter Property="BackgroundColor" Value="SlateGray" />
+                    <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                </Style>
+                <Style x:Key="StyleImageButton" TargetType="Image">
+                    <Setter Property="WidthRequest" Value="30" />
+                    <Setter Property="HeightRequest" Value="30" />
+                    <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                    <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height=".5*" />
+                <RowDefinition Height=".5*" />
             </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition />
-                <ColumnDefinition />
-                <ColumnDefinition />
-                <ColumnDefinition />
-            </Grid.ColumnDefinitions>
-            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="日班计划" HorizontalOptions="CenterAndExpand"  />
-            <Label Grid.Row="0" Grid.Column="2" Text="1道："  />
-            <Label Grid.Row="0" Grid.Column="3" Text="记事栏" HorizontalOptions="CenterAndExpand"  />
-            <Label Grid.Row="1" Grid.Column="0" Text="上行" HorizontalOptions="CenterAndExpand" />
-            <Label Grid.Row="1" Grid.Column="1" Text="下行" HorizontalOptions="CenterAndExpand" />
-            <Label Grid.Row="1" Grid.Column="2" Text="Ⅱ道："  />
-            <Label Grid.Row="1" Grid.Column="3" Grid.RowSpan="7" Text="12月18日承认车" HorizontalOptions="CenterAndExpand"  />
-            <Label Grid.Row="2" Grid.Column="0" Grid.RowSpan="6" />
-            <Label Grid.Row="2" Grid.Column="1" Grid.RowSpan="6" />
-            <Label Grid.Row="2" Grid.Column="2" Text="3道：" />
-            <Label Grid.Row="3" Grid.Column="2" Text="4道：" />
-            <Label Grid.Row="4" Grid.Column="2" Text="5道：" />
-            <Label Grid.Row="5" Grid.Column="2" Text="装煤线：" />
-            <Label Grid.Row="6" Grid.Column="2" Text="货物线：" />
-            <Label Grid.Row="7" Grid.Column="2" Text="机待线：" />
+            <Label Grid.Row="0" Text="张家峁车站占线板" FontSize="28" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" />
+            <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="2">
+                <Label Text="图元类型: " />
+                <Label x:Name="LabelSelectGraphicType" Text="Text">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ClickGestureRecognizer_OnClicked" />
+                    </Label.GestureRecognizers>
+                </Label>
+                <Image x:Name="NewDiagram" Source="NewDiagram.png" Style="{StaticResource StyleImageButton}">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="NewDiagram_OnTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="DoneDiagram" Source="DoneDiagram.png" Style="{StaticResource StyleImageButton}">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="DoneDiagram_OnTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="SaveDiagram" Source="SaveDiagram.png" Style="{StaticResource StyleImageButton}">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="SaveDiagram_OnTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image x:Name="DeleteDiagram" Source="DeleteDiagram.png" Style="{StaticResource StyleImageButton}">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="DeleteDiagram_OnTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True"
+                               Touch="StationLineView_OnTouch" 
+                               PaintSurface="StationLineView_OnPaintSurface">
+        </skia:SKCanvasView>
+            <ScrollView Grid.Row="3">
+                <Grid BackgroundColor="Goldenrod" RowSpacing="1" ColumnSpacing="1" Margin="5" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="200"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource StyleDataGrid}" 
+                           Text="日班计划" HorizontalOptions="FillAndExpand" Margin="1,1,0,0" HorizontalTextAlignment="Center" />
+                    <Label Grid.Row="0" Grid.Column="2" Text="1道：" Style="{StaticResource StyleDataGrid}" Margin="0,1,0,0" />
+                    <Label Grid.Row="0" Grid.Column="3" Text="记事栏" Style="{StaticResource StyleDataGrid}" 
+                           Margin="0,1,1,0" HorizontalTextAlignment="Center"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="上行" Style="{StaticResource StyleDataGrid}" 
+                           Margin="1,0,0,0"  HorizontalTextAlignment="Center"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="下行" Style="{StaticResource StyleDataGrid}" 
+                           HorizontalTextAlignment="Center"/>
+                    <Label Grid.Row="1" Grid.Column="2" Text="Ⅱ道：" Style="{StaticResource StyleDataGrid}"  />
+                    <Label Grid.Row="1" Grid.Column="3" Grid.RowSpan="7" Text="12月18日承认车" Style="{StaticResource StyleDataGrid}" Margin="0,0,1,1" />
+                    <Label Grid.Row="2" Grid.Column="0" Grid.RowSpan="6" Style="{StaticResource StyleDataGrid}" Margin="1,0,0,1" />
+                    <Label Grid.Row="2" Grid.Column="1" Grid.RowSpan="6" Style="{StaticResource StyleDataGrid}" Margin="0,0,0,1" />
+                    <Label Grid.Row="2" Grid.Column="2" Text="3道：" Style="{StaticResource StyleDataGrid}" />
+                    <Label Grid.Row="3" Grid.Column="2" Text="4道：" Style="{StaticResource StyleDataGrid}" />
+                    <Label Grid.Row="4" Grid.Column="2" Text="5道：" Style="{StaticResource StyleDataGrid}" />
+                    <Label Grid.Row="5" Grid.Column="2" Text="装煤线：" Style="{StaticResource StyleDataGrid}" />
+                    <Label Grid.Row="6" Grid.Column="2" Text="货物线：" Style="{StaticResource StyleDataGrid}" />
+                    <Label Grid.Row="7" Grid.Column="2" Text="机待线：" Style="{StaticResource StyleDataGrid}" Margin="0,0,0,1" />
+                </Grid>
+            </ScrollView>
+            
         </Grid>
-    </Grid>
-</ContentPage>
+    </ContentPage>
 
 
 

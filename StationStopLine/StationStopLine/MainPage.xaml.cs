@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SkiaSharp;
-using SkiaSharp.Extended;
 using SkiaSharp.Views.Forms;
 using StationStopLine.Extensions;
 using StationStopLine.Models;
+using StationStopLine.ViewModels;
+using Xam.Plugin;
 using Xamarin.Forms;
 
 namespace StationStopLine
@@ -17,7 +14,8 @@ namespace StationStopLine
         private GeometryType _geometryType;
         private LineDiagram _diagram;
         private Graphic _currentGraphic;
-        private bool isDrawPolyComplete = false;
+        private bool _isDrawPolyComplete = true;
+        private PopupMenu _popupMenu;
 
         public MainPage()
         {
@@ -29,50 +27,33 @@ namespace StationStopLine
         private void Init()
         {
             _diagram = new LineDiagram();
+            _popupMenu = new PopupMenu {BindingContext = new MainViewModel()};
+            _popupMenu.SetBinding(PopupMenu.ItemsSourceProperty, "ListItems");
+            _popupMenu.OnItemSelected -= PopupMenu_OnItemSelected;
+            _popupMenu.OnItemSelected += PopupMenu_OnItemSelected;
         }
 
-        private void GeometryTypeTab_Tapped(object sender, int e)
+        private void PopupMenu_OnItemSelected(string item)
         {
-            switch (e)
+            if (Enum.TryParse(item, out _geometryType))
             {
-                case 0:
-                    _geometryType = GeometryType.Text;
-                    break;
-
-                case 1:
-                    _geometryType = GeometryType.Line;
-                    break;
-
-                case 2:
-                    _geometryType = GeometryType.ArrowLine;
-                    break;
-
-                case 3:
-                    _geometryType = GeometryType.PolyLine;
-                    break;
-
-                case 4:
-                    _geometryType = GeometryType.PolyArrowLine;
-                    break;
-
-                case 5:
-                    _geometryType = GeometryType.SemiRectArrowLine;
-                    break;
-
-                case 6:
-                    _geometryType = GeometryType.SemiRectLine;
-                    break;
-
-                case 7:
-                    _geometryType = GeometryType.PolySemiRectArrowLine;
-                    break;
-
-                case 8:
-                    _geometryType = GeometryType.PolySemiRectLine;
-                    break;
-
-
+                LabelSelectGraphicType.Text = item;
             }
+            else
+            {
+                _geometryType = GeometryType.Text;
+                LabelSelectGraphicType.Text = "Text";
+            }
+        }
+
+        private void ClickGestureRecognizer_OnClicked(object sender, EventArgs e)
+        {
+            if (!_isDrawPolyComplete)
+            {
+                return;
+            }
+
+            _popupMenu.ShowPopup(sender as View);
         }
 
         private void StationLineView_OnTouch(object sender, SKTouchEventArgs e)
@@ -89,7 +70,7 @@ namespace StationStopLine
 
                 case SKTouchAction.Released:
                     SetSecondPoint(e.Location);
-                    CompeteDraw(e.Location);
+                    CompeteDraw();
                     break;
 
                 case SKTouchAction.Cancelled:
@@ -119,7 +100,7 @@ namespace StationStopLine
                 case GeometryType.PolySemiRectLine:
                     if (_currentGraphic == null)
                     {
-                        isDrawPolyComplete = false;
+                        _isDrawPolyComplete = false;
                         _currentGraphic = new Graphic();
                     }
                     else
@@ -136,7 +117,7 @@ namespace StationStopLine
             _currentGraphic.Lines.Add(new Line { StartPoint = location });
         }
 
-        private void CompeteDraw(SKPoint eLocation)
+        private void CompeteDraw()
         {
             switch (_geometryType)
             {
@@ -146,24 +127,20 @@ namespace StationStopLine
                 case GeometryType.SemiRectArrowLine:
                 case GeometryType.SemiRectLine:
                     _diagram.Graphics.Add(_currentGraphic);
+                    _currentGraphic = null;
                     break;
 
                 case GeometryType.PolyLine:
                 case GeometryType.PolyArrowLine:
                 case GeometryType.PolySemiRectArrowLine:
                 case GeometryType.PolySemiRectLine:
-                    if (isDrawPolyComplete)
+                    if (_isDrawPolyComplete)
                     {
                         _diagram.Graphics.Add(_currentGraphic);
                         _currentGraphic = null;
                     }
                     break;
             }
-        }
-
-        private void TapGestureRecognizer_OnTapped(object sender, EventArgs e)
-        {
-            isDrawPolyComplete = true;
         }
 
         private void StationLineView_OnPaintSurface(object sender, SKPaintSurfaceEventArgs e)
@@ -373,6 +350,29 @@ namespace StationStopLine
             canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: !ltr);
             canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
             canvas.DrawArrow(endPoint.X, startPoint.Y, pen, graphic.FillColor, ltr: ltr);
+        }
+
+        private void NewDiagram_OnTapped(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void DoneDiagram_OnTapped(object sender, EventArgs e)
+        {
+            _isDrawPolyComplete = true;
+            CompeteDraw();
+        }
+
+        private void SaveDiagram_OnTapped(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void DeleteDiagram_OnTapped(object sender, EventArgs e)
+        {
+            _currentGraphic = null;
+            _diagram.Graphics.Clear();
+            StationLineView.InvalidateSurface();
         }
     }
 }

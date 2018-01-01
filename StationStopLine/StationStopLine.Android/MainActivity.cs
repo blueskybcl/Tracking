@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xam.Plugin.Droid;
 
 namespace StationStopLine.Droid
 {
@@ -16,7 +17,7 @@ namespace StationStopLine.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-
+            PopupEffect.Init();
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);

@@ -28,5 +28,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\DataTable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\ISQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\SQLiteHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
   </ItemGroup>
 </Project>
