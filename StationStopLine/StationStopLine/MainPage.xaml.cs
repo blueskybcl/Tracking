@@ -290,11 +290,16 @@ namespace StationStopLine
 
         private void DrawPolySemiRectLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            if (graphic.Lines.Count < 2) return;
+            if (graphic.Lines.Count < 1) return;
 
             Line startLine = graphic.Lines[0];
             SKPoint startPoint = startLine.StartPoint;
             Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            if (endLine.EndPoint.IsEmpty && graphic.Lines.Count < 2)
+            {
+                return;
+            }
+
             if (endLine.EndPoint.IsEmpty)
             {
                 endLine = graphic.Lines[graphic.Lines.Count - 2];
@@ -308,10 +313,20 @@ namespace StationStopLine
 
         private void DrawPolySemiRectArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            if (graphic.Lines.Count < 2) return;
+            if (graphic.Lines.Count < 1) return;
 
             Line startLine = graphic.Lines[0];
             Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            if (endLine.EndPoint.IsEmpty && graphic.Lines.Count < 2)
+            {
+                return;
+            }
+
+            if (endLine.EndPoint.IsEmpty)
+            {
+                endLine = graphic.Lines[graphic.Lines.Count - 2];
+            }
+
             SKPoint startPoint = startLine.StartPoint;
             SKPoint endPoint = endLine.EndPoint;
             canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: startLine.StartPoint.X > startLine.EndPoint.X);
@@ -321,9 +336,19 @@ namespace StationStopLine
         
         private void DrawPolyArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            if (graphic.Lines.Count < 2) return;
+            if (graphic.Lines.Count < 1) return;
             
             Line endLine = graphic.Lines[graphic.Lines.Count - 1];
+            if (endLine.EndPoint.IsEmpty && graphic.Lines.Count < 2)
+            {
+                return;
+            }
+
+            if (endLine.EndPoint.IsEmpty)
+            {
+                endLine = graphic.Lines[graphic.Lines.Count - 2];
+            }
+
             SKPoint endPoint = endLine.EndPoint;
             canvas.DrawPolyLine(graphic.Lines, pen);
             canvas.DrawArrow(endPoint.X, endPoint.Y, pen, graphic.FillColor, ltr: endLine.StartPoint.X < endLine.EndPoint.X);
@@ -331,7 +356,7 @@ namespace StationStopLine
 
         private void DrawPolyLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            if (graphic.Lines.Count < 2) return;
+            if (graphic.Lines.Count < 1) return;
 
             canvas.DrawPolyLine(graphic.Lines, pen);
         }

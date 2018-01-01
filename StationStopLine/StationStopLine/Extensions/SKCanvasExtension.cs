@@ -47,7 +47,7 @@ namespace StationStopLine.Extensions
 
         public static void DrawPolyLine(this SKCanvas canvas, List<Line> lines, SKPaint paint)
         {
-            if (lines.Count < 2) return;
+            if (lines.Count < 1) return;
 
             foreach (Line line in lines)
             {
