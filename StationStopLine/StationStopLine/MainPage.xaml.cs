@@ -64,6 +64,10 @@ namespace StationStopLine
             {
                 case SKTouchAction.Pressed:
                     await GeneralGraphic(e.Location);
+                    if (_geometryType == GeometryType.Text)
+                    {
+                        CompeteDraw();
+                    }
                     break;
 
                 case SKTouchAction.Moved:
@@ -83,7 +87,7 @@ namespace StationStopLine
             e.Handled = true;
             ((SKCanvasView) sender).InvalidateSurface();
         }
-        
+
         private async Task GeneralGraphic(SKPoint location)
         {
             switch (_geometryType)
@@ -102,8 +106,6 @@ namespace StationStopLine
                     if (promptResult.Ok)
                     {
                         _currentGraphic.RefrenceData = promptResult.Text;
-                        StationLineView.InvalidateSurface();
-                        CompeteDraw();
                     }
 
                     break;
@@ -127,15 +129,15 @@ namespace StationStopLine
                     else
                     {
                         Line endLine = _currentGraphic.Lines[_currentGraphic.Lines.Count - 1];
-                        _currentGraphic.Lines.Add(new Line { StartPoint = endLine.EndPoint, EndPoint = location });
+                        _currentGraphic.Lines.Add(new Line {StartPoint = endLine.EndPoint, EndPoint = location});
                     }
-                    
+
                     break;
             }
 
             _currentGraphic.Id = DateTime.Now.Ticks;
             _currentGraphic.GeometryType = _geometryType;
-            _currentGraphic.Lines.Add(new Line { StartPoint = location });
+            _currentGraphic.Lines.Add(new Line {StartPoint = location});
         }
 
         private void CompeteDraw()
@@ -264,8 +266,8 @@ namespace StationStopLine
         
         private void DrawText(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            pen.BlendMode = SKBlendMode.Clear;
-            pen.TextSize = 32;
+            pen.BlendMode = SKBlendMode.Overlay;
+            pen.TextSize = 28;
             SKPoint position = graphic.Lines[0].StartPoint;
             if (string.IsNullOrWhiteSpace(graphic.RefrenceData?.ToString()))
             {
