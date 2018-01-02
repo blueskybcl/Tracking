@@ -16,5 +16,10 @@ namespace StationStopLine.Common
         {
             public static Stream EmbeddedFont => Embedded.Load("corbel.ttf");
         }
+
+        public static class  LocalSettingKeys
+        {
+            public const string ZhangJiaMaoStationLineKey = "ZhangJiaMaoStationLineKey";
+        }
     }
 }

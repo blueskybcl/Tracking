@@ -3,11 +3,13 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using Acr.UserDialogs;
+using Newtonsoft.Json;
 using SkiaSharp;
 using SkiaSharp.Views.Forms;
 using StationStopLine.Common;
 using StationStopLine.Extensions;
 using StationStopLine.Models;
+using StationStopLine.SQLite;
 using StationStopLine.ViewModels;
 using Xam.Plugin;
 using Xamarin.Forms;
@@ -16,6 +18,7 @@ namespace StationStopLine
 {
     public partial class MainPage : ContentPage
     {
+        private KanbanService _kanbanService = new KanbanService();
         private GeometryType _geometryType;
         private LineDiagram _diagram;
         private Graphic _currentGraphic;
@@ -428,7 +431,17 @@ namespace StationStopLine
 
         private void SaveDiagram_OnTapped(object sender, EventArgs e)
         {
-           
+            if (_diagram.Graphics.Count > 0)
+            {
+                KanbanData kanban = new KanbanData
+                {
+                    Id = 1,
+                    Key = Constants.LocalSettingKeys.ZhangJiaMaoStationLineKey,
+                    Value = JsonConvert.SerializeObject(_diagram)
+                };
+
+                _kanbanService.AddKanban(kanban);
+            }
         }
 
         private void DeleteDiagram_OnTapped(object sender, EventArgs e)

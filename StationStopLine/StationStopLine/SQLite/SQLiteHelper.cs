@@ -13,9 +13,12 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using SQLite.Net;
+using SQLite.Net.Interop;
+using SQLite.Net.Platform.XamarinAndroid;
 using StationStopLine.Common;
 using Xamarin.Forms;
 
@@ -67,9 +70,12 @@ namespace StationStopLine.SQLite
     {
         protected readonly SQLiteConnection _sqLiteConnection;
 
-        public BaseService(SQLiteConnection sqLiteConnection)
+        public BaseService()
         {
-            _sqLiteConnection = sqLiteConnection;
+            string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+            string path = Path.Combine(documentsPath, Constants.BaseSets.SQLiteFilename);
+            _sqLiteConnection = new SQLiteConnection(new SQLitePlatformAndroid(), path,
+                SQLiteOpenFlags.ReadWrite | SQLiteOpenFlags.Create | SQLiteOpenFlags.FullMutex, true);
         }
 
         public TableQuery<T> RetrieveAll<T>() where T : class
@@ -102,5 +108,20 @@ namespace StationStopLine.SQLite
             _sqLiteConnection.Insert(obj);
         }
 
+    }
+
+    public class KanbanService : BaseService
+    {
+        public void AddKanban(KanbanData kanban)
+        {
+            if (_sqLiteConnection.Find<KanbanData>(kanban.Id) != null)
+            {
+                _sqLiteConnection.Update(kanban);
+            }
+            else
+            {
+                _sqLiteConnection.Insert(kanban);
+            }
+        }
     }
 }
