@@ -1,8 +1,11 @@
 ﻿using System;
+using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 using Acr.UserDialogs;
 using SkiaSharp;
 using SkiaSharp.Views.Forms;
+using StationStopLine.Common;
 using StationStopLine.Extensions;
 using StationStopLine.Models;
 using StationStopLine.ViewModels;
@@ -263,18 +266,24 @@ namespace StationStopLine
                     break;
             }
         }
-        
+
         private void DrawText(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            pen.BlendMode = SKBlendMode.Overlay;
-            pen.TextSize = 28;
-            SKPoint position = graphic.Lines[0].StartPoint;
             if (string.IsNullOrWhiteSpace(graphic.RefrenceData?.ToString()))
             {
                 return;
             }
 
-            canvas.DrawText(graphic.RefrenceData.ToString(), position.X, position.Y, pen);
+            var fontManager = SKFontManager.Default;
+            using (var chinese = fontManager.MatchCharacter("Courier New", '国'))
+            {
+                pen.Style = SKPaintStyle.Fill;
+                pen.StrokeWidth = 1;
+                pen.TextSize = 50;
+                pen.Typeface = chinese;
+                SKPoint position = graphic.Lines[0].StartPoint;
+                canvas.DrawText(graphic.RefrenceData.ToString(), position.X, position.Y, pen);
+            }
         }
 
         private void DrawLine(SKCanvas canvas, Graphic graphic, SKPaint pen)

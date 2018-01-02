@@ -17,6 +17,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Embedded.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\SKCanvasExtension.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -29,5 +30,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\ISQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\SQLiteHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Media\Fonts\corbel.ttf" />
   </ItemGroup>
 </Project>

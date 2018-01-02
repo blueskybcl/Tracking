@@ -54,7 +54,7 @@
                     </Image.GestureRecognizers>
                 </Image>
             </StackLayout>
-        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True" IgnorePixelScaling="True"
+        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True"
                                Touch="StationLineView_OnTouch" 
                                PaintSurface="StationLineView_OnPaintSurface">
         </skia:SKCanvasView>
