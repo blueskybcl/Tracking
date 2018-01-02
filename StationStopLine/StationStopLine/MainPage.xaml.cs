@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Threading.Tasks;
+using Acr.UserDialogs;
 using SkiaSharp;
 using SkiaSharp.Views.Forms;
 using StationStopLine.Extensions;
@@ -46,7 +48,7 @@ namespace StationStopLine
             }
         }
 
-        private void ClickGestureRecognizer_OnClicked(object sender, EventArgs e)
+        private void SelectGraphicType_OnClicked(object sender, EventArgs e)
         {
             if (!_isDrawPolyComplete)
             {
@@ -56,12 +58,12 @@ namespace StationStopLine
             _popupMenu.ShowPopup(sender as View);
         }
 
-        private void StationLineView_OnTouch(object sender, SKTouchEventArgs e)
+        private async void StationLineView_OnTouch(object sender, SKTouchEventArgs e)
         {
             switch (e.ActionType)
             {
                 case SKTouchAction.Pressed:
-                    GeneralGraphic(e.Location);
+                    await GeneralGraphic(e.Location);
                     break;
 
                 case SKTouchAction.Moved:
@@ -82,11 +84,28 @@ namespace StationStopLine
             ((SKCanvasView) sender).InvalidateSurface();
         }
         
-        private void GeneralGraphic(SKPoint location)
+        private async Task GeneralGraphic(SKPoint location)
         {
             switch (_geometryType)
             {
                 case GeometryType.Text:
+                    _currentGraphic = new Graphic();
+                    PromptConfig config = new PromptConfig
+                    {
+                        Title = "请输入文本！",
+                        OkText = "确定",
+                        CancelText = "取消",
+                        MaxLength = 10
+                    };
+
+                    PromptResult promptResult = await UserDialogs.Instance.PromptAsync(config);
+                    if (promptResult.Ok)
+                    {
+                        _currentGraphic.RefrenceData = promptResult.Text;
+                    }
+
+                    break;
+
                 case GeometryType.Line:
                 case GeometryType.ArrowLine:
                 case GeometryType.SemiRectArrowLine:
@@ -243,9 +262,15 @@ namespace StationStopLine
         
         private void DrawText(SKCanvas canvas, Graphic graphic, SKPaint pen)
         {
-            pen.TextSize = 28;
+            pen.BlendMode = SKBlendMode.Clear;
+            pen.TextSize = 32;
             SKPoint position = graphic.Lines[0].StartPoint;
-            canvas.DrawText(" Test ", position.X, position.Y, pen);
+            if (string.IsNullOrWhiteSpace(graphic.RefrenceData?.ToString()))
+            {
+                return;
+            }
+
+            canvas.DrawText(graphic.RefrenceData.ToString(), position.X, position.Y, pen);
         }
 
         private void DrawLine(SKCanvas canvas, Graphic graphic, SKPaint pen)

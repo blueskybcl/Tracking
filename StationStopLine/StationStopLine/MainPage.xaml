@@ -30,7 +30,7 @@
                 <Label Text="图元类型: " />
                 <Label x:Name="LabelSelectGraphicType" Text="Text">
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="ClickGestureRecognizer_OnClicked" />
+                    <TapGestureRecognizer Tapped="SelectGraphicType_OnClicked" />
                     </Label.GestureRecognizers>
                 </Label>
                 <Image x:Name="NewDiagram" Source="NewDiagram.png" Style="{StaticResource StyleImageButton}">
@@ -54,7 +54,7 @@
                     </Image.GestureRecognizers>
                 </Image>
             </StackLayout>
-        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True"
+        <skia:SKCanvasView Grid.Row="2" x:Name="StationLineView" EnableTouchEvents="True" IgnorePixelScaling="True"
                                Touch="StationLineView_OnTouch" 
                                PaintSurface="StationLineView_OnPaintSurface">
         </skia:SKCanvasView>

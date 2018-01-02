@@ -47,6 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs">
+      <Version>6.5.1</Version>
+    </PackageReference>
     <PackageReference Include="SegmentedTabControl.FormsPlugin">
       <Version>1.0.0</Version>
     </PackageReference>
