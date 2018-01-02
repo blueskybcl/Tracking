@@ -102,6 +102,8 @@ namespace StationStopLine
                     if (promptResult.Ok)
                     {
                         _currentGraphic.RefrenceData = promptResult.Text;
+                        StationLineView.InvalidateSurface();
+                        CompeteDraw();
                     }
 
                     break;
