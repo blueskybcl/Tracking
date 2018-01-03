@@ -26,12 +26,25 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Graphic.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Line.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\LineDiagram.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RowData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RowDataType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TableData.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\DataTable.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\ISQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite\SQLiteHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\DataEdit.xaml.cs">
+      <DependentUpon>DataEdit.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Media\Fonts\corbel.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\DataEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

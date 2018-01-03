@@ -15,5 +15,11 @@ namespace StationStopLine.SQLite
         public string Key { get; set; }
         public string Value { get; set; }
     }
-    
+
+    public class GridData : BaseData
+    {
+        [PrimaryKey]
+        public string Key { get; set; }
+        public string Value { get; set; }
+    }
 }
