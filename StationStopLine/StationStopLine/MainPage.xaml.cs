@@ -32,7 +32,7 @@ namespace StationStopLine
 
         private void Init()
         {
-            KanbanData kanban = _kanbanService.GetKanban(1);
+            KanbanData kanban = _kanbanService.GetKanban(Constants.LocalSettingKeys.ZhangJiaMaoStationLineKey);
             _diagram = kanban == null ? new LineDiagram() : JsonConvert.DeserializeObject<LineDiagram>(kanban.Value);
             _popupMenu = new PopupMenu {BindingContext = new MainViewModel()};
             _popupMenu.SetBinding(PopupMenu.ItemsSourceProperty, "ListItems");
@@ -225,7 +225,7 @@ namespace StationStopLine
             {
                 IsAntialias = true,
                 Style = SKPaintStyle.Stroke,
-                Color = graphic.FillColor,
+                Color = SKColor.Parse(graphic.FillColor),
                 StrokeWidth = graphic.StrokeWidth
             };
 
@@ -371,7 +371,7 @@ namespace StationStopLine
             SKPoint endPoint = endLine.EndPoint;
             canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: startLine.StartPoint.X > startLine.EndPoint.X);
             canvas.DrawPolyLine(graphic.Lines, pen);
-            canvas.DrawArrow(endPoint.X, endPoint.Y, pen, graphic.FillColor, ltr: endLine.StartPoint.X < endLine.EndPoint.X);
+            canvas.DrawArrow(endPoint.X, endPoint.Y, pen, SKColor.Parse(graphic.FillColor), ltr: endLine.StartPoint.X < endLine.EndPoint.X);
         }
         
         private void DrawPolyArrowLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
@@ -391,7 +391,7 @@ namespace StationStopLine
 
             SKPoint endPoint = endLine.EndPoint;
             canvas.DrawPolyLine(graphic.Lines, pen);
-            canvas.DrawArrow(endPoint.X, endPoint.Y, pen, graphic.FillColor, ltr: endLine.StartPoint.X < endLine.EndPoint.X);
+            canvas.DrawArrow(endPoint.X, endPoint.Y, pen, SKColor.Parse(graphic.FillColor), ltr: endLine.StartPoint.X < endLine.EndPoint.X);
         }
 
         private void DrawPolyLine(SKCanvas canvas, Graphic graphic, SKPaint pen)
@@ -414,7 +414,7 @@ namespace StationStopLine
             bool ltr = startPoint.X < endPoint.X;
             canvas.DrawSemiRect(startPoint.X, startPoint.Y, pen, ltr: !ltr);
             canvas.DrawLine(startPoint.X, startPoint.Y, endPoint.X, startPoint.Y, pen);
-            canvas.DrawArrow(endPoint.X, startPoint.Y, pen, graphic.FillColor, ltr: ltr);
+            canvas.DrawArrow(endPoint.X, startPoint.Y, pen, SKColor.Parse(graphic.FillColor), ltr: ltr);
         }
 
         private void NewDiagram_OnTapped(object sender, EventArgs e)
@@ -430,11 +430,12 @@ namespace StationStopLine
 
         private void SaveDiagram_OnTapped(object sender, EventArgs e)
         {
+            _isDrawPolyComplete = true;
+            CompeteDraw();
             if (_diagram.Graphics.Count > 0)
             {
                 KanbanData kanban = new KanbanData
                 {
-                    Id = 1,
                     Key = Constants.LocalSettingKeys.ZhangJiaMaoStationLineKey,
                     Value = JsonConvert.SerializeObject(_diagram)
                 };

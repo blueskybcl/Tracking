@@ -11,8 +11,7 @@ namespace StationStopLine.SQLite
 
     public class KanbanData : BaseData
     {
-        [AutoIncrement, PrimaryKey]
-        public int Id { get; set; }
+        [PrimaryKey]
         public string Key { get; set; }
         public string Value { get; set; }
     }

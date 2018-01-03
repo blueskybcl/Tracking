@@ -8,7 +8,7 @@ namespace StationStopLine.SQLite
 {
     public interface IBaseService
     {
-        void Delete<T>(long id) where T : class;
+        void Delete<T>(string key) where T : class;
         void DeleteAll<T>() where T : class;
         void DropTable<T>() where T : class;
         void Add<T>(T obj) where T : class;
@@ -31,9 +31,9 @@ namespace StationStopLine.SQLite
             _sqLiteConnection.CreateTable<KanbanData>();
         }
 
-        public void Delete<T>(long id) where T : class
+        public void Delete<T>(string key) where T : class
         {
-            _sqLiteConnection.Delete<T>(id);
+            _sqLiteConnection.Delete<T>(key);
         }
 
         public void DeleteAll<T>() where T : class
@@ -57,7 +57,7 @@ namespace StationStopLine.SQLite
     {
         public void AddKanban(KanbanData kanban)
         {
-            if (_sqLiteConnection.Find<KanbanData>(kanban.Id) != null)
+            if (_sqLiteConnection.Find<KanbanData>(kanban.Key) != null)
             {
                 _sqLiteConnection.Update(kanban);
             }
@@ -66,15 +66,10 @@ namespace StationStopLine.SQLite
                 _sqLiteConnection.Insert(kanban);
             }
         }
-
-        public KanbanData GetKanban(long id)
+        
+        public KanbanData GetKanban(string key)
         {
-            if (_sqLiteConnection.Find<KanbanData>(id) != null)
-            {
-                return _sqLiteConnection.Get<KanbanData>(id);
-            }
-
-            return null;
+            return _sqLiteConnection.Find<KanbanData>(key);
         }
     }
 }
