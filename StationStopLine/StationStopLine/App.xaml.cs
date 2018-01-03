@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using StationStopLine.SQLite;
 using Xamarin.Forms;
 
 namespace StationStopLine
@@ -13,7 +13,8 @@ namespace StationStopLine
 		{
 			InitializeComponent();
 
-			MainPage = new StationStopLine.MainPage();
+		    new BaseService().Init();
+            MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()

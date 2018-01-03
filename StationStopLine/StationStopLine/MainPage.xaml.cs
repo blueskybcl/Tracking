@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Text;
 using System.Threading.Tasks;
 using Acr.UserDialogs;
 using Newtonsoft.Json;
@@ -18,7 +16,7 @@ namespace StationStopLine
 {
     public partial class MainPage : ContentPage
     {
-        private KanbanService _kanbanService = new KanbanService();
+        private readonly KanbanService _kanbanService = new KanbanService();
         private GeometryType _geometryType;
         private LineDiagram _diagram;
         private Graphic _currentGraphic;
@@ -34,7 +32,8 @@ namespace StationStopLine
 
         private void Init()
         {
-            _diagram = new LineDiagram();
+            KanbanData kanban = _kanbanService.GetKanban(1);
+            _diagram = kanban == null ? new LineDiagram() : JsonConvert.DeserializeObject<LineDiagram>(kanban.Value);
             _popupMenu = new PopupMenu {BindingContext = new MainViewModel()};
             _popupMenu.SetBinding(PopupMenu.ItemsSourceProperty, "ListItems");
             _popupMenu.OnItemSelected -= PopupMenu_OnItemSelected;
