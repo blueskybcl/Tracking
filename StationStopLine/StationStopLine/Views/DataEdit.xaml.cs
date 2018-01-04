@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿/*
+ * Research rich text box.
+ */
+using System;
 using System.Threading.Tasks;
 using Rg.Plugins.Popup.Pages;
 using Rg.Plugins.Popup.Services;
 using SkiaSharp.Views.Forms;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace StationStopLine.Views
 {
-	public partial class DataEdit : PopupPage
+    public partial class DataEdit : PopupPage
     {
 		public DataEdit ()
 		{
