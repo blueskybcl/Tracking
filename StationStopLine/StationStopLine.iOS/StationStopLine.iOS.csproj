@@ -91,10 +91,12 @@
     <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Converters\ConverterIOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Renderer\Adapters\MapViewAdapter.cs" />
-    <Compile Include="Renderer\MapViewRenderer.cs" />
+    <Compile Include="Renderers\ButtonCustomRendererIOS.cs" />
+    <Compile Include="Renderers\HtmlEditorRendererIOS.cs" />
+    <Compile Include="Renderers\RegisterEditorIOS.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />

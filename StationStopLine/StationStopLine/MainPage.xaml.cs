@@ -22,6 +22,7 @@ namespace StationStopLine
         private Graphic _currentGraphic;
         private bool _isDrawPolyComplete = true;
         private PopupMenu _popupMenu;
+        private readonly string _waterMark = "Develop by bcl.";
 
         public MainPage()
         {
@@ -177,10 +178,20 @@ namespace StationStopLine
             SKCanvas canvas = surface.Canvas;
             canvas.Clear();
 
+            SKPaint bgPaint = new SKPaint
+            {
+                Style = SKPaintStyle.Fill,
+                StrokeWidth = 1,
+                TextSize = 80,
+                Color = SKColors.LightSteelBlue
+            };
+            canvas.DrawText(_waterMark, canvas.LocalClipBounds.Width / 2 - 50, canvas.LocalClipBounds.Height - 30,
+                bgPaint);
+
             DrawCurrentGraphic(canvas);
             DrawGraphics(canvas);
         }
-        
+
         private void SetSecondPoint(SKPoint location)
         {
             switch (_geometryType)

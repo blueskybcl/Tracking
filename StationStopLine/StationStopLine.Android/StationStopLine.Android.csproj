@@ -84,7 +84,11 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\ConverterDroid.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Renderers\ButtonCustomRendererDroid.cs" />
+    <Compile Include="Renderers\HTMLEditorRendererDroid.cs" />
+    <Compile Include="Renderers\RegisterEditorDroid.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

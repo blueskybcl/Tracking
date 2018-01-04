@@ -18,6 +18,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Common\Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\Embedded.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\RichTextEditor\HtmlEditor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\RichTextEditor\RegisterEditor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\RichTextEditor\StyleBar.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\RichTextEditor\TestableButton.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\SKCanvasExtension.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
