@@ -199,10 +199,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\AutoNavMapBinding.Droid\AutoNavMapBinding.Droid.csproj">
-      <Project>{7ff6c44e-81a9-47e6-b918-3b697859afee}</Project>
-      <Name>AutoNavMapBinding.Droid</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Tracking.Core\Tracking.Core.csproj">
       <Project>{31d7792c-8339-4c32-8c91-123c9b248b83}</Project>
       <Name>Tracking.Core</Name>
