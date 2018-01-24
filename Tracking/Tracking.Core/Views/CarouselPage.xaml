@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             x:Class="Tracking.Core.Views.CarouselPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="400" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <cv:CarouselViewControl x:Name="Carousel" Grid.Row="1"
+                                ItemsSource="{Binding MyItemsSource}"
+                                ShowArrows="true" CurrentPageIndicatorTintColor="Crimson"
+                                ShowIndicators="true" InterPageSpacing="10"
+                                PositionSelectedCommand="{Binding MyCommand}"
+                                PositionSelected="Handle_PositionSelected"
+                                Scrolled="Handle_Scrolled"
+                                Orientation="Horizontal">
+        </cv:CarouselViewControl>
+    </Grid>
+</views:MvxContentPage>
